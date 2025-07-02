@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+*{
+    font-family:system-ui, Avenir, Helvetica, Arial, sans-serif;
+    overflow-x:hidden;
+   
+}
+.themchiefeofthenbud{
+    background: url(../public//images/thmerrrr.jpg);
+    opacity: 0.9;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+nav{
+   background-color:rgba(61, 27, 2, 0.92);
+    position: relative;
+
+   /* width: full; */
+}
+
+nav li{
+    color:yellow;
+     font-family: "Crimson Text", serif;
+  font-weight: 400;
+  position: relative;
+  /* left:10px; */
+  /* width: 100%; */
+}
+nav h1{
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.FirstMaliSub1{
+     background: linear-gradient(3deg, #f2dc96, #d99861, #c48d62);
+  padding: 20px;
+  transform: rotate(1deg);
+}
+.FirstMaliSub1 h3{
+    text-wrap: nowrap;
+    font-family: "Cinzel", serif;
+}
+.FirstMali h1{
+     font-family: "Cinzel", serif;
+    line-height:100px;
+}
+.FirstMali h1 span{
+    font-family: "Cinzel", serif;
+}
+.FirstMaliSub2 p,button{
+    font-family: "Cinzel", serif;
+}
+.FirstMaliSSsub1{
+    background-color: rgba(251, 228, 198, 0.867);
+}
+.firstofthemh3333,h3{
+    font-family: "Cinzel", serif;
+}
+.FirstMaliSSsub1-Sub1{
+    margin: 60px;
+}
+.FirstMaliSSsub1-Sub1 p{
+   font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.FirstMaliSSsub1-Sub1-min1{
+    margin: 100px 0;
+}
+.firstsegofheadd{
+  background: linear-gradient(3deg, #f2dc96, #d99861, #c48d62);
+  padding:10px 40px;
+  transform: rotate(2deg);
+  display: inline-block;
+}
+.firstofthemh3333{
+    background: linear-gradient(3deg, #f2dc96, #d99861, #c48d62);
+   padding:10px 40px;
+  transform: rotate(-2deg);
+  display: inline-block;
+}
+/* The footer section */
+footer{
+    
+    border:18px solid rgb(255, 166, 0) ;
+    background-color:rgb(106, 47, 5);
+}
+.FirstMaliSSsub3-Sub2 p{
+        color: rgba(147, 86, 15, 0.923);
+}
+.FirstMaliSSsub3-Sub3 h3{
+    color: rgba(147, 86, 15, 0.923);
+}
