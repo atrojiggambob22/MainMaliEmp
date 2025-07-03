@@ -1,5 +1,6 @@
 import React from 'react';
-import "./MaliEmp.css"
+import "./MaliEmp.css";
+import SecondNav from "./SecondNav"
 import Anthelope from "../public/images/anthelope.jpg";
 import Camel from "../public/images/Camel.jpg";
 import Mountains from "../public/images/mountains.jpg";
@@ -7,7 +8,16 @@ import Mountains from "../public/images/mountains.jpg";
 export default function MaliEmpMain() {
     return (
         <>
+        
             <body>
+
+            <div className='seconnav'>
+           
+
+            <SecondNav />
+
+            </div>
+
              <div className='themchiefeofthenbud'>
             <div>
             <nav className='flex gap-100  text-nowrap mb-5 w-full py-[10px] px-[14px]'>
@@ -30,6 +40,8 @@ export default function MaliEmpMain() {
                     </div>
                 </div>
             </nav>
+
+            
 
             </div>
             <div className='FirstMali text-center my-[100px]'>

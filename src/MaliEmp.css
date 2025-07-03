@@ -5,6 +5,7 @@
     overflow-x:hidden;
    
 }
+
 .themchiefeofthenbud{
     background: url(../public//images/thmerrrr.jpg);
     opacity: 0.9;
@@ -33,6 +34,9 @@ nav h1{
     font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+.seconnav{
+    display: none;
 }
 .FirstMaliSub1{
      background: linear-gradient(3deg, #f2dc96, #d99861, #c48d62);
@@ -99,6 +103,9 @@ footer{
 @media (min-width:200px) and (max-width:800px){
     nav{
         display: none !important;
+    }
+    .seconnav{
+        display: block;
     }
     .FirstMali h1{
         font-size: 80px;

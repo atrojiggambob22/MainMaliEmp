@@ -1,0 +1,118 @@
+/* Hide the .seconnav by default */
+.seconnav {
+  display: none;
+}
+.menu-toggle {
+  position: fixed;
+  top: 15px;
+  left: 80%;
+  z-index: 1003;
+}
+
+/* Responsive section: only show .seconnav between 200px and 800px */
+@media (min-width: 200px) and (max-width: 800px) {
+  .seconnav {
+    display: flex;
+    flex-direction: column;
+    background-color: #4f3603;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    max-width: 300px;
+    height: 100vh;
+    color: white;
+    z-index: 1002;
+    transition: left 0.3s ease;
+    padding: 20px;
+  }
+
+  .seconnav.open {
+    left: 0;
+  }
+
+  .menu-toggle {
+    display: block;
+    position: fixed;
+    top: 15px;
+    left: 80%;
+    background-color: #664200;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 10px;
+    z-index: 1003;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .mobile-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    display: none;
+  }
+
+  .mobile-overlay.show {
+    display: block;
+  }
+
+  .navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .close-btn {
+    font-size: 1.5rem;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .nav-links li {
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: .4s linear;
+  }
+   .nav-links li:hover{
+    background-color: rgba(177, 112, 28, 0.156);
+   }
+
+  .owners-hub {
+    margin-top: auto;
+    padding-top: 20px;
+    font-weight: bold;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+/* Hide mobile navbar on desktop */
+@media (min-width: 801px) {
+  .seconnav,
+  .menu-toggle,
+  .mobile-overlay {
+    display: none !important;
+  }
+}
