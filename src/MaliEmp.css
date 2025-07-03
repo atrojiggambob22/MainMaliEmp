@@ -34,6 +34,7 @@ nav h1{
     font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-style: normal;
+
 }
 .seconnav{
     display: none;
@@ -89,17 +90,24 @@ nav h1{
 
 /* The footer section */
 footer{
-    
+    cursor: pointer;
     border:18px solid rgb(255, 166, 0) ;
     background-color:rgb(106, 47, 5);
 }
 .FirstMaliSSsub3-Sub2 p{
+      transition: .4s linear;
         color: rgba(147, 86, 15, 0.923);
 }
 .FirstMaliSSsub3-Sub3 h3{
+    transition: .4s linear;
     color: rgba(147, 86, 15, 0.923);
 }
-
+  .FirstMaliSSsub3-Sub2 p:hover{
+        color: yellow;
+     }
+ .FirstMaliSSsub3-Sub3 h3:hover{
+        color: yellow;
+    }
 @media (min-width:200px) and (max-width:800px){
     nav{
         display: none !important;

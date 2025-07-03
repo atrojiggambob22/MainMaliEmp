@@ -3,16 +3,28 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 // import './App.css'
 import MaliEmpMain from './MaliEmpMain'
-// import SecondNav from './SecondNav'
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import FestivalDrumbeat from './FestivalDrumbeat';
+import RoyalFest from './RoyalFest';
+import TheGoldenRoute from './TheGoldenRoute';
+import DressLikeRoyalty from './DressLikeRoyalty';
+import SecureYourSpot from './SecureYourSpot'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-  <>
-  {/* <SecondNav/> */}
-    <MaliEmpMain/>
-  </>
+  <Router>
+      <Routes>
+        <Route path="/" element={<MaliEmpMain />} />
+        <Route path="/FestivalDrumbeat" element={<FestivalDrumbeat />} />
+        <Route path="/RoyalFest" element={<RoyalFest />} />
+        <Route path="/TheGoldenRoute" element={<TheGoldenRoute />} />
+
+        <Route path="/DressLikeRoyalty" element={<DressLikeRoyalty />} />
+
+        <Route path="/SecureYourSpot" element={<SecureYourSpot />} />
+      </Routes>
+    </Router>
   )
 }
 

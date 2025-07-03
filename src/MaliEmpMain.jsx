@@ -1,11 +1,41 @@
 import React from 'react';
 import "./MaliEmp.css";
+import { useNavigate } from 'react-router-dom';
+
+// import { Link } from 'react-router-dom';
+
 import SecondNav from "./SecondNav"
 import Anthelope from "../public/images/anthelope.jpg";
 import Camel from "../public/images/Camel.jpg";
 import Mountains from "../public/images/mountains.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser, faBars, faXmark, faDrum, faBuilding, faCrown, faTicket, faPanorama, faBookAtlas, faBook, faLocation, faLocationArrow, faCalendar, faMobile, faMailBulk, faWebAwesome, faGlobe} from '@fortawesome/free-solid-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faOptinMonster } from '@fortawesome/free-brands-svg-icons/faOptinMonster';
 
 export default function MaliEmpMain() {
+    const navigate = useNavigate();
+
+  const gotoFestivalDrumbeatPage = () => {
+    navigate('/FestivalDrumbeat');
+}
+
+ const gotoTheGoldenRoute = () => {
+    navigate('/TheGoldenRoute');
+} 
+
+const gotoRoyalFest = () => {
+    navigate('/RoyalFest');
+} 
+
+const gotoDressLikeRoyalty = () => {
+    navigate('/DressLikeRoyalty');
+}
+
+const gotoSecureYourSpot = () => {
+    navigate('/SecureYourSpot');
+}
+
     return (
         <>
         
@@ -20,22 +50,29 @@ export default function MaliEmpMain() {
 
              <div className='themchiefeofthenbud'>
             <div>
-            <nav className='flex gap-100  text-nowrap mb-5 w-full py-[10px] px-[14px]'>
-                <h1 className='text-yellow-300 text-[30px] font-bold relative left-8'>Mali Empire</h1>
-                <div className='flex gap-5 text-nowrap relative top-[10px] left-[90px]'>
-                    <div>
+            <nav className='flex gap-100  text-nowrap mb-5 w-full py-[10px] px-[14px] cursor-pointer'>
+                <h1 className='text-yellow-300 text-[30px] font-bold relative left-8'>Mali Empire
+
+                </h1>
+                <div className='flex gap-5 text-nowrap relative top-[10px] left-[50px]'>
+                    <div className='flex gap-4' onClick={gotoFestivalDrumbeatPage}>
+                        <FontAwesomeIcon icon={faDrum}/>
                         <li>Festival Drumbeat</li>
                     </div>
-                    <div>
+                    <div className='flex gap-4' onClick={gotoRoyalFest}>
+                        <FontAwesomeIcon icon={faOptinMonster}/>
                         <li>Royal Fest</li>
                     </div>
-                    <div>
+                    <div className='flex gap-4' onClick={gotoTheGoldenRoute}>
+                        <FontAwesomeIcon icon={faBuilding}/>
                         <li>The Golden Route</li>
                     </div>
-                    <div>
+                    <div className='flex gap-4' onClick={gotoDressLikeRoyalty}>
+                        <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/>
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div>
+                    <div className='flex gap-4' onClick={gotoSecureYourSpot}>
+                        <FontAwesomeIcon icon={faTicket}/>
                         <li>Secure Your Spot</li>
                     </div>
                 </div>
@@ -44,7 +81,7 @@ export default function MaliEmpMain() {
             
 
             </div>
-            <div className='FirstMali text-center my-[100px]'>
+            <div className='FirstMali text-center my-[100px] '>
                 <h1 className='text-center text-[90px] font-bold'>MALI EMPIRE <br /> <span className='text-yellow-500'>FESTIVAL</span></h1>
 
                 <div className='FirstMaliSub1 my-5 bg-amber-600 w-[30%] relative left-[35%] p-5'>
@@ -167,10 +204,19 @@ export default function MaliEmpMain() {
                             <p className='w-[70%]'>Join us for an authentic celenration of our West African heritage, culture, traditions. Experience the golden age of the mali empire through music, food, and community</p>
 
                             </div>
-                            <div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
+                            <div className='flex gap-10 my-[20px]'>
+                                <div>
+                                     <FontAwesomeIcon icon={faMailBulk}/>
+
+                                </div>
+                                <div>
+                                     <FontAwesomeIcon icon={faMobile}/>
+
+                                </div>
+                                <div>
+                                     <FontAwesomeIcon icon={faGlobe}/>
+
+                                </div>
                             </div>
                         </div>
 
@@ -178,36 +224,38 @@ export default function MaliEmpMain() {
                         <div>
                            <h2 className='my-[20px] text-[20px] font-bold'>Festival Element</h2>
                         </div>
-                        <div className='mb-[15px]'>
-                            {/* <div>icon</div> */}
+                        <div className='mb-[15px] flex gap-5'>
+                            <div>
+                                <FontAwesomeIcon icon={faDrum}/>
+                            </div>
                             <div>
                                 <h3>Tradition Music and Dance</h3>
                             </div>
                         </div>
 
-                        <div className='mb-[15px]'>
-                            {/* <div>icon</div> */}
+                        <div className='mb-[15px] flex gap-5'>
+                            <FontAwesomeIcon icon={faPanorama}/>
                             <div>
                                 <h3>Authentic West African Cuisine</h3>
                             </div>
                         </div>
 
-                        <div className='mb-[15px]'>
-                            {/* <div>icon</div> */}
+                        <div className='mb-[15px] flex gap-5'>
+                             <FontAwesomeIcon icon={faBuilding}/>
                             <div>
                                 <h3>Historical Exibitions</h3>
                             </div>
                         </div>
 
-                        <div className='mb-[15px]'>
-                            {/* <div>icon</div> */}
+                        <div className='mb-[15px] flex gap-5'>
+                            <FontAwesomeIcon icon={faCrown}/>
                             <div>
                                 <h3>Traditional Fasion & Craft</h3>
                             </div>
                         </div>
 
-                        <div className='mb-[15px]'>
-                            {/* <div>icon</div> */}
+                        <div className='mb-[15px] flex  gap-5'>
+                           <FontAwesomeIcon icon={faBook}/>
                             <div>
                                 <h3>Culture Education</h3>
                             </div>
@@ -219,9 +267,9 @@ export default function MaliEmpMain() {
                                 <h2 className='my-[20px] text-[20px] font-bold'>Join The Caravan</h2>
                             </div>
                             <div>
-                                <div className='mb-[15px]'>
+                                <div className='mb-[15px] flex gap-5'>
                                     <div>
-                                        {/* icon */}
+                                       <FontAwesomeIcon icon={faLocationArrow}/>
                                     </div>
                                     <div>
                                     <h3 className='text-yellow-600'>Festival Grounds</h3>
@@ -230,9 +278,9 @@ export default function MaliEmpMain() {
                                    
                                 </div>
 
-                                <div className='mb-[15px]'>
+                                <div className='mb-[15px] flex gap-5'>
                                     <div>
-                                        {/* icon */}
+                                       <FontAwesomeIcon icon={faCalendar}/>
                                     </div>
                                     <div>
                                         <h3 className='text-yellow-600'>Festiv Dates</h3>
@@ -241,9 +289,9 @@ export default function MaliEmpMain() {
                                     
                                 </div> 
                                 
-                                <div className='mb-[15px]'>
+                                <div className='mb-[15px] flex gap-5'>
                                     <div>
-                                        {/* icon */}
+                                        <FontAwesomeIcon icon={faTicket}/>
                                     </div>
 
                                     <div>
