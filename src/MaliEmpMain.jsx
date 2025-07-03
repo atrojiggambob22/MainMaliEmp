@@ -54,7 +54,7 @@ export default function MaliEmpMain() {
                 </div>
 
                 <div className='FirstMaliSSsub1 py-[50px]'>
-                    <div className='text-center '>
+                    <div className='text-center mainsubfofSSubdu '>
                     <h3 className='text-[40px] font-bold my-[15px] firstofthemh3333'>FESTIVAL HIGHLIGHTS</h3>
                     <p className='w-[40%] relative left-[30%]'>Immerse yourself in the rich tapestry of West African culture through our carefully curated experiences</p>
 
@@ -70,13 +70,13 @@ export default function MaliEmpMain() {
                                 <p className='w-[60%]'>
                                    Experience the heartbeat of West Africa through traditional djembe circles, kora melodies, and griot storytelling. Dance to the rhythms that have echoed through centuries.
                                 </p>
-                                <div className='grid grid-cols-2 gap-4 my-5 w-[70%]'>
+                                <div className='grid grid-cols-2 gap-4 my-5 w-[70%] papdivsdddd'>
                                     <li>Live Djembe Circles</li>
                                     <li>Traditional Dance</li>
                                     <li>Griot Storytelling</li>
                                     <li>Kora Performances</li>
                                 </div>
-                                <div className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white'>
+                                <div className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
                                     <button  className='relative left-[10px]'>Learn More</button>
                                 </div>
                             </div>
@@ -90,13 +90,13 @@ export default function MaliEmpMain() {
                                     <p className='font-light text-amber-900'>Cuisine & Flavours</p>
                                 </div>
                                 <p className='w-[60%]'>Savor the royal flavors of the Mali Empire with authentic West African cuisine. From jollof rice to plantain dishes, taste the heritage of ancient trade routes.</p>
-                                <div  className='grid grid-cols-2 gap-4 my-5 w-[70%]'>
+                                <div  className='grid grid-cols-2 gap-4 my-5 w-[70%] papdivsdddd'>
                                     <li>Traditional Jollof</li>
                                     <li>Baobab Refreshments</li>
                                     <li>Plantain Delicacies</li>
                                     <li>Royal Spice Blends</li>
                                 </div>
-                                <div  className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white'>
+                                <div  className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
                                     <button  className='relative left-[13px]'>Learn More</button>
                                 </div>
                             </div>
@@ -111,13 +111,13 @@ export default function MaliEmpMain() {
                                     <p className='font-light text-amber-900'>History & Culture</p>
                                 </div>
                                 <p className='w-[60%]'>Walk the paths of ancient merchants and discover the cultural treasures of the Mali Empire. Explore exhibits showcasing gold trade, Islamic scholarship, and architectural marvels.</p>
-                                <div  className='grid grid-cols-2 gap-4 my-5 w-[70%]'>
+                                <div  className='grid grid-cols-2 gap-4 my-5 w-[70%] papdivsdddd'>
                                     <li>Historical Exhibits</li>
                                     <li>Cultural Artifacts</li>
                                     <li>Gold Trade Stories</li>
                                     <li>Interactive Displays</li>
                                 </div>
-                                <div className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white'
+                                <div className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'
                                 >
                                     <button className='relative left-[15px]'>Learn More</button>
                                 </div>
@@ -132,13 +132,13 @@ export default function MaliEmpMain() {
                                     <p className='font-light text-amber-900'>Fashion & Style</p>
                                 </div>
                                 <p className='w-[60%]'>Adorn yourself in the magnificent textiles of West Africa. From vibrant ankara prints to elegant boubous, dress in the splendor of Mali Empire nobility.</p>
-                                <div  className='grid grid-cols-2 gap-4 my-5 w-[70%]'>
+                                <div  className='grid grid-cols-2 gap-4 my-5 w-[70%] papdivsdddd'>
                                     <li>Ankara Fashion</li>
                                     <li>Traditional Jewelry</li>
                                     <li>Royal Boubous</li>
                                     <li>Headwrap Styling</li>
                                 </div>
-                                <div  className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white'>
+                                <div  className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
                                     <button  className='relative left-[15px]'>Learn More</button>
                                 </div>
                             </div>
@@ -202,7 +202,7 @@ export default function MaliEmpMain() {
                         </div>
                         </div>
 
-                        <div>
+                        <div className='Secontolastfott'>
                             <div>
                                 <h2 className='my-[20px] text-[20px] font-bold'>Join The Caravan</h2>
                             </div>
@@ -247,7 +247,7 @@ export default function MaliEmpMain() {
                     <br />
                     <br />
                     <br />
-                    <div className='flex mx-[80px] gap-[600px] mb-[40px]'>
+                    <div className='flex mx-[80px] gap-[600px] mb-[40px] lastofthemall'>
                         <div>
                             © 2024 Mali Empire Festival. Celebrating West African Heritage.
                         </div>
