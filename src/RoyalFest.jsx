@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faBars, faXmark, faDrum, faBuilding, faCrown, faTicket, faPanorama, faBookAtlas, faBook, faLocation, faLocationArrow, faCalendar, faMobile, faMailBulk, faWebAwesome, faGlobe} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faOptinMonster } from '@fortawesome/free-brands-svg-icons/faOptinMonster';
+import RoyalDecreeForm from "./RoyalDecreeForm";
 export default function RoyalFest() {
      const navigate = useNavigate();
     
@@ -33,44 +34,98 @@ export default function RoyalFest() {
         <div className="FirstMaliSSsub3-Sub2">
              <SecondNav />
 
-              <nav className='flex gap-100  text-nowrap mb-5 w-full py-[10px] px-[14px] cursor-pointer'>
-                <h1 className='text-yellow-300 text-[30px] font-bold relative left-8'>Royal Fest
-
+              <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
+                <h1 className='text-yellow-300 text-[25px] font-bold relative left-8'>Royal Fest
                 </h1>
-                <div className='flex gap-5 text-nowrap relative top-[10px] left-[50px]'>
-                    <div className='flex gap-4' onClick={gotoFestivalDrumbeatPage}>
-                        <FontAwesomeIcon icon={faDrum}/>
+                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
+                    <div className='flex gap-2 relative left-[10px] w-[20%]' onClick={gotoFestivalDrumbeatPage}>
+                        🥁
+                        {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
                     </div>
-                    <div className='flex gap-4' onClick={gotoRoyalFest}>
-                        <FontAwesomeIcon icon={faOptinMonster}/>
+
+                    <div className='flex gap-4 relative left-[10px] w-[20%]' onClick={gotoRoyalFest}>
+                        🍯
+                        {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Fest</li>
                     </div>
-                    <div className='flex gap-4' onClick={gotoTheGoldenRoute}>
-                        <FontAwesomeIcon icon={faBuilding}/>
+
+                    <div className='flex gap-4 relative left-[-10px] w-[25%]' onClick={gotoTheGoldenRoute}>
+                        🏛️
+                        {/* <FontAwesomeIcon icon={faBuilding}/> */}
                         <li>The Golden Route</li>
                     </div>
-                    <div className='flex gap-4' onClick={gotoDressLikeRoyalty}>
-                        <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/>
+
+                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoDressLikeRoyalty}>
+                        {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
+                        👑
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div className='flex gap-4' onClick={gotoSecureYourSpot}>
-                        <FontAwesomeIcon icon={faTicket}/>
+                    <div className='flex gap-4 relative left-[-10px] w-[20%]' onClick={gotoSecureYourSpot}>
+                        {/* <FontAwesomeIcon icon={faTicket}/> */}
+                        🎫
                         <li>Secure Your Spot</li>
                     </div>
                 </div>
-                     </nav>
+                </nav>
 
-            <div className="FirstMaliSSsub3-Sub2-Content">
-                <h1>Royal Fest</h1>
-                <p>
-                    Join us for the Royal Fest, a celebration of the rich cultural heritage of the Mali Empire. This event features traditional music, dance, and art, showcasing the vibrant history and traditions of our people.
-                </p>
-                <p>
-                    Experience the grandeur of the Mali Empire through performances, exhibitions, and interactive sessions that bring our royal heritage to life.
-                </p>
+            <div className='FirstMaliSSsub3-Sub2-Content1'>
+            <h1>Royal Fest</h1>
+            <div className="relative left-[40px] ">
+
+            <p className='Firtsparolunderthecontent1 relative' >
+            "Reach the Emperor's Council"
+            </p>
+           
+            </div>
+        </div>
+
+        <div className="text-center bg-amber-100 p-30">
+
+        <div className='my-[90px]'>
+            <div className='bg-amber-600 inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px]'>
+            <h3 className='text-[30px] font-bold'>SUMMON THE ROYAL SCRIBES</h3>
             </div>
 
+            <div className='grid grid-cols-4'>
+
+            <div className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
+            
+            <h3 className='mb-[10px]'>Traditoinal Drummer</h3>
+            <p className='w-[70%] relative left-[50px]'></p>
+            
+            </div>
+            <div  className='bg-white p-[20px]  py-[80px] rounded-[10px] mx-[10px]'>
+            
+            <h3 className='mb-[10px]'>Palace Herald</h3>
+            <p className='w-[70%] relative left-[50px]'></p>
+            
+            </div>
+            <div  className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
+            
+            <h3 className='mb-[10px]'>Imperial Palace</h3>
+            <p className='w-[70%] relative left-[50px]'> 123, Ikorodu street Snai riad sk fkef</p>
+            
+            </div>
+            
+             <div  className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
+            
+            <h3 className='mb-[10px]'>Court Hours</h3>
+            <p className=' relative '>
+                Monday - Friday :9am-6pm
+                Saturday :10am-4pm
+                Sunday:Closed
+            </p>
+            
+            </div>
+
+            </div>
+        </div>
+        
+        <div>
+            <RoyalDecreeForm/>
+        </div>
+        </div>
 
              <footer className='relative left-[-18px] w-[110%] '>
                                               <div className='FirstMaliSSsub3-Sub1 grid grid-cols-3 my-[60px] mx-[20px]'>

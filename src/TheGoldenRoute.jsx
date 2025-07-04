@@ -1,7 +1,7 @@
 import React from "react";
 import SecondNav from './SecondNav';
 import { useNavigate } from 'react-router-dom';
-
+import './TheGoldenRoute.css';
 import './MaliEmp.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faBars, faXmark, faDrum, faBuilding, faCrown, faTicket, faPanorama, faBookAtlas, faBook, faLocation, faLocationArrow, faCalendar, faMobile, faMailBulk, faWebAwesome, faGlobe} from '@fortawesome/free-solid-svg-icons';
@@ -33,43 +33,118 @@ const gotoSecureYourSpot = () => {
         <div className="FirstMaliSSsub3-Sub2">
               <SecondNav />
 
-                <nav className='flex gap-100  text-nowrap mb-5 w-full py-[10px] px-[14px] cursor-pointer'>
-                <h1 className='text-yellow-300 text-[30px] font-bold relative left-8'>TheGolden Route
+                <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
+                <h1 className='text-yellow-300 text-[20px] font-bold relative left-8'>TheGolden Route
                 </h1>
-                <div className='flex gap-5 text-nowrap relative top-[10px] left-[50px]'>
-                    <div className='flex gap-4' onClick={gotoFestivalDrumbeatPage}>
-                        <FontAwesomeIcon icon={faDrum}/>
+                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
+                    <div className='flex gap-2 relative left-[10px] w-[20%]' onClick={gotoFestivalDrumbeatPage}>
+                        🥁
+                        {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
                     </div>
-                    <div className='flex gap-4' onClick={gotoRoyalFest}>
-                        <FontAwesomeIcon icon={faOptinMonster}/>
+
+                    <div className='flex gap-4 relative left-[10px] w-[20%]' onClick={gotoRoyalFest}>
+                        🍯
+                        {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Fest</li>
                     </div>
-                    <div className='flex gap-4' onClick={gotoTheGoldenRoute}>
-                        <FontAwesomeIcon icon={faBuilding}/>
+
+                    <div className='flex gap-4 relative left-[-10px] w-[25%]' onClick={gotoTheGoldenRoute}>
+                        🏛️
+                        {/* <FontAwesomeIcon icon={faBuilding}/> */}
                         <li>The Golden Route</li>
                     </div>
-                    <div className='flex gap-4' onClick={gotoDressLikeRoyalty}>
-                        <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/>
+
+                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoDressLikeRoyalty}>
+                        {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
+                        👑
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div className='flex gap-4' onClick={gotoSecureYourSpot}>
-                        <FontAwesomeIcon icon={faTicket}/>
+                    <div className='flex gap-4 relative left-[-10px] w-[20%]' onClick={gotoSecureYourSpot}>
+                        {/* <FontAwesomeIcon icon={faTicket}/> */}
+                        🎫
                         <li>Secure Your Spot</li>
                     </div>
                 </div>
                 </nav>
 
 
-            <div className="FirstMaliSSsub3-Sub2-Content">
-                <h1>The Golden Route</h1>
-                <p>
-                    Discover the Golden Route, a journey through the heart of the Mali Empire. This route connects key historical sites, offering a glimpse into the rich cultural and economic heritage of our civilization.
-                </p>
-                <p>
-                    Experience the splendor of ancient trade routes, explore majestic cities, and learn about the legacy of the Mali Empire as a center of commerce and culture.
-                </p>
+             <div className='FirstMaliSSsub3-Sub2-Content1'>
+            <h1>Golden Route</h1>
+            <p className='Firtsparolunderthecontent1'>
+            "The heartbeat of West Africa echoes through time"
+            </p>
+           
+        </div> 
+            <div className="bg-amber-100 p-[60px] py-[80px]">
+            <div className="text-center font-bold text-[20px]">
+                <h3>Historic trade Routes</h3>
             </div>
+             <section className="section trade-routes relative left-[10%] ">
+            <h2>Historic Trade Routes</h2>
+            <div className="routes-content">
+          <div className="left">
+            <h3 className="subheading">The Trans-Saharan Network</h3>
+            <p className="my-[20px] w-[50%]">
+              For over a thousand years, caravans carrying gold, salt, ivory,
+              and slaves traversed the vast Sahara Desert, connecting the gold
+              fields of West Africa to the markets of North Africa and the
+              Mediterranean.
+            </p>
+            <p className="w-[50%]">
+              The Mali Empire controlled these crucial trade routes, collecting
+              taxes and tribute that made it one of the wealthiest empires in
+              the world.
+            </p>
+          </div>
+
+            <div className="relative left-[-30%] bg-amber-500 w-[50%] rounded-[10px]" >
+          <div className="p-[20px]" >
+            <h3 className="font-bold">Key Trading Cities</h3>
+            <ul className="text-nowrap mt-[20px]">
+              <li className="mb-[20px]">
+                <strong>Timbuktu</strong> – The Pearl of the Desert</li>
+              <li className="mb-[20px]" ><strong>Djenne</strong> – The Venice of Sudan</li>
+              <li className="mb-[20px]" ><strong>Gao</strong> – The Eastern Gateway</li>
+              <li className="mt-[20px]" ><strong>Walata</strong> – The Northern Outpost</li>
+            </ul>
+          </div>
+
+            </div>
+
+        </div>
+            </section>
+            </div>
+
+      <section className="section festival-journey">
+        <h3 className="text-center font-bold text-[20px]">Your Festival Journey</h3>
+        <div className="journey-cards">
+          <div className="card">
+            <div className="icon">🏛️</div>
+            <h3>Royal Welcome</h3>
+            <p>
+              Begin your journey at the Grand Pavilion, where you’ll receive
+              your festival passport and royal blessing.
+            </p>
+          </div>
+          <div className="card">
+            <div className="icon">🛍️</div>
+            <h3>Trading Posts</h3>
+            <p>
+              Visit authentic market stalls recreating the bustling trade
+              centers of ancient Mali.
+            </p>
+          </div>
+          <div className="card">
+            <div className="icon">👑</div>
+            <h3>Royal Court</h3>
+            <p>
+              Conclude your journey at the Royal Court, where the emperor holds
+              audience and grants honors.
+            </p>
+          </div>
+        </div>
+      </section>
 
             <footer className='relative left-[-18px] w-[110%] '>
                                       <div className='FirstMaliSSsub3-Sub1 grid grid-cols-3 my-[60px] mx-[20px]'>

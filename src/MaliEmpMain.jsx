@@ -50,33 +50,40 @@ const gotoSecureYourSpot = () => {
 
              <div className='themchiefeofthenbud'>
             <div>
-            <nav className='flex gap-100  text-nowrap mb-5 w-full py-[10px] px-[14px] cursor-pointer'>
-                <h1 className='text-yellow-300 text-[30px] font-bold relative left-8'>Mali Empire
-
+            <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
+                <h1 className='text-yellow-300 text-[30px] font-bold relative left-8'>TheGolden Route
                 </h1>
-                <div className='flex gap-5 text-nowrap relative top-[10px] left-[50px]'>
-                    <div className='flex gap-4' onClick={gotoFestivalDrumbeatPage}>
-                        <FontAwesomeIcon icon={faDrum}/>
+                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
+                    <div className='flex gap-2 relative left-[10px] w-[20%]' onClick={gotoFestivalDrumbeatPage}>
+                        🥁
+                        {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
                     </div>
-                    <div className='flex gap-4' onClick={gotoRoyalFest}>
-                        <FontAwesomeIcon icon={faOptinMonster}/>
+
+                    <div className='flex gap-4 relative left-[10px] w-[20%]' onClick={gotoRoyalFest}>
+                        🍯
+                        {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Fest</li>
                     </div>
-                    <div className='flex gap-4' onClick={gotoTheGoldenRoute}>
-                        <FontAwesomeIcon icon={faBuilding}/>
+
+                    <div className='flex gap-4 relative left-[-10px] w-[25%]' onClick={gotoTheGoldenRoute}>
+                        🏛️
+                        {/* <FontAwesomeIcon icon={faBuilding}/> */}
                         <li>The Golden Route</li>
                     </div>
-                    <div className='flex gap-4' onClick={gotoDressLikeRoyalty}>
-                        <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/>
+
+                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoDressLikeRoyalty}>
+                        {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
+                        👑
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div className='flex gap-4' onClick={gotoSecureYourSpot}>
-                        <FontAwesomeIcon icon={faTicket}/>
+                    <div className='flex gap-4 relative left-[-10px] w-[20%]' onClick={gotoSecureYourSpot}>
+                        {/* <FontAwesomeIcon icon={faTicket}/> */}
+                        🎫
                         <li>Secure Your Spot</li>
                     </div>
                 </div>
-            </nav>
+                </nav>
 
             
 
@@ -92,7 +99,7 @@ const gotoSecureYourSpot = () => {
                     <p className='w-[40%] relative left-[30%] my-[30px] text-yellow-500'>Journey through the golden age of the Mali Empire.Experience authentic West African Culture, music, cusine and tradition in an immersive festival celebrating our rich heritage</p>
 
                     <div className='FirstMaliSub3 bg-yellow-500 w-[20%] relative left-[40%] my-[30px] p-[10px]'>
-                        <button>JOIN THE CARAVAN</button>
+                        <h3>JOIN THE CARAVAN</h3>
                     </div>
                 </div>
                 <div>
@@ -126,7 +133,7 @@ const gotoSecureYourSpot = () => {
                                     <li>Kora Performances</li>
                                 </div>
                                 <div className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
-                                    <button  className='relative left-[10px]'>Learn More</button>
+                                    <h3  className='relative left-[10px]'>Learn More</h3>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +153,7 @@ const gotoSecureYourSpot = () => {
                                     <li>Royal Spice Blends</li>
                                 </div>
                                 <div  className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
-                                    <button  className='relative left-[13px]'>Learn More</button>
+                                    <h3  className='relative left-[13px]'>Learn More</h3>
                                 </div>
                             </div>
                              <div><img src={Camel} alt="" className='rounded-[20px] w-[90%]' /></div>
@@ -168,7 +175,7 @@ const gotoSecureYourSpot = () => {
                                 </div>
                                 <div className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'
                                 >
-                                    <button className='relative left-[15px]'>Learn More</button>
+                                    <h3 className='relative left-[15px]'>Learn More</h3>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +195,7 @@ const gotoSecureYourSpot = () => {
                                     <li>Headwrap Styling</li>
                                 </div>
                                 <div  className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
-                                    <button  className='relative left-[15px]'>Learn More</button>
+                                    <h3  className='relative left-[15px]'>Learn More</h3>
                                 </div>
                             </div>
                             <div><img src={Anthelope} alt="" className='rounded-[20px] w-[90%]' /></div>

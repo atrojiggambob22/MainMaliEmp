@@ -1,0 +1,66 @@
+.royal-form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  font-family: 'Georgia', serif;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.royal-form h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #3a2e1c;
+}
+
+.royal-form p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5c513d;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.form-row div {
+  flex: 1;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  color: #3a2e1c;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button {
+  background-color: #d4a017;
+  color: white;
+  padding: 12px 20px;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c08c0a;
+}

@@ -35,48 +35,145 @@ const gotoSecureYourSpot = () => {
         <SecondNav />
 
 
-         <nav className='flex gap-100  text-nowrap mb-5 w-full py-[10px] px-[14px] cursor-pointer'>
-            <h1 className='text-yellow-300 text-[30px] font-bold relative left-8'>Festival Drumbeat
-            </h1>
-            <div className='flex gap-5 text-nowrap relative top-[10px] left-[50px]'>
-                <div className='flex gap-4' onClick={gotoFestivalDrumbeatPage}>
-                    <FontAwesomeIcon icon={faDrum}/>
-                    <li>Festival Drumbeat</li>
+         <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
+                <h1 className='text-yellow-300 text-[20px] font-bold relative left-8'>Festival Drumbeat
+                </h1>
+                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
+                    <div className='flex gap-2 relative left-[10px] w-[20%]' onClick={gotoFestivalDrumbeatPage}>
+                        🥁
+                        {/* <FontAwesomeIcon icon={faDrum}/> */}
+                        <li>Festival Drumbeat</li>
+                    </div>
+
+                    <div className='flex gap-4 relative left-[10px] w-[20%]' onClick={gotoRoyalFest}>
+                        🍯
+                        {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
+                        <li>Royal Fest</li>
+                    </div>
+
+                    <div className='flex gap-4 relative left-[-10px] w-[25%]' onClick={gotoTheGoldenRoute}>
+                        🏛️
+                        {/* <FontAwesomeIcon icon={faBuilding}/> */}
+                        <li>The Golden Route</li>
+                    </div>
+
+                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoDressLikeRoyalty}>
+                        {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
+                        👑
+                        <li>Dress Like Royalty</li>
+                    </div>
+                    <div className='flex gap-4 relative left-[-10px] w-[20%]' onClick={gotoSecureYourSpot}>
+                        {/* <FontAwesomeIcon icon={faTicket}/> */}
+                        🎫
+                        <li>Secure Your Spot</li>
+                    </div>
                 </div>
-                <div className='flex gap-4' onClick={gotoRoyalFest}>
-                    <FontAwesomeIcon icon={faOptinMonster}/>
-                    <li>Royal Fest</li>
-                </div>
-                <div className='flex gap-4' onClick={gotoTheGoldenRoute}>
-                    <FontAwesomeIcon icon={faBuilding}/>
-                    <li>The Golden Route</li>
-                </div>
-                <div className='flex gap-4' onClick={gotoDressLikeRoyalty}>
-                    <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/>
-                    <li>Dress Like Royalty</li>
-                </div>
-                <div className='flex gap-4' onClick={gotoSecureYourSpot}>
-                    <FontAwesomeIcon icon={faTicket}/>
-                    <li>Secure Your Spot</li>
-                </div>
-            </div>
-        </nav>
+                </nav>
 
 
-        <div className='FirstMaliSSsub3-Sub2-Content'>
+        <div className='FirstMaliSSsub3-Sub2-Content1'>
             <h1>Festival Drumbeat</h1>
-            <p>
-            Experience the heart of the Mali Empire Festival with our Festival
-            Drumbeat. This event celebrates the rich musical heritage of Mali,
-            featuring traditional drumming performances, workshops, and cultural
-            exchanges.
+            <p className='Firtsparolunderthecontent1'>
+            "The heartbeat of West Africa echoes through time"
             </p>
-            <p>
-            Join us for a rhythmic journey through the sounds of Mali, where you
-            can learn about the significance of drumming in our culture and even
-            participate in interactive sessions.
-            </p>
+           
         </div>
+
+        <div className='justify-center text-center '>
+
+        <div className='bg-amber-100 p-30'>
+            <div className='bg-amber-600 inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px]'>
+            <h3 className='text-[30px] font-bold'>ROYAL PERFOMANCES</h3>
+            </div>
+
+            <div className='grid grid-cols-3'>
+
+            <div className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
+            
+            <h3 className='mb-[10px]'>TRADITIONAL DRUMMING</h3>
+            <p className='w-[70%] relative left-[50px]'>Experience the powerful rhythms of djembe, dundun, and talking drums that once guided caravans across the sahara</p>
+            
+            </div>
+            <div  className='bg-white p-[20px]  py-[80px] rounded-[10px] mx-[10px]'>
+            
+            <h3 className='mb-[10px]'>ROYAL COURT DANCES</h3>
+            <p className='w-[70%] relative left-[50px]'>Witness the elegant movements that once graced the place  of Mansa Musa, perfomed by master dancers</p>
+            
+            </div>
+            <div  className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
+            
+            <h3 className='mb-[10px]'>GRIOT STORYTELLING</h3>
+            <p className='w-[70%] relative left-[50px]'>Listen to ancient tales and geneologies passed down through generations by West Africa's master storytellers.</p>
+            
+            </div>
+            
+            </div>
+        </div>
+
+        <div className='bg-amber-500 py-[80px]'>
+            <div><h3 className='text-[25px] font-bold'>PERFORMANCE SCHEDULE</h3></div>
+            
+            <div className='relative left-[30%]'>
+
+            <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px]'>
+
+            <div className='text-left px-[10px]'>
+                <h4 className=''>OPENING CEREMONN</h4>
+                <p>Traditional  and royal procession</p>
+            
+            </div>
+
+            <div>
+            10:00 AM
+            </div>
+
+            </div>
+
+            <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px]'>
+
+            <div  className='text-left'>
+            <h4>MASTER DRUMMERS CIRCLE</h4>
+            <p>Interacuve arumming experience</p>
+            
+            </div>
+
+             <div>
+            12:00 PM
+            </div>
+
+            </div>
+
+            <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px]'>
+
+            <div  className='text-left'>
+                <h4>ROYAL COURT PERFORMANCE</h4>
+                <p>Grand finale with full esemble</p>
+            
+            </div>
+
+             <div>
+            4:00 AM
+            </div>
+
+            </div>
+            
+            </div>
+
+        </div>
+
+        <div className='p-[40px] bg-amber-900'>
+        <div>
+        <h3 className='text-[30px] font-bold my-[30px]'>Join The Celebration</h3></div>
+        <p >Don't miss the chance to be part of this extraordinary  cultural <br />
+experience</p>
+
+<div className='my-[40px] bg-yellow-400 inline-block px-[40px] py-[10px]'>
+<h3>Reserve Your Experience</h3>
+</div>
+        </div>
+        
+        </div>
+
          <footer className='relative left-[-18px] w-[110%] '>
                                   <div className='FirstMaliSSsub3-Sub1 grid grid-cols-3 my-[60px] mx-[20px]'>
                                       <div className='FirstMaliSSsub3-Sub2'>

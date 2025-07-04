@@ -103,10 +103,10 @@ footer{
     color: rgba(147, 86, 15, 0.923);
 }
   .FirstMaliSSsub3-Sub2 p:hover{
-        color: yellow;
+        /* color: yellow; */
      }
  .FirstMaliSSsub3-Sub3 h3:hover{
-        color: yellow;
+        /* color: yellow; */
     }
 @media (min-width:200px) and (max-width:800px){
     nav{
@@ -180,6 +180,7 @@ footer{
     }
     .FirstMaliSSsub1-Sub1-min1 p{
         width: 100% !important;
+        
     }
     /* this style if for the fotter section */
     .FirstMaliSSsub3-Sub1{
@@ -218,4 +219,27 @@ footer{
         margin: 40px 20px !important;
         color: rgb(255, 200, 0);
     }
+}
+
+
+/* This style is for the Festival Drumbeat page */
+.FirstMaliSSsub3-Sub2-Content1 h1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+font-family: "Crimson Text", serif;
+
+}
+.FirstMaliSSsub3-Sub2-Content1{
+    background: linear-gradient(rgb(133, 47, 7), #d99861);
+}
+.Firtsparolunderthecontent1{
+    text-align: center;
+    font-family: "Crimson Text", serif;
+    padding:10px 40px;
+    background-color: #c48d62;
+    display: inline-block;
+    position: relative;
+    left:38%;
+    /* align-items: center; */
 }
