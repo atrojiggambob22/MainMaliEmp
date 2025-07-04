@@ -233,6 +233,15 @@ font-family: "Crimson Text", serif;
 .FirstMaliSSsub3-Sub2-Content1{
     background: linear-gradient(rgb(133, 47, 7), #d99861);
 }
+.FirstMaliSSsub3-Sub2-Content1 h3{
+    color:rgb(249, 198, 126);
+}
+.FirstMaliSSsub3-Sub2-Content1 p{
+    color: black;
+    background-color: #e3cebe;
+    display: inline-block;
+   
+}
 .Firtsparolunderthecontent1{
     text-align: center;
     font-family: "Crimson Text", serif;
@@ -243,3 +252,13 @@ font-family: "Crimson Text", serif;
     left:38%;
     /* align-items: center; */
 }
+
+.SecondPhaseofcontainer p{
+    font-family: "Crimson Text", serif;
+    /* font-size: 15px; */
+}
+
+
+.closetothefootofhtedress p{
+       font-family: "Crimson Text", serif;
+}   

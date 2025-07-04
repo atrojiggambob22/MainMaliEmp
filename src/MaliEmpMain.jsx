@@ -51,10 +51,11 @@ const gotoSecureYourSpot = () => {
              <div className='themchiefeofthenbud'>
             <div>
             <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
-                <h1 className='text-yellow-300 text-[30px] font-bold relative left-8'>TheGolden Route
+                <h1 className='text-yellow-300 text-[25px] font-bold relative left-8'>
+                    Mali Empire
                 </h1>
                 <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
-                    <div className='flex gap-2 relative left-[10px] w-[20%]' onClick={gotoFestivalDrumbeatPage}>
+                    <div className='flex gap-2 relative left-[1px] w-[29%]' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
@@ -66,7 +67,7 @@ const gotoSecureYourSpot = () => {
                         <li>Royal Fest</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-10px] w-[25%]' onClick={gotoTheGoldenRoute}>
+                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoTheGoldenRoute}>
                         🏛️
                         {/* <FontAwesomeIcon icon={faBuilding}/> */}
                         <li>The Golden Route</li>
@@ -77,7 +78,7 @@ const gotoSecureYourSpot = () => {
                         👑
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div className='flex gap-4 relative left-[-10px] w-[20%]' onClick={gotoSecureYourSpot}>
+                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoSecureYourSpot}>
                         {/* <FontAwesomeIcon icon={faTicket}/> */}
                         🎫
                         <li>Secure Your Spot</li>
