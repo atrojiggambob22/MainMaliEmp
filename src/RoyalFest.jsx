@@ -4,7 +4,7 @@ import './MaliEmp.css';
 import { useNavigate } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faBars, faXmark, faDrum, faBuilding, faCrown, faTicket, faPanorama, faBookAtlas, faBook, faLocation, faLocationArrow, faCalendar, faMobile, faMailBulk, faWebAwesome, faGlobe} from '@fortawesome/free-solid-svg-icons';
+import { faUser, faBars, faXmark, faDrum, faBuilding, faCrown, faTicket, faPanorama, faBookAtlas, faBook, faLocation, faLocationArrow, faCalendar, faMobile, faMailBulk, faWebAwesome, faGlobe, faClock, faPhone} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faOptinMonster } from '@fortawesome/free-brands-svg-icons/faOptinMonster';
 import RoyalDecreeForm from "./RoyalDecreeForm";
@@ -35,7 +35,7 @@ export default function RoyalFest() {
              <SecondNav />
 
               <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
-                <h1 className='text-yellow-300 text-[25px] font-bold relative left-8'>Royal Fest
+                <h1 className='text-yellow-300 text-[25px] font-bold relative left-8'>Royal Court
                 </h1>
                 <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
                     <div className='flex gap-2 relative left-[10px] w-[20%]' onClick={gotoFestivalDrumbeatPage}>
@@ -70,52 +70,54 @@ export default function RoyalFest() {
                 </nav>
 
             <div className='FirstMaliSSsub3-Sub2-Content1'>
-            <h1>Royal Fest</h1>
+            <h3  className='text-[#E6C157] text-[50px] font-bold text-center' >Royal Fest</h3>
             <div className="relative left-[40px] ">
 
-            <p className='Firtsparolunderthecontent1 relative' >
+            <p className='Firtsparolunderthecontent1 relative firstsegofheadd' >
             "Reach the Emperor's Council"
             </p>
            
             </div>
         </div>
 
-        <div className="text-center bg-amber-100 p-30">
+        <div className="text-center bg-[#fce09dae] p-30">
 
         <div className='my-[90px]'>
-            <div className='bg-amber-600 inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px]'>
-            <h3 className='text-[30px] font-bold'>SUMMON THE ROYAL SCRIBES</h3>
+            <div className='inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px]'>
+            <h3 className='text-[30px] font-bold firstsegofheadd'>SUMMON THE ROYAL SCRIBES</h3>
             </div>
 
             <div className='grid grid-cols-4'>
 
             <div className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
-            
-            <h3 className='mb-[10px]'>Traditoinal Drummer</h3>
-            <p className='w-[70%] relative left-[50px]'></p>
+            <FontAwesomeIcon icon={faMailBulk} className="rounded-[50%] p-[20px] bg-amber-400"/>
+            <h3 className='mb-[10px] font-bold text-[20px] text-red-900'>Royal Messemger</h3>
+            <p className='w-[100%] relative left-[10px] ' style={{fontFamily:"Crimson Text"}} >maliempire2025@gmail.com</p>
             
             </div>
             <div  className='bg-white p-[20px]  py-[80px] rounded-[10px] mx-[10px]'>
-            
+            <FontAwesomeIcon icon={faPhone}  className="rounded-[50%] p-[20px] bg-red-700 text-white"/>
             <h3 className='mb-[10px]'>Palace Herald</h3>
             <p className='w-[70%] relative left-[50px]'></p>
             
             </div>
             <div  className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
-            
+            <FontAwesomeIcon icon={faLocation}  className="rounded-[50%] p-[20px] bg-gray-800 text-white"/>
             <h3 className='mb-[10px]'>Imperial Palace</h3>
-            <p className='w-[70%] relative left-[50px]'> 123, Ikorodu street Snai riad sk fkef</p>
+            <p className='w-[70%] relative left-[50px]' style={{fontFamily:"Crimson Text"}} > 123, Ikorodu street Snai riad sk fkef</p>
             
             </div>
             
              <div  className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
-            
+            <FontAwesomeIcon icon={faClock}  className="rounded-[50%] p-[20px] bg-amber-400"/>
             <h3 className='mb-[10px]'>Court Hours</h3>
-            <p className=' relative '>
+            <p className=' relative '  style={{fontFamily:"Crimson Text"}} >
                 Monday - Friday :9am-6pm
-                Saturday :10am-4pm
-                Sunday:Closed
+               
             </p>
+            <p  style={{fontFamily:"Crimson Text"}} > Saturday :10am-4pm
+               </p>
+               <p  style={{fontFamily:"Crimson Text"}} > Sunday:Closed</p>
             
             </div>
 

@@ -36,22 +36,23 @@ const gotoSecureYourSpot = () => {
 
 
          <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
-                <h1 className='text-yellow-300 text-[20px] font-bold relative left-8'>Festival Drumbeat
+                <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8'>
+                    Mali Empire
                 </h1>
                 <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
-                    <div className='flex gap-2 relative left-[10px] w-[20%]' onClick={gotoFestivalDrumbeatPage}>
+                    <div className='flex gap-2 relative left-[1px] w-[29%]' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[10px] w-[20%]' onClick={gotoRoyalFest}>
+                    <div className='flex gap-4 relative left-[-5px] w-[20%]' onClick={gotoRoyalFest}>
                         🍯
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Fest</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-10px] w-[25%]' onClick={gotoTheGoldenRoute}>
+                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoTheGoldenRoute}>
                         🏛️
                         {/* <FontAwesomeIcon icon={faBuilding}/> */}
                         <li>The Golden Route</li>
@@ -62,7 +63,7 @@ const gotoSecureYourSpot = () => {
                         👑
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div className='flex gap-4 relative left-[-10px] w-[20%]' onClick={gotoSecureYourSpot}>
+                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoSecureYourSpot}>
                         {/* <FontAwesomeIcon icon={faTicket}/> */}
                         🎫
                         <li>Secure Your Spot</li>
@@ -72,8 +73,8 @@ const gotoSecureYourSpot = () => {
 
 
         <div className='FirstMaliSSsub3-Sub2-Content1'>
-            <h1>Festival Drumbeat</h1>
-            <p className='Firtsparolunderthecontent1'>
+            <h3 className='text-[#E6C157] text-[50px] font-bold text-center'>Festival Drumbeat</h3>
+            <p className='Firtsparolunderthecontent1 firstsegofheadd'>
             "The heartbeat of West Africa echoes through time"
             </p>
            
@@ -81,28 +82,39 @@ const gotoSecureYourSpot = () => {
 
         <div className='justify-center text-center '>
 
-        <div className='bg-amber-100 p-30'>
-            <div className='bg-amber-600 inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px]'>
-            <h3 className='text-[30px] font-bold'>ROYAL PERFOMANCES</h3>
+        <div className='bg-[#fce09dae] p-30  Perfomanceoftheroayal'>
+            <div className=' inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px]'>
+            <h3 className='text-[30px] font-bold firstsegofheadd'>ROYAL PERFOMANCES</h3>
             </div>
 
             <div className='grid grid-cols-3'>
 
-            <div className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
-            
-            <h3 className='mb-[10px]'>TRADITIONAL DRUMMING</h3>
+            <div className='bg-[#ffe3a3fb] hover:bg-[#f8d37cfb] p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
+                <div className='p-[20px] rounded-[50%] bg-yellow-800 inline-block '>
+                🥁
+
+                </div>
+            <h3 className='mb-[10px] font-bold text-[20px]'>TRADITIONAL DRUMMING</h3>
             <p className='w-[70%] relative left-[50px]'>Experience the powerful rhythms of djembe, dundun, and talking drums that once guided caravans across the sahara</p>
             
             </div>
-            <div  className='bg-white p-[20px]  py-[80px] rounded-[10px] mx-[10px]'>
+            <div  className='bg-[#ffe3a3fb] hover:bg-[#f8d37cfb] p-[20px]  py-[80px] rounded-[10px] mx-[10px] transition duration-600 ease-in-out'>
+                <div className='p-[20px] rounded-[50%] bg-red-800 inline-block '>
+
+                💃
+                </div>
             
-            <h3 className='mb-[10px]'>ROYAL COURT DANCES</h3>
+
+            <h3 className='mb-[10px] font-bold text-[20px]'>ROYAL COURT DANCES</h3>
             <p className='w-[70%] relative left-[50px]'>Witness the elegant movements that once graced the place  of Mansa Musa, perfomed by master dancers</p>
             
             </div>
-            <div  className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
-            
-            <h3 className='mb-[10px]'>GRIOT STORYTELLING</h3>
+            <div  className='bg-[#ffe3a3fb]  hover:bg-[#f8d37cfb] p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
+                <div className='p-[20px] rounded-[50%] bg-gray-800 inline-block '>
+            🎵
+
+                </div>
+            <h3 className='mb-[10px] font-bold text-[20px]'>GRIOT STORYTELLING</h3>
             <p className='w-[70%] relative left-[50px]'>Listen to ancient tales and geneologies passed down through generations by West Africa's master storytellers.</p>
             
             </div>
@@ -110,50 +122,50 @@ const gotoSecureYourSpot = () => {
             </div>
         </div>
 
-        <div className='bg-amber-500 py-[80px]'>
-            <div><h3 className='text-[25px] font-bold'>PERFORMANCE SCHEDULE</h3></div>
+        <div className='bg-[#fdd579ae] py-[80px] secondphaseofthedrum'>
+            <div><h3 className='text-[25px] font-bold firstsegofheadd'>PERFORMANCE SCHEDULE</h3></div>
             
             <div className='relative left-[30%]'>
 
             <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px]'>
 
             <div className='text-left px-[10px]'>
-                <h4 className=''>OPENING CEREMONN</h4>
+                <h3 className='text-red-800 font-bold '>OPENING CEREMONY</h3>
                 <p>Traditional  and royal procession</p>
             
             </div>
 
-            <div>
+            <p>
             10:00 AM
-            </div>
+            </p>
 
             </div>
 
             <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px]'>
 
             <div  className='text-left'>
-            <h4>MASTER DRUMMERS CIRCLE</h4>
+            <h3 className='text-red-800 font-bold '>MASTER DRUMMERS CIRCLE</h3>
             <p>Interacuve arumming experience</p>
             
             </div>
 
-             <div>
+             <p>
             12:00 PM
-            </div>
+            </p>
 
             </div>
 
             <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px]'>
 
             <div  className='text-left'>
-                <h4>ROYAL COURT PERFORMANCE</h4>
+                <h3 className='text-red-800 font-bold '>ROYAL COURT PERFORMANCE</h3>
                 <p>Grand finale with full esemble</p>
             
             </div>
 
-             <div>
+             <p>
             4:00 AM
-            </div>
+            </p>
 
             </div>
             
@@ -161,10 +173,11 @@ const gotoSecureYourSpot = () => {
 
         </div>
 
-        <div className='p-[40px] bg-amber-900'>
+
+        <div className='p-[40px] bg-[#6a2f05]'>
         <div>
         <h3 className='text-[30px] font-bold my-[30px]'>Join The Celebration</h3></div>
-        <p >Don't miss the chance to be part of this extraordinary  cultural <br />
+        <p  className='text-[#fdd579ae]' >Don't miss the chance to be part of this extraordinary  cultural <br />
 experience</p>
 
 <div className='my-[40px] bg-yellow-400 inline-block px-[40px] py-[10px]'>
@@ -178,7 +191,7 @@ experience</p>
                           <div className='FirstMaliSSsub3-Sub1 grid grid-cols-3 my-[60px] mx-[20px]'>
                               <div className='FirstMaliSSsub3-Sub2'>
                                   <div>
-                                  <h3 className='my-[20px] font-bold text-[20px]'>MALI EMPIRE FESTIVAL</h3>
+                                  <h3 className='my-[20px] font-bold text-[20px] text-[#D4A437]'>MALI EMPIRE FESTIVAL</h3>
                                   <p className='w-[70%]'>Join us for an authentic celenration of our West African heritage, culture, traditions. Experience the golden age of the mali empire through music, food, and community</p>
       
                                   </div>
@@ -202,7 +215,7 @@ experience</p>
       
                               <div className='FirstMaliSSsub3-Sub3'>
                               <div>
-                                 <h2 className='my-[20px] text-[20px] font-bold'>Festival Element</h2>
+                                 <h3 className='my-[20px] text-[20px] font-bold text-[#D4A437]'>Festival Element</h3>
                               </div>
                               <div className='mb-[15px] flex gap-5'>
                                   <div>
@@ -249,7 +262,7 @@ experience</p>
       
                               <div className='Secontolastfott'>
                                   <div>
-                                      <h2 className='my-[20px] text-[20px] font-bold'>Join The Caravan</h2>
+                                      <h3 className='my-[20px] text-[20px] font-bold text-[#D4A437]'>Join The Caravan</h3>
                                   </div>
                                   <div>
                                       <div className='mb-[15px] flex gap-5'>

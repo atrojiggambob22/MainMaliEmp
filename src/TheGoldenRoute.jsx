@@ -70,8 +70,8 @@ const gotoSecureYourSpot = () => {
 
 
              <div className='FirstMaliSSsub3-Sub2-Content1'>
-            <h1>Golden Route</h1>
-            <p className='Firtsparolunderthecontent1'>
+            <h3 className='text-[#E6C157] text-[50px] font-bold text-center'>Golden Route</h3>
+            <p className='Firtsparolunderthecontent1 firstsegofheadd'>
             "The heartbeat of West Africa echoes through time"
             </p>
            
@@ -85,28 +85,28 @@ const gotoSecureYourSpot = () => {
             <div className="routes-content">
           <div className="left">
             <h3 className="subheading">The Trans-Saharan Network</h3>
-            <p className="my-[20px] w-[50%]">
+            <p className="my-[20px] w-[50%]"  style={{fontFamily:"Crimson Text"}}>
               For over a thousand years, caravans carrying gold, salt, ivory,
               and slaves traversed the vast Sahara Desert, connecting the gold
               fields of West Africa to the markets of North Africa and the
               Mediterranean.
             </p>
-            <p className="w-[50%]">
+            <p className="w-[50%]"  style={{fontFamily:"Crimson Text"}}>
               The Mali Empire controlled these crucial trade routes, collecting
               taxes and tribute that made it one of the wealthiest empires in
               the world.
             </p>
           </div>
 
-            <div className="relative left-[-30%] bg-amber-500 w-[50%] rounded-[10px]" >
+            <div className="relative left-[-30%] bg-[#fdd579ae] w-[50%] rounded-[10px]"  >
           <div className="p-[20px]" >
             <h3 className="font-bold">Key Trading Cities</h3>
-            <ul className="text-nowrap mt-[20px]">
-              <li className="mb-[20px]">
+            <ul className="text-nowrap mt-[20px]" >
+              <li className="mb-[20px]"  style={{fontFamily:"Crimson Text"}}>
                 <strong>Timbuktu</strong> – The Pearl of the Desert</li>
-              <li className="mb-[20px]" ><strong>Djenne</strong> – The Venice of Sudan</li>
-              <li className="mb-[20px]" ><strong>Gao</strong> – The Eastern Gateway</li>
-              <li className="mt-[20px]" ><strong>Walata</strong> – The Northern Outpost</li>
+              <li className="mb-[20px]"  style={{fontFamily:"Crimson Text"}}><strong>Djenne</strong> – The Venice of Sudan</li>
+              <li className="mb-[20px]"  style={{fontFamily:"Crimson Text"}}><strong>Gao</strong> – The Eastern Gateway</li>
+              <li className="mt-[20px]" style={{fontFamily:"Crimson Text"}} ><strong>Walata</strong> – The Northern Outpost</li>
             </ul>
           </div>
 
@@ -116,35 +116,56 @@ const gotoSecureYourSpot = () => {
             </section>
             </div>
 
+      <div  className="bg-[#cb931195]">
       <section className="section festival-journey">
         <h3 className="text-center font-bold text-[20px]">Your Festival Journey</h3>
         <div className="journey-cards">
           <div className="card">
-            <div className="icon">🏛️</div>
-            <h3>Royal Welcome</h3>
-            <p>
+            <div className="icon bg-amber-400 inline-block p-[20px] rounded-[50%]" >🏛️</div>
+            <h3 className="font-[800]">Royal Welcome</h3>
+            <p  style={{fontFamily:"Crimson Text"}}>
               Begin your journey at the Grand Pavilion, where you’ll receive
               your festival passport and royal blessing.
             </p>
           </div>
           <div className="card">
-            <div className="icon">🛍️</div>
-            <h3>Trading Posts</h3>
-            <p>
+            <div className="icon bg-red-700 inline-block p-[20px] rounded-[50%]" >🏪</div>
+            <h3 className="font-[800]">Trading Posts</h3>
+            <p  style={{fontFamily:"Crimson Text"}}>
               Visit authentic market stalls recreating the bustling trade
               centers of ancient Mali.
             </p>
           </div>
           <div className="card">
-            <div className="icon">👑</div>
-            <h3>Royal Court</h3>
-            <p>
+            <div className="icon bg-gray-800 inline-block p-[20px] rounded-[50%]" >👑</div>
+            <h3 className="font-[800]">Royal Court</h3>
+            <p  style={{fontFamily:"Crimson Text"}}>
               Conclude your journey at the Royal Court, where the emperor holds
               audience and grants honors.
             </p>
           </div>
         </div>
       </section>
+
+      <div className="text-center my-[10%] bg-[#ffffffae] inline-block w-[70%] relative left-[15%] p-[20px] rounded-[20px]">
+        <h3 className="font-bold text-[20px]" >interactive map experience</h3>
+        <p className="w-[60%] relative left-[20%] my-[30px]"  style={{fontFamily:"Crimson Text"}}>Use our interactive festival map to plot your own golden route through the various attraction, performance, and experiences. Collect Stamps at each Location to earn special rewards</p>
+        <div className="p-[10px] bg-amber-500 inline-block px-[30px]">
+          <h3>Download Festival Map</h3>
+        </div>
+      </div>
+
+      </div>
+
+      <div className="text-center bg-[#6a2f05] p-[20px] py-[50px]">
+        <h3 className="font-bold text-[30px] text-[#E6C157] my-[30px]">Chart your course</h3>
+        <p  style={{fontFamily:"Crimson Text", color:"yellow", fontSize:"20px" }} className="mb-[20px]">Embark on your own golden route through the wonders of Mali Empire</p>
+        <div className="bg-amber-400 p-[20px] inline-block">
+          <h3 className="font-bold text-[20px]">Plan Your Journey</h3>
+        </div>
+      </div>
+
+
 
             <footer className='relative left-[-18px] w-[110%] '>
                           <div className='FirstMaliSSsub3-Sub1 grid grid-cols-3 my-[60px] mx-[20px]'>

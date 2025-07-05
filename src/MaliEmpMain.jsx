@@ -51,7 +51,7 @@ const gotoSecureYourSpot = () => {
              <div className='themchiefeofthenbud'>
             <div>
             <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
-                <h1 className='text-yellow-300 text-[25px] font-bold relative left-8'>
+                <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8'>
                     Mali Empire
                 </h1>
                 <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
@@ -90,16 +90,16 @@ const gotoSecureYourSpot = () => {
 
             </div>
             <div className='FirstMali text-center my-[100px] '>
-                <h1 className='text-center text-[90px] font-bold'>MALI EMPIRE <br /> <span className='text-yellow-500'>FESTIVAL</span></h1>
+                <h1 className='text-center text-[90px] font-bold text-[#E6C157]'>MALI EMPIRE <br /> <span className='text-[#f1ab06]'>FESTIVAL</span></h1>
 
                 <div className='FirstMaliSub1 my-5 bg-amber-600 w-[30%] relative left-[35%] p-5'>
                     <h3 className='text-[20px]'>A Celebration of West African Heritage</h3>
                 </div>
 
                 <div className='FirstMaliSub2'>
-                    <p className='w-[40%] relative left-[30%] my-[30px] text-yellow-500'>Journey through the golden age of the Mali Empire.Experience authentic West African Culture, music, cusine and tradition in an immersive festival celebrating our rich heritage</p>
+                    <p className='w-[40%] relative left-[30%] my-[30px] text-[#ff9b3e] font-bold'>Journey through the golden age of the Mali Empire.Experience authentic West African Culture, music, cusine and tradition in an immersive festival celebrating our rich heritage</p>
 
-                    <div className='FirstMaliSub3 bg-yellow-500 w-[20%] relative left-[40%] my-[30px] p-[10px]'>
+                    <div className='FirstMaliSub3 bg-[#D4A437] w-[20%] relative left-[40%] my-[30px] p-[10px]'>
                         <h3>JOIN THE CARAVAN</h3>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ const gotoSecureYourSpot = () => {
             </div>
                 </div>
 
-                <div className='FirstMaliSSsub1 py-[50px]'>
+                <div className='FirstMaliSSsub1 py-[50px]  '>
                     <div className='text-center mainsubfofSSubdu '>
                     <h3 className='text-[40px] font-bold my-[15px] firstofthemh3333'>FESTIVAL HIGHLIGHTS</h3>
                     <p className='w-[40%] relative left-[30%]'>Immerse yourself in the rich tapestry of West African culture through our carefully curated experiences</p>
@@ -204,128 +204,138 @@ const gotoSecureYourSpot = () => {
 
                     </div>
                 </div>
-                <footer className='relative left-[-18px] w-[110%] '>
-                    <div className='FirstMaliSSsub3-Sub1 grid grid-cols-3 my-[60px] mx-[20px]'>
-                        <div className='FirstMaliSSsub3-Sub2'>
-                            <div>
-                            <h3 className='my-[20px] font-bold text-[20px]'>MALI EMPIRE FESTIVAL</h3>
-                            <p className='w-[70%]'>Join us for an authentic celenration of our West African heritage, culture, traditions. Experience the golden age of the mali empire through music, food, and community</p>
-
-                            </div>
-                            <div className='flex gap-10 my-[20px]'>
-                                <div>
-                                     <FontAwesomeIcon icon={faMailBulk}/>
-
-                                </div>
-                                <div>
-                                     <FontAwesomeIcon icon={faMobile}/>
-
-                                </div>
-                                <div>
-                                     <FontAwesomeIcon icon={faGlobe}/>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='FirstMaliSSsub3-Sub3'>
-                        <div>
-                           <h2 className='my-[20px] text-[20px] font-bold'>Festival Element</h2>
-                        </div>
-                        <div className='mb-[15px] flex gap-5'>
-                            <div>
-                                <FontAwesomeIcon icon={faDrum}/>
-                            </div>
-                            <div>
-                                <h3>Tradition Music and Dance</h3>
-                            </div>
-                        </div>
-
-                        <div className='mb-[15px] flex gap-5'>
-                            <FontAwesomeIcon icon={faPanorama}/>
-                            <div>
-                                <h3>Authentic West African Cuisine</h3>
-                            </div>
-                        </div>
-
-                        <div className='mb-[15px] flex gap-5'>
-                             <FontAwesomeIcon icon={faBuilding}/>
-                            <div>
-                                <h3>Historical Exibitions</h3>
-                            </div>
-                        </div>
-
-                        <div className='mb-[15px] flex gap-5'>
-                            <FontAwesomeIcon icon={faCrown}/>
-                            <div>
-                                <h3>Traditional Fasion & Craft</h3>
-                            </div>
-                        </div>
-
-                        <div className='mb-[15px] flex  gap-5'>
-                           <FontAwesomeIcon icon={faBook}/>
-                            <div>
-                                <h3>Culture Education</h3>
-                            </div>
-                        </div>
-                        </div>
-
-                        <div className='Secontolastfott'>
-                            <div>
-                                <h2 className='my-[20px] text-[20px] font-bold'>Join The Caravan</h2>
-                            </div>
-                            <div>
-                                <div className='mb-[15px] flex gap-5'>
-                                    <div>
-                                       <FontAwesomeIcon icon={faLocationArrow}/>
-                                    </div>
-                                    <div>
-                                    <h3 className='text-yellow-600'>Festival Grounds</h3>
-                                    <p className='font-light text-[13px] text-amber-300'>Historic Culture Center</p>
-                                    </div>
-                                   
-                                </div>
-
-                                <div className='mb-[15px] flex gap-5'>
-                                    <div>
-                                       <FontAwesomeIcon icon={faCalendar}/>
-                                    </div>
-                                    <div>
-                                        <h3 className='text-yellow-600'>Festiv Dates</h3>
-                                    <p className='text-amber-300'>Summer 2025</p>
-                                    </div>
-                                    
-                                </div> 
-                                
-                                <div className='mb-[15px] flex gap-5'>
-                                    <div>
-                                        <FontAwesomeIcon icon={faTicket}/>
-                                    </div>
-
-                                    <div>
-                                          <h3 className='text-yellow-600'>Tickets Avalaible</h3>
-                                    <p className='text-amber-300'>Early Bird Pricing</p>
-                                    </div>
-                                  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <hr className='h-[2px] bg-amber-800 w-[80%] relative left-[80px] ' />
-                    <br />
-                    <br />
-                    <br />
-                    <div className='flex mx-[80px] gap-[600px] mb-[40px] lastofthemall'>
-                        <div>
-                            © 2024 Mali Empire Festival. Celebrating West African Heritage.
-                        </div>
-                        <div className='flex gap-[20px]'>
-                            <li>Privacy</li>
-                            <li>Terms</li>
-                            <li>Contact</li>
-                        </div>
-                    </div>
-                </footer>
+            <footer className='relative left-[-18px] w-[110%] '>
+                          <div className='FirstMaliSSsub3-Sub1 grid grid-cols-3 my-[60px] mx-[20px]'>
+                              <div className='FirstMaliSSsub3-Sub2'>
+                                  <div>
+                                  <h3 className='my-[20px] font-bold text-[20px] text-[#D4A437]'>MALI EMPIRE FESTIVAL</h3>
+                                  <p className='w-[70%]'>Join us for an authentic celenration of our West African heritage, culture, traditions. Experience the golden age of the mali empire through music, food, and community</p>
+      
+                                  </div>
+                                  <div className='flex gap-10 my-[20px]'>
+                                      <div>
+                                           {/* <FontAwesomeIcon icon={faMailBulk}/> */}
+                                            📧
+                                      </div>
+                                      <div>
+                                        📱
+                                           {/* <FontAwesomeIcon icon={faMobile}/> */}
+      
+                                      </div>
+                                      <div>
+                                        🌐
+                                           {/* <FontAwesomeIcon icon={faGlobe}/> */}
+      
+                                      </div>
+                                  </div>
+                              </div>
+      
+                              <div className='FirstMaliSSsub3-Sub3'>
+                              <div>
+                                 <h3 className='my-[20px] text-[20px] font-bold text-[#D4A437]'>Festival Element</h3>
+                              </div>
+                              <div className='mb-[15px] flex gap-5'>
+                                  <div>
+                                    🥁
+                                      {/* <FontAwesomeIcon icon={faDrum}/> */}
+                                  </div>
+                                  <div>
+                                      <h3>Tradition Music and Dance</h3>
+                                  </div>
+                              </div>
+      
+                              <div className='mb-[15px] flex gap-5'>
+                                🍯
+                                  {/* <FontAwesomeIcon icon={faPanorama}/> */}
+                                  <div>
+                                      <h3>Authentic West African Cuisine</h3>
+                                  </div>
+                              </div>
+      
+                              <div className='mb-[15px] flex gap-5'>
+                                🏛️
+                                   {/* <FontAwesomeIcon icon={faBuilding}/> */}
+                                  <div>
+                                      <h3>Historical Exibitions</h3>
+                                  </div>
+                              </div>
+      
+                              <div className='mb-[15px] flex gap-5'>
+                                👑
+                                  {/* <FontAwesomeIcon icon={faCrown}/> */}
+                                  <div>
+                                      <h3>Traditional Fasion & Craft</h3>
+                                  </div>
+                              </div>
+      
+                              <div className='mb-[15px] flex  gap-5'>
+                                📚
+                                 {/* <FontAwesomeIcon icon={faBook}/> */}
+                                  <div>
+                                      <h3>Culture Education</h3>
+                                  </div>
+                              </div>
+                              </div>
+      
+                              <div className='Secontolastfott'>
+                                  <div>
+                                      <h3 className='my-[20px] text-[20px] font-bold text-[#D4A437]'>Join The Caravan</h3>
+                                  </div>
+                                  <div>
+                                      <div className='mb-[15px] flex gap-5'>
+                                          <div>
+                                            📍
+                                             {/* <FontAwesomeIcon icon={faLocationArrow}/> */}
+                                          </div>
+                                          <div>
+                                          <h3 className='text-yellow-600'>Festival Grounds</h3>
+                                          <p className='font-light text-[13px] text-amber-300'>Historic Culture Center</p>
+                                          </div>
+                                         
+                                      </div>
+      
+                                      <div className='mb-[15px] flex gap-5'>
+                                          <div>
+                                            📆
+                                             {/* <FontAwesomeIcon icon={faCalendar}/> */}
+                                          </div>
+                                          <div>
+                                              <h3 className='text-yellow-600'>Festiv Dates</h3>
+                                          <p className='text-amber-300'>Summer 2025</p>
+                                          </div>
+                                          
+                                      </div> 
+                                      
+                                      <div className='mb-[15px] flex gap-5'>
+                                          <div>
+                                            🎫
+                                              {/* <FontAwesomeIcon icon={faTicket}/> */}
+                                          </div>
+      
+                                          <div>
+                                                <h3 className='text-yellow-600'>Tickets Avalaible</h3>
+                                          <p className='text-amber-300'>Early Bird Pricing</p>
+                                          </div>
+                                        
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <hr className='h-[2px] bg-amber-800 w-[80%] relative left-[80px] ' />
+                          <br />
+                          <br />
+                          <br />
+                          <div className='flex mx-[80px] gap-[600px] mb-[40px] lastofthemall'>
+                              <div>
+                                  © 2024 Mali Empire Festival. Celebrating West African Heritage.
+                              </div>
+                              <div className='flex gap-[20px]'>
+                                  <li>Privacy</li>
+                                  <li>Terms</li>
+                                  <li>Contact</li>
+                              </div>
+                          </div>
+          </footer>
             </body>
         </>
         
