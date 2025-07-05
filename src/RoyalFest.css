@@ -1,0 +1,32 @@
+@media (min-width:200px) and (max-width:800px){
+    .topofRoyalF h3{
+        font-size: 60px !important;
+        width: 50% !important;
+        position: relative;
+        left: 80px;
+    }
+    .FirstofTheRoyal{
+        padding: 0 !important;
+    }
+    .FirstofTheRoyal-sub1{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .FirstofTheRoyal-subSS{
+        font-size: 20px !important;
+        text-wrap: nowrap;
+        position: relative;
+        left: -80px !important;
+    }
+    .FirstofTheRoyal-sub1-2{
+        margin: 20px 40px;
+    }
+    .FirstofTheRoyal-sub1-2 p{
+        left: 10px !important;
+        width: 90% !important;
+    }
+    .Royalformfo{
+        margin: 40px 20px;
+        position: relative;
+        left:-5px;
+    }
+}

@@ -1,0 +1,16 @@
+@media (min-width:200px) and (max-width:800px){
+    .tgecourtroyalcc58577{
+        grid-template-columns: repeat(1,1fr) !important;
+        gap: 30px;
+        left: 40px;
+    }
+    .tgecourtroyalcc58577sub4444{
+        flex-direction: column;
+        left: 1%;
+        margin: 10px 50px;
+    }
+    .tgecourtroyalcc58577sub4444pp{
+        position: relative;
+        left: 40px;
+    }
+}

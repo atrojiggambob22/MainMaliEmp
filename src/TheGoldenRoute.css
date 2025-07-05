@@ -37,7 +37,7 @@
 }
 .right{
   position: relative;
-  left:-40px;
+  /* left:-40px; */
 }
 .subheading {
   color: #8B0000;
@@ -65,4 +65,54 @@ ul {
 .icon {
   font-size: 1rem;
   margin-bottom: 0.5rem;
+}
+@media (min-width:200px) and (max-width:800px){
+  .FirstofRouteGOdle{
+    left: 30px !important;
+  }
+  .FirstofRouteGOdleSub1{
+    padding: 0px 0px !important;
+    /* width: 130% !important; */
+
+  }
+  .routes-content{
+    flex-direction: column;
+  }
+
+  .FirstofRouteGOdleSub1-sub1{
+    left: 10px !important;
+    width: 80% !important;
+  }
+  .FirstofRouteGOdleSub1-sub1-butt{
+    padding:5px !important;
+  }
+  .FirstofRouteGOdleSub1-sub1-butt li{
+    width: 100%;
+  }
+  ul{
+    padding: .5rem;
+  }
+  .journey-cards{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card{
+    width: 100%;
+    margin: 40px 10px;
+  }
+  .card p{
+    position: relative;
+    left:25px;
+  }
+
+  .ouey-cards{
+    margin: 5% !important;
+    width: 90%;
+    left: -2% !important;
+  }
+
+   .ouey-cards p{
+      left: 30px !important;
+   }
+
 }

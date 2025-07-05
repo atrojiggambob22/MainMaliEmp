@@ -2,7 +2,7 @@ import React from 'react';
 import SecondNav from './SecondNav';
 import './MaliEmp.css';
 import { useNavigate } from 'react-router-dom';
-
+import "./FestivalDrum.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faBars, faXmark, faDrum, faBuilding, faCrown, faTicket, faPanorama, faBookAtlas, faBook, faLocation, faLocationArrow, faCalendar, faMobile, faMailBulk, faWebAwesome, faGlobe} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
@@ -10,10 +10,12 @@ import { faOptinMonster } from '@fortawesome/free-brands-svg-icons/faOptinMonste
 export default function FestivalDrumbeat() {
 
      const navigate = useNavigate();
-
-  const gotoFestivalDrumbeatPage = () => {
-    navigate('/FestivalDrumbeat');
+ const goHome = () => {
+    navigate('/');
 }
+//   const gotoFestivalDrumbeatPage = () => {
+//     navigate('/FestivalDrumbeat');
+// }
 
  const gotoTheGoldenRoute = () => {
     navigate('/TheGoldenRoute');
@@ -39,31 +41,32 @@ const gotoSecureYourSpot = () => {
                 <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8'>
                     Mali Empire
                 </h1>
-                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
-                    <div className='flex gap-2 relative left-[1px] w-[29%]' onClick={gotoFestivalDrumbeatPage}>
-                        🥁
+                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
+                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
+                        🏡
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
-                        <li>Festival Drumbeat</li>
+                        <li> Home</li>
                     </div>
+                    
 
-                    <div className='flex gap-4 relative left-[-5px] w-[20%]' onClick={gotoRoyalFest}>
+                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoRoyalFest}>
                         🍯
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Fest</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoTheGoldenRoute}>
+                    <div className='flex gap-4 relative left-[-4px] w-[60%]' onClick={gotoTheGoldenRoute}>
                         🏛️
                         {/* <FontAwesomeIcon icon={faBuilding}/> */}
                         <li>The Golden Route</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoDressLikeRoyalty}>
+                    <div className='flex gap-2 relative left-[-3px] w-[60%]' onClick={gotoDressLikeRoyalty}>
                         {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
                         👑
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoSecureYourSpot}>
+                    <div className='flex gap-4 relative left-[-3px] w-[60%]' onClick={gotoSecureYourSpot}>
                         {/* <FontAwesomeIcon icon={faTicket}/> */}
                         🎫
                         <li>Secure Your Spot</li>
@@ -72,7 +75,7 @@ const gotoSecureYourSpot = () => {
                 </nav>
 
 
-        <div className='FirstMaliSSsub3-Sub2-Content1'>
+        <div className='FirstMaliSSsub3-Sub2-Content1 FDrum1'>
             <h3 className='text-[#E6C157] text-[50px] font-bold text-center'>Festival Drumbeat</h3>
             <p className='Firtsparolunderthecontent1 firstsegofheadd'>
             "The heartbeat of West Africa echoes through time"
@@ -80,16 +83,16 @@ const gotoSecureYourSpot = () => {
            
         </div>
 
-        <div className='justify-center text-center '>
+        <div className=' text-center '>
 
         <div className='bg-[#fce09dae] p-30  Perfomanceoftheroayal'>
-            <div className=' inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px]'>
+            <div className=' inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px] Perfomanceoftheroayalmin'>
             <h3 className='text-[30px] font-bold firstsegofheadd'>ROYAL PERFOMANCES</h3>
             </div>
 
-            <div className='grid grid-cols-3'>
+            <div className='grid grid-cols-3 FDrum1-subseb1'>
 
-            <div className='bg-[#ffe3a3fb] hover:bg-[#f8d37cfb] p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
+            <div className='bg-[#ffe3a3fb] hover:bg-[#f8d37cfb] p-[20px] py-[80px] rounded-[10px] mx-[10px] FDrum1-subseb1-2'>
                 <div className='p-[20px] rounded-[50%] bg-yellow-800 inline-block '>
                 🥁
 
@@ -98,7 +101,8 @@ const gotoSecureYourSpot = () => {
             <p className='w-[70%] relative left-[50px]'>Experience the powerful rhythms of djembe, dundun, and talking drums that once guided caravans across the sahara</p>
             
             </div>
-            <div  className='bg-[#ffe3a3fb] hover:bg-[#f8d37cfb] p-[20px]  py-[80px] rounded-[10px] mx-[10px] transition duration-600 ease-in-out'>
+
+            <div  className='bg-[#ffe3a3fb] hover:bg-[#f8d37cfb] p-[20px]  py-[80px] rounded-[10px] mx-[10px] transition duration-600 ease-in-out FDrum1-subseb1-2'>
                 <div className='p-[20px] rounded-[50%] bg-red-800 inline-block '>
 
                 💃
@@ -109,7 +113,8 @@ const gotoSecureYourSpot = () => {
             <p className='w-[70%] relative left-[50px]'>Witness the elegant movements that once graced the place  of Mansa Musa, perfomed by master dancers</p>
             
             </div>
-            <div  className='bg-[#ffe3a3fb]  hover:bg-[#f8d37cfb] p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
+
+            <div  className='bg-[#ffe3a3fb]  hover:bg-[#f8d37cfb] p-[20px] py-[80px] rounded-[10px] mx-[10px] FDrum1-subseb1-2'>
                 <div className='p-[20px] rounded-[50%] bg-gray-800 inline-block '>
             🎵
 
@@ -125,11 +130,11 @@ const gotoSecureYourSpot = () => {
         <div className='bg-[#fdd579ae] py-[80px] secondphaseofthedrum'>
             <div><h3 className='text-[25px] font-bold firstsegofheadd'>PERFORMANCE SCHEDULE</h3></div>
             
-            <div className='relative left-[30%]'>
+            <div className='relative left-[30%] FDrum1-subseb1-3-cheife'>
 
-            <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px]'>
+            <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px] FDrum1-subseb1-3'>
 
-            <div className='text-left px-[10px]'>
+            <div className='text-left px-[10px] FDrum1-subseb1-3-1'>
                 <h3 className='text-red-800 font-bold '>OPENING CEREMONY</h3>
                 <p>Traditional  and royal procession</p>
             
@@ -141,9 +146,9 @@ const gotoSecureYourSpot = () => {
 
             </div>
 
-            <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px]'>
+            <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px] FDrum1-subseb1-3'>
 
-            <div  className='text-left'>
+            <div  className='text-left FDrum1-subseb1-3-1'>
             <h3 className='text-red-800 font-bold '>MASTER DRUMMERS CIRCLE</h3>
             <p>Interacuve arumming experience</p>
             
@@ -155,9 +160,9 @@ const gotoSecureYourSpot = () => {
 
             </div>
 
-            <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px]'>
+            <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px] FDrum1-subseb1-3'>
 
-            <div  className='text-left'>
+            <div  className='text-left FDrum1-subseb1-3-1'>
                 <h3 className='text-red-800 font-bold '>ROYAL COURT PERFORMANCE</h3>
                 <p>Grand finale with full esemble</p>
             
@@ -174,7 +179,7 @@ const gotoSecureYourSpot = () => {
         </div>
 
 
-        <div className='p-[40px] bg-[#6a2f05]'>
+        <div className='p-[40px] bg-[#6a2f05] closetothefootofDruZ '>
         <div>
         <h3 className='text-[30px] font-bold my-[30px]'>Join The Celebration</h3></div>
         <p  className='text-[#fdd579ae]' >Don't miss the chance to be part of this extraordinary  cultural <br />

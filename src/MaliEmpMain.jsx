@@ -15,7 +15,9 @@ import { faOptinMonster } from '@fortawesome/free-brands-svg-icons/faOptinMonste
 
 export default function MaliEmpMain() {
     const navigate = useNavigate();
-
+    const goHome = () => {
+    navigate('/');
+}
   const gotoFestivalDrumbeatPage = () => {
     navigate('/FestivalDrumbeat');
 }
@@ -54,31 +56,36 @@ const gotoSecureYourSpot = () => {
                 <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8'>
                     Mali Empire
                 </h1>
-                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
-                    <div className='flex gap-2 relative left-[1px] w-[29%]' onClick={gotoFestivalDrumbeatPage}>
+                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
+                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
+                        🏡
+                        {/* <FontAwesomeIcon icon={faDrum}/> */}
+                        <li> Home</li>
+                    </div>
+                    <div className='flex gap-2 relative left-[-2px] w-[59%]' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[10px] w-[20%]' onClick={gotoRoyalFest}>
+                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoRoyalFest}>
                         🍯
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Fest</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoTheGoldenRoute}>
+                    <div className='flex gap-4 relative left-[-4px] w-[60%]' onClick={gotoTheGoldenRoute}>
                         🏛️
                         {/* <FontAwesomeIcon icon={faBuilding}/> */}
                         <li>The Golden Route</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoDressLikeRoyalty}>
+                    <div className='flex gap-2 relative left-[-3px] w-[60%]' onClick={gotoDressLikeRoyalty}>
                         {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
                         👑
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoSecureYourSpot}>
+                    <div className='flex gap-4 relative left-[-3px] w-[60%]' onClick={gotoSecureYourSpot}>
                         {/* <FontAwesomeIcon icon={faTicket}/> */}
                         🎫
                         <li>Secure Your Spot</li>

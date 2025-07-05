@@ -2,14 +2,16 @@ import React from "react";
 import './MaliEmp.css';
 import SecondNav from './SecondNav';
 import { useNavigate } from 'react-router-dom';
-
+import "./SecureYourSpot.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faBars, faXmark, faDrum, faBuilding, faCrown, faTicket, faPanorama, faBookAtlas, faBook, faLocation, faLocationArrow, faCalendar, faMobile, faMailBulk, faWebAwesome, faGlobe} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faOptinMonster } from '@fortawesome/free-brands-svg-icons/faOptinMonster';
 export default function RoyalFest() {
     const navigate = useNavigate();
-        
+         const goHome = () => {
+    navigate('/');
+}
           const gotoFestivalDrumbeatPage = () => {
             navigate('/FestivalDrumbeat');
         }
@@ -26,9 +28,7 @@ export default function RoyalFest() {
             navigate('/DressLikeRoyalty');
         }
         
-        const gotoSecureYourSpot = () => {
-            navigate('/SecureYourSpot');
-        }
+       
   return (
     <div className="FirstMaliSSsub3-Sub2">
          <SecondNav />
@@ -36,56 +36,57 @@ export default function RoyalFest() {
              <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
                 <h1 className='text-yellow-300 text-[20px] font-bold relative left-8'>Secure Your Spot
                 </h1>
-                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
-                    <div className='flex gap-2 relative left-[10px] w-[20%]' onClick={gotoFestivalDrumbeatPage}>
+                 <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
+                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
+                        🏡
+                        {/* <FontAwesomeIcon icon={faDrum}/> */}
+                        <li> Home</li>
+                    </div>
+                    <div className='flex gap-2 relative left-[-2px] w-[59%]' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[10px] w-[20%]' onClick={gotoRoyalFest}>
+                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoRoyalFest}>
                         🍯
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Fest</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-10px] w-[25%]' onClick={gotoTheGoldenRoute}>
+                    <div className='flex gap-4 relative left-[-4px] w-[60%]' onClick={gotoTheGoldenRoute}>
                         🏛️
                         {/* <FontAwesomeIcon icon={faBuilding}/> */}
                         <li>The Golden Route</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoDressLikeRoyalty}>
+                    <div className='flex gap-2 relative left-[-3px] w-[60%]' onClick={gotoDressLikeRoyalty}>
                         {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
                         👑
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div className='flex gap-4 relative left-[-10px] w-[20%]' onClick={gotoSecureYourSpot}>
-                        {/* <FontAwesomeIcon icon={faTicket}/> */}
-                        🎫
-                        <li>Secure Your Spot</li>
-                    </div>
+                    
                 </div>
                 </nav>
 
 
     <div className="FirstMaliSSsub3-Sub2-Content1 text-center">
          <h3 className="font-bold text-[50px] my-[10px]">Secure Your Spot</h3>
-         <p className="my-[20px] p-[15px] px-[40px]">
-         Join the royal caravan to acient Mali
+         <p className="my-[20px] p-[15px] px-[40px] firstsegofheadd" style={{fontFamily:"Crimson Text"}}>
+         "Join the royal caravan to acient Mali"
          </p>
         
       </div>
 
-    <div className="text-center">
+    <div className="text-center bg-[#ffe3a3fb]">
 
-    <div>
+    <div className="bg-[#fad37785]">
         <div>
-            <h3 className="font-bold text-[50px]">Festival Passes</h3>
+            <h3 className="font-bold text-[50px] firstsegofheadd mt-[50px]">Festival Passes</h3>
         </div>
-        <div className="grid grid-cols-3 my-[10%] relative left-[55px]">
-            <div className="border-3 border-gray-400 rounded-[10px] w-[80%] p-[40px]">
-                <div className="bg-yellow-600 inline-block p-[25px]  rounded-[50%]">🎫</div>
+        <div className="grid grid-cols-3 my-[10%] relative left-[55px] tgecourtroyalcc tgecourtroyalcc58577">
+            <div className="border-3 border-gray-400 rounded-[10px] w-[80%] p-[40px] bg-white">
+                <div className="bg-yellow-900 inline-block p-[25px]  rounded-[50%]">🎫</div>
                 <h3 className="text-[30px] font-bold">caravan member</h3>
                 <p>$35<span className="opacity-[0.5]">/day</span></p>
                 <div className="text-start ">
@@ -98,11 +99,12 @@ export default function RoyalFest() {
                     <h3 className="">Join the caraven</h3>
                 </div>
             </div>
-            <div>
-                 <div className="relative left-[-40px] bg-orange-950 inline-block p-[10px] rounded-[20px]  top-[30px]">
+
+            <div >
+                 <div className="relative left-[-40px] bg-orange-950 inline-block p-[10px] rounded-[20px]  top-[30px]  ">
                     <h3 className="text-amber-200">MOst popular</h3>
                 </div>
-            <div  className="border-3 border-orange-800 rounded-[10px] w-[80%] p-[40px]">
+            <div  className="border-3 border-orange-800 rounded-[10px] w-[80%] p-[40px] bg-white">
                
                 <div className="bg-orange-800 inline-block p-[25px]  rounded-[50%]">👑</div>
                 <h3 className="text-[30px] font-bold">Royal Court</h3>
@@ -121,7 +123,7 @@ export default function RoyalFest() {
 
             </div>
 
-            <div className="border-3 border-gray-400 rounded-[10px] w-[80%] p-[40px]" >
+            <div className="border-3 border-gray-400 rounded-[10px] w-[80%] p-[40px] bg-white" >
                 <div className="bg-amber-950 inline-block p-[25px]  rounded-[50%]">⚜️</div>
                 <h3 className="text-[30px] font-bold">Imperial Circle</h3>
                 <p>$150<span className="opacity-[0.5]">/day</span></p>
@@ -139,10 +141,10 @@ export default function RoyalFest() {
         </div>
     </div>
 
-    <div>
-        <h3 className="text-[40px] font-bold">Festival Information</h3>
-        <div>
-            <div className="flex gap-[50px] my-[5%] text-start relative left-[22%]">
+    <div className="">
+        <h3 className="text-[40px] font-bold firstsegofheadd my-[50px]">Festival Information</h3>
+        <div className="tgecourtroyalcc tgecourtroyalcc1">
+            <div className="flex gap-[50px] my-[5%] text-start relative left-[22%] tgecourtroyalcc58577sub4444">
                 <div className="bg-amber-100 p-[20px] rounded-[20px]" >
                     <h3 className="text-red-800 font-bold text-[20px]">WHEN & WHERE</h3>
                     <p className="my-[20px]"> <strong>Dates:</strong> August 15-17. 2024
@@ -174,9 +176,9 @@ export default function RoyalFest() {
         </div>
     </div>
 
-    <div className="mt-[10%] bg-amber-800 p-[40px] py-[60px]">
+    <div className="mt-[10%] bg-[#6a2f05] p-[40px] py-[60px]">
         <h3 className="text-[30px] font-bold text-amber-200 ">DON'T MISS THIS HISTORIC JOURNEY</h3>
-        <p className="w-[50%] relative left-[24%] my-[40px]">Secure your place in the greatest celebration of West African heritage.
+        <p className="w-[50%] relative left-[24%] my-[40px] tgecourtroyalcc58577sub4444pp" style={{color:"yellow"}}>Secure your place in the greatest celebration of West African heritage.
 Limited capacity ensures an Intimate experience.</p>
 <div className="bg-amber-500 inline-block">
     <h3 className="text-[20px] p-[10px] px-[30px]">Purchase ticket now</h3>

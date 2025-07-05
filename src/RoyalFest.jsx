@@ -1,6 +1,7 @@
 import React from "react";
 import SecondNav from './SecondNav';
 import './MaliEmp.css';
+import "./RoyalFest.css"
 import { useNavigate } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,7 +11,9 @@ import { faOptinMonster } from '@fortawesome/free-brands-svg-icons/faOptinMonste
 import RoyalDecreeForm from "./RoyalDecreeForm";
 export default function RoyalFest() {
      const navigate = useNavigate();
-    
+         const goHome = () => {
+    navigate('/');
+}
       const gotoFestivalDrumbeatPage = () => {
         navigate('/FestivalDrumbeat');
     }
@@ -19,9 +22,7 @@ export default function RoyalFest() {
         navigate('/TheGoldenRoute');
     } 
     
-    const gotoRoyalFest = () => {
-        navigate('/RoyalFest');
-    } 
+   
     
     const gotoDressLikeRoyalty = () => {
         navigate('/DressLikeRoyalty');
@@ -37,31 +38,32 @@ export default function RoyalFest() {
               <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
                 <h1 className='text-yellow-300 text-[25px] font-bold relative left-8'>Royal Court
                 </h1>
-                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
-                    <div className='flex gap-2 relative left-[10px] w-[20%]' onClick={gotoFestivalDrumbeatPage}>
+                 <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
+                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
+                        🏡
+                        {/* <FontAwesomeIcon icon={faDrum}/> */}
+                        <li> Home</li>
+                    </div>
+                    <div className='flex gap-2 relative left-[-2px] w-[59%]' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[10px] w-[20%]' onClick={gotoRoyalFest}>
-                        🍯
-                        {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
-                        <li>Royal Fest</li>
-                    </div>
+                    
 
-                    <div className='flex gap-4 relative left-[-10px] w-[25%]' onClick={gotoTheGoldenRoute}>
+                    <div className='flex gap-4 relative left-[-4px] w-[60%]' onClick={gotoTheGoldenRoute}>
                         🏛️
                         {/* <FontAwesomeIcon icon={faBuilding}/> */}
                         <li>The Golden Route</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoDressLikeRoyalty}>
+                    <div className='flex gap-2 relative left-[-3px] w-[60%]' onClick={gotoDressLikeRoyalty}>
                         {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
                         👑
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div className='flex gap-4 relative left-[-10px] w-[20%]' onClick={gotoSecureYourSpot}>
+                    <div className='flex gap-4 relative left-[-3px] w-[60%]' onClick={gotoSecureYourSpot}>
                         {/* <FontAwesomeIcon icon={faTicket}/> */}
                         🎫
                         <li>Secure Your Spot</li>
@@ -69,8 +71,9 @@ export default function RoyalFest() {
                 </div>
                 </nav>
 
-            <div className='FirstMaliSSsub3-Sub2-Content1'>
+            <div className='FirstMaliSSsub3-Sub2-Content1 topofRoyalF'>
             <h3  className='text-[#E6C157] text-[50px] font-bold text-center' >Royal Fest</h3>
+            
             <div className="relative left-[40px] ">
 
             <p className='Firtsparolunderthecontent1 relative firstsegofheadd' >
@@ -80,35 +83,37 @@ export default function RoyalFest() {
             </div>
         </div>
 
-        <div className="text-center bg-[#fce09dae] p-30">
+        <div className="text-center bg-[#fce09dae] p-30 FirstofTheRoyal">
 
         <div className='my-[90px]'>
             <div className='inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px]'>
-            <h3 className='text-[30px] font-bold firstsegofheadd'>SUMMON THE ROYAL SCRIBES</h3>
+            <h3 className='text-[30px] font-bold firstsegofheadd FirstofTheRoyal-subSS'>SUMMON THE ROYAL SCRIBES</h3>
             </div>
 
-            <div className='grid grid-cols-4'>
+            <div className='grid grid-cols-4 FirstofTheRoyal-sub1'>
 
-            <div className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
+            <div className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px] FirstofTheRoyal-sub1-2'>
             <FontAwesomeIcon icon={faMailBulk} className="rounded-[50%] p-[20px] bg-amber-400"/>
             <h3 className='mb-[10px] font-bold text-[20px] text-red-900'>Royal Messemger</h3>
             <p className='w-[100%] relative left-[10px] ' style={{fontFamily:"Crimson Text"}} >maliempire2025@gmail.com</p>
             
             </div>
-            <div  className='bg-white p-[20px]  py-[80px] rounded-[10px] mx-[10px]'>
+
+            <div  className='bg-white p-[20px]  py-[80px] rounded-[10px] mx-[10px] FirstofTheRoyal-sub1-2'>
             <FontAwesomeIcon icon={faPhone}  className="rounded-[50%] p-[20px] bg-red-700 text-white"/>
             <h3 className='mb-[10px]'>Palace Herald</h3>
             <p className='w-[70%] relative left-[50px]'></p>
             
             </div>
-            <div  className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
+
+            <div  className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px] FirstofTheRoyal-sub1-2'>
             <FontAwesomeIcon icon={faLocation}  className="rounded-[50%] p-[20px] bg-gray-800 text-white"/>
             <h3 className='mb-[10px]'>Imperial Palace</h3>
             <p className='w-[70%] relative left-[50px]' style={{fontFamily:"Crimson Text"}} > 123, Ikorodu street Snai riad sk fkef</p>
             
             </div>
             
-             <div  className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px]'>
+             <div  className='bg-white p-[20px] py-[80px] rounded-[10px] mx-[10px] FirstofTheRoyal-sub1-2'>
             <FontAwesomeIcon icon={faClock}  className="rounded-[50%] p-[20px] bg-amber-400"/>
             <h3 className='mb-[10px]'>Court Hours</h3>
             <p className=' relative '  style={{fontFamily:"Crimson Text"}} >
@@ -124,7 +129,7 @@ export default function RoyalFest() {
             </div>
         </div>
         
-        <div>
+        <div className="Royalformfo">
             <RoyalDecreeForm/>
         </div>
         </div>

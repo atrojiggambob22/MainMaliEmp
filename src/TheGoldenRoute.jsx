@@ -9,14 +9,16 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faOptinMonster } from '@fortawesome/free-brands-svg-icons/faOptinMonster';
 export default function TheGoldenRoute() {
      const navigate = useNavigate();
-
+const goHome = () => {
+    navigate('/');
+}
   const gotoFestivalDrumbeatPage = () => {
     navigate('/FestivalDrumbeat');
 }
 
- const gotoTheGoldenRoute = () => {
-    navigate('/TheGoldenRoute');
-} 
+//  const gotoTheGoldenRoute = () => {
+//     navigate('/TheGoldenRoute');
+// } 
 
 const gotoRoyalFest = () => {
     navigate('/RoyalFest');
@@ -36,31 +38,32 @@ const gotoSecureYourSpot = () => {
                 <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
                 <h1 className='text-yellow-300 text-[20px] font-bold relative left-8'>TheGolden Route
                 </h1>
-                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-50px] '>
-                    <div className='flex gap-2 relative left-[10px] w-[20%]' onClick={gotoFestivalDrumbeatPage}>
+                 <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
+                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
+                        🏡
+                        {/* <FontAwesomeIcon icon={faDrum}/> */}
+                        <li> Home</li>
+                    </div>
+                    <div className='flex gap-2 relative left-[-2px] w-[59%]' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[10px] w-[20%]' onClick={gotoRoyalFest}>
+                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoRoyalFest}>
                         🍯
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Fest</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-10px] w-[25%]' onClick={gotoTheGoldenRoute}>
-                        🏛️
-                        {/* <FontAwesomeIcon icon={faBuilding}/> */}
-                        <li>The Golden Route</li>
-                    </div>
+                   
 
-                    <div className='flex gap-4 relative left-[-10px] w-[28%]' onClick={gotoDressLikeRoyalty}>
+                    <div className='flex gap-2 relative left-[-3px] w-[60%]' onClick={gotoDressLikeRoyalty}>
                         {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
                         👑
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div className='flex gap-4 relative left-[-10px] w-[20%]' onClick={gotoSecureYourSpot}>
+                    <div className='flex gap-4 relative left-[-3px] w-[60%]' onClick={gotoSecureYourSpot}>
                         {/* <FontAwesomeIcon icon={faTicket}/> */}
                         🎫
                         <li>Secure Your Spot</li>
@@ -71,12 +74,12 @@ const gotoSecureYourSpot = () => {
 
              <div className='FirstMaliSSsub3-Sub2-Content1'>
             <h3 className='text-[#E6C157] text-[50px] font-bold text-center'>Golden Route</h3>
-            <p className='Firtsparolunderthecontent1 firstsegofheadd'>
+            <p className='Firtsparolunderthecontent1 firstsegofheadd FirstofRouteGOdle'>
             "The heartbeat of West Africa echoes through time"
             </p>
            
         </div> 
-            <div className="bg-amber-100 p-[60px] py-[80px]">
+            <div className="bg-amber-100 p-[60px] py-[80px] FirstofRouteGOdleSub1">
             <div className="text-center font-bold text-[20px]">
                 <h3>Historic trade Routes</h3>
             </div>
@@ -98,9 +101,10 @@ const gotoSecureYourSpot = () => {
             </p>
           </div>
 
-            <div className="relative left-[-30%] bg-[#fdd579ae] w-[50%] rounded-[10px]"  >
-          <div className="p-[20px]" >
+            <div className="relative left-[-30%] bg-[#fdd579ae] w-[50%] rounded-[10px] FirstofRouteGOdleSub1-sub1 "  >
+          <div className="p-[20px] FirstofRouteGOdleSub1-sub1-butt" >
             <h3 className="font-bold">Key Trading Cities</h3>
+            
             <ul className="text-nowrap mt-[20px]" >
               <li className="mb-[20px]"  style={{fontFamily:"Crimson Text"}}>
                 <strong>Timbuktu</strong> – The Pearl of the Desert</li>
@@ -147,8 +151,8 @@ const gotoSecureYourSpot = () => {
         </div>
       </section>
 
-      <div className="text-center my-[10%] bg-[#ffffffae] inline-block w-[70%] relative left-[15%] p-[20px] rounded-[20px]">
-        <h3 className="font-bold text-[20px]" >interactive map experience</h3>
+      <div className="text-center my-[10%] bg-[#ffffffae] inline-block w-[70%] relative left-[15%] p-[20px] rounded-[20px] ouey-cards">
+        <h3 className="font-bold text-[20px]" >Interactive map experience</h3>
         <p className="w-[60%] relative left-[20%] my-[30px]"  style={{fontFamily:"Crimson Text"}}>Use our interactive festival map to plot your own golden route through the various attraction, performance, and experiences. Collect Stamps at each Location to earn special rewards</p>
         <div className="p-[10px] bg-amber-500 inline-block px-[30px]">
           <h3>Download Festival Map</h3>

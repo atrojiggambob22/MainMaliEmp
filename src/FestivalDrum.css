@@ -1,0 +1,47 @@
+@media (min-width:200px) and (max-width:800px){
+    .FDrum1 p{
+        position: relative;
+        left: 30px !important;
+    }
+
+    .FDrum1-subseb1{
+        grid-template-columns: repeat(1,1fr) !important;
+        gap: 20px;
+    }
+
+    .FDrum1-subseb1-2{
+        margin: 0px !important;
+        padding: 30px !important;
+        /* width: 100% !important; */
+        
+    }
+    .FDrum1-subseb1-2 p{
+        width: 100% !important;
+        left: 10px !important;
+    }
+    .Perfomanceoftheroayal{
+        padding:10px 30px !important;
+    }
+    .Perfomanceoftheroayalmin {
+        left:-50px !important;
+        margin: 40px 0 !important;
+
+    }
+
+    .FDrum1-subseb1-3-cheife{
+        left:1% !important;
+    }
+    .FDrum1-subseb1-3{
+        margin: 30px !important;
+        width: 80% !important;
+    }
+    .FDrum1-subseb1-3-1 p{
+        width:100% !important;
+        font-size: 15px;
+    }
+
+    .closetothefootofDrum p{
+        position: relative;
+        left: 30px;
+    }
+}

@@ -2,6 +2,9 @@
 .seconnav {
   display: none;
 }
+li{
+  cursor: pointer;
+}
 .menu-toggle {
   position: fixed;
   top: 15px;
@@ -35,7 +38,8 @@
     display: block;
     position: fixed;
     top: 15px;
-    left: 80%;
+    left:80%;
+    width: 15%;
     background-color: #664200;
     color: white;
     font-size: 1.5rem;

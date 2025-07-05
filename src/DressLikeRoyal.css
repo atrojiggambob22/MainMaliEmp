@@ -1,0 +1,25 @@
+@media (min-width:200px) and (max-width:800px){
+    .FirstofDresRoyal p{
+        left: -1px !important;
+    }
+    .FirstofDresRoyalSub1{
+        flex-direction: column;
+        width: 140%;
+        position: relative;
+        left:1px;
+    }
+    .SecondPhaseofcontainer{
+        grid-template-columns:repeat(1,1fr) ;
+        gap: 100px;
+    }
+    .SecondPhaseofcontainer-889d{
+        grid-template-columns: repeat(1,1fr);
+        gap: 90px;
+        width: 90%;
+        left: 5%;
+    }
+    .closetothefootofhtedress p{
+        width: 80%;
+        left: 30px;
+    }
+}

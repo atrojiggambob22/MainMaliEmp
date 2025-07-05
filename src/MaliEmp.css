@@ -18,15 +18,15 @@
 nav{
    background-color:#3A2B1D;
     position: relative;
-
+    cursor: pointer;
    /* width: full; */
 }
 
 nav li{
-    color:#F4E2B2;
-     font-family: "Crimson Text", serif;
+color:#F4E2B2;
+ font-family: "Crimson Text", serif;
   font-weight: 400;
-  position: relative;
+  /* position: relative; */
   /* left:10px; */
   /* width: 100%; */
 }
@@ -34,6 +34,7 @@ nav li:hover{
     color:#D4A437;
 }
 nav h1{
+    /* width: 60% !important; */
     font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -119,6 +120,8 @@ footer{
     }
     .seconnav{
         display: block;
+        /* position: relative;
+        left:-60%; */
     }
     .FirstMali h1{
         font-size: 80px;
@@ -276,3 +279,14 @@ font-family: "Crimson Text", serif;
 .closetothefootofhtedress p{
        font-family: "Crimson Text", serif;
 }   
+
+
+/* Styles for secure you spot */
+.tgecourtroyalcc li{
+     font-family: "Crimson Text", serif;
+}
+.tgecourtroyalcc1 p{
+     font-family: "Crimson Text", serif;
+}
+
+
