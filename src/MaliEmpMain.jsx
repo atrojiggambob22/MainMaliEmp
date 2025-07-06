@@ -26,7 +26,7 @@ export default function MaliEmpMain() {
     navigate('/TheGoldenRoute');
 } 
 
-const gotoRoyalFest = () => {
+const gotoRoyalCourt = () => {
     navigate('/RoyalCourt');
 } 
 
@@ -40,7 +40,9 @@ const gotoSecureYourSpot = () => {
 const gotoTheMusaProject = () => {
     navigate ('/TheMusaProject')
 }
-
+const gotoRoyalFest = () => {
+    navigate ('/RoyalFest')
+}
     return (
         <>
         
@@ -60,16 +62,24 @@ const gotoTheMusaProject = () => {
                     The MNUsa Project
                 </h1>
                 <div className='flex gap-2 text-nowrap relative top-[10px] left-[10%] '>
+
                     <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoTheMusaProject}>
                         🌟
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>The Musa Project</li>
                     </div>
-                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
-                        🏡
-                        {/* <FontAwesomeIcon icon={faDrum}/> */}
-                        <li> Home</li>
+
+
+                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={gotoRoyalFest}>
+                        🍯
+                        
+                        <li> Royal fest</li>
                     </div>
+                    {/* <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
+                        🏡
+                        
+                        <li> Home</li>
+                    </div> */}
                     <div className='flex gap-2 relative left-[-2px] w-[59%]' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
@@ -78,7 +88,7 @@ const gotoTheMusaProject = () => {
                     
                      
 
-                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoRoyalFest}>
+                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoRoyalCourt}>
                         📜
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Coutr</li>
@@ -106,6 +116,7 @@ const gotoTheMusaProject = () => {
             
 
             </div>
+            
             <div className='FirstMali text-center my-[100px] '>
                 <h1 className='text-center text-[90px] font-bold text-[#E6C157]'>MALI EMPIRE <br /> <span className='text-[#f1ab06]'>FESTIVAL</span></h1>
 

@@ -1,0 +1,97 @@
+.firstsetofthefeatsfest{
+     margin: 40px;
+}
+.firstsetofthefeatsfest p{
+    width: 80%;
+    position: relative;
+    left:15%;
+      font-family: "Crimson Text", serif;
+      font-size: 20px;
+     
+}
+.firstsetofthefeatsfest h3{
+    font-size: 30px;
+}
+
+.firstsetofthefeatsfestsub1{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.firstsetofthefeatsfestsub1 .icon{
+    font-size: 30px;
+}
+
+
+/* different section */
+.goldenLine{
+    height: 2px ;
+    width: 70px;
+    background-color: gold;
+    position: relative;
+    top:10px;
+}
+
+/* This is another section */
+.firstsetofthefeatsfestsub2cheife{
+    margin: 40px;
+}
+.firstsetofthefeatsfestsub2{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 20px;
+}
+.firstsetofthefeatsfestsub2 h3{
+    font-size: 25px;
+}
+.firstsetofthefeatsfestsub2 p{
+    font-weight: 200;
+     /* font-family: "Crimson Text", serif; */
+}
+
+/* This is another section */
+.firstsetofthefeatsfestSub33{
+    background-color: red;
+    margin: 10px 60px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.firstsetofthefeatsfestSub33-Sub1{
+    width: 70%;
+    position: relative;
+    left: 10%;
+    top:-40px;
+}
+
+.firstsetofthefeatsfestSub33-Sub2{
+    display: flex;
+    gap: 20px;
+    background-color: antiquewhite;
+    padding: 10px ;
+    border-radius: 10px;
+}
+.firstsetofthefeatsfestSub33-Sub2 h3{
+    font-size: 20px;
+    font-weight:600;
+}
+.firstsetofthefeatsfestSub33-Sub2 .icon{
+    position: relative;
+    top: 10px;
+}
+
+/* This is another section */
+.firstsetofthefeatsfestSub44{
+    padding: 15% 10%;
+    
+}
+.firstsetofthefeatsfestSub44-Sub1{
+    margin: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius:10px;
+}
+.firstsetofthefeatsfestSub44-Sub1 h3{
+    font-weight: 500 !important;
+    font-size: 20px;
+}

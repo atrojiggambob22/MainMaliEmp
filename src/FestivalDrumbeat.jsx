@@ -39,7 +39,7 @@ const gotoSecureYourSpot = () => {
 
          <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
                 <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8'>
-                   The Musa Prject
+                   The Musa Project
                 </h1>
                 <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
                     <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>

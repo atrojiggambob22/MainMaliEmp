@@ -10,6 +10,7 @@ import TheGoldenRoute from './TheGoldenRoute';
 import DressLikeRoyalty from './DressLikeRoyalty';
 import SecureYourSpot from './SecureYourSpot'
 import TheMusaProject from './TheMusaProject';
+import RoyalFest from './RoyalFest';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -21,6 +22,8 @@ function App() {
         <Route path="/RoyalCourt" element={<RoyalCourt />} />
         <Route path="/TheGoldenRoute" element={<TheGoldenRoute />} />
         <Route path="/TheMusaProject" element={<TheMusaProject />} />
+        
+        <Route path="/RoyalFest" element={<RoyalFest />} />
 
         <Route path="/DressLikeRoyalty" element={<DressLikeRoyalty />} />
 
