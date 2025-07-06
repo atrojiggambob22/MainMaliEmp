@@ -21,7 +21,7 @@ export default function RoyalFest() {
         } 
         
         const gotoRoyalFest = () => {
-            navigate('/RoyalFest');
+            navigate('/RoyalCourt');
         } 
         
         const gotoDressLikeRoyalty = () => {
@@ -71,7 +71,7 @@ export default function RoyalFest() {
 
 
     <div className="FirstMaliSSsub3-Sub2-Content1 text-center">
-         <h3 className="font-bold text-[50px] my-[10px]">Secure Your Spot</h3>
+         <h3 className="font-bold text-[50px] my-[10px]"> The Musa Project</h3>
          <p className="my-[20px] p-[15px] px-[40px] firstsegofheadd" style={{fontFamily:"Crimson Text"}}>
          "Join the royal caravan to acient Mali"
          </p>
@@ -193,7 +193,7 @@ Limited capacity ensures an Intimate experience.</p>
                           <div className='FirstMaliSSsub3-Sub1 grid grid-cols-3 my-[60px] mx-[20px]'>
                               <div className='FirstMaliSSsub3-Sub2'>
                                   <div>
-                                  <h3 className='my-[20px] font-bold text-[20px]'>MALI EMPIRE FESTIVAL</h3>
+                                  <h3 className='my-[20px] font-bold text-[20px] text-[#D4A437]'>MALI EMPIRE FESTIVAL</h3>
                                   <p className='w-[70%]'>Join us for an authentic celenration of our West African heritage, culture, traditions. Experience the golden age of the mali empire through music, food, and community</p>
       
                                   </div>
@@ -217,7 +217,7 @@ Limited capacity ensures an Intimate experience.</p>
       
                               <div className='FirstMaliSSsub3-Sub3'>
                               <div>
-                                 <h2 className='my-[20px] text-[20px] font-bold'>Festival Element</h2>
+                                 <h3 className='my-[20px] text-[20px] font-bold  firstsegofheadd'>Festival Element</h3>
                               </div>
                               <div className='mb-[15px] flex gap-5'>
                                   <div>
@@ -264,7 +264,7 @@ Limited capacity ensures an Intimate experience.</p>
       
                               <div className='Secontolastfott'>
                                   <div>
-                                      <h2 className='my-[20px] text-[20px] font-bold'>Join The Caravan</h2>
+                                      <h3 className='my-[20px] text-[20px] font-bold firstsegofheadd'>Join The Caravan</h3>
                                   </div>
                                   <div>
                                       <div className='mb-[15px] flex gap-5'>

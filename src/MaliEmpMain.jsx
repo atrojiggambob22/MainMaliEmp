@@ -3,7 +3,7 @@ import "./MaliEmp.css";
 import { useNavigate } from 'react-router-dom';
 
 // import { Link } from 'react-router-dom';
-
+import ManonRed from "../public/images/ManonRed.jpg";
 import SecondNav from "./SecondNav"
 import Anthelope from "../public/images/anthelope.jpg";
 import Camel from "../public/images/Camel.jpg";
@@ -27,7 +27,7 @@ export default function MaliEmpMain() {
 } 
 
 const gotoRoyalFest = () => {
-    navigate('/RoyalFest');
+    navigate('/RoyalCourt');
 } 
 
 const gotoDressLikeRoyalty = () => {
@@ -36,6 +36,9 @@ const gotoDressLikeRoyalty = () => {
 
 const gotoSecureYourSpot = () => {
     navigate('/SecureYourSpot');
+}
+const gotoTheMusaProject = () => {
+    navigate ('/TheMusaProject')
 }
 
     return (
@@ -52,11 +55,16 @@ const gotoSecureYourSpot = () => {
 
              <div className='themchiefeofthenbud'>
             <div>
-            <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
+            <nav className='flex gap-10  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
                 <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8'>
-                    Mali Empire
+                    The MNUsa Project
                 </h1>
-                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
+                <div className='flex gap-2 text-nowrap relative top-[10px] left-[10%] '>
+                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoTheMusaProject}>
+                        🌟
+                        {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
+                        <li>The Musa Project</li>
+                    </div>
                     <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
                         🏡
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
@@ -67,11 +75,13 @@ const gotoSecureYourSpot = () => {
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
                     </div>
+                    
+                     
 
                     <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoRoyalFest}>
-                        🍯
+                        📜
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
-                        <li>Royal Fest</li>
+                        <li>Royal Coutr</li>
                     </div>
 
                     <div className='flex gap-4 relative left-[-4px] w-[60%]' onClick={gotoTheGoldenRoute}>
@@ -211,7 +221,7 @@ const gotoSecureYourSpot = () => {
 
                     </div>
                 </div>
-            <footer className='relative left-[-18px] w-[110%] '>
+             <footer className='relative left-[-18px] w-[110%] '>
                           <div className='FirstMaliSSsub3-Sub1 grid grid-cols-3 my-[60px] mx-[20px]'>
                               <div className='FirstMaliSSsub3-Sub2'>
                                   <div>
@@ -239,7 +249,7 @@ const gotoSecureYourSpot = () => {
       
                               <div className='FirstMaliSSsub3-Sub3'>
                               <div>
-                                 <h3 className='my-[20px] text-[20px] font-bold text-[#D4A437]'>Festival Element</h3>
+                                 <h3 className='my-[20px] text-[20px] font-bold  firstsegofheadd'>Festival Element</h3>
                               </div>
                               <div className='mb-[15px] flex gap-5'>
                                   <div>
@@ -286,7 +296,7 @@ const gotoSecureYourSpot = () => {
       
                               <div className='Secontolastfott'>
                                   <div>
-                                      <h3 className='my-[20px] text-[20px] font-bold text-[#D4A437]'>Join The Caravan</h3>
+                                      <h3 className='my-[20px] text-[20px] font-bold firstsegofheadd'>Join The Caravan</h3>
                                   </div>
                                   <div>
                                       <div className='mb-[15px] flex gap-5'>

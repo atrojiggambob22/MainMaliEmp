@@ -5,10 +5,11 @@ import viteLogo from '/vite.svg'
 import MaliEmpMain from './MaliEmpMain'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import FestivalDrumbeat from './FestivalDrumbeat';
-import RoyalFest from './RoyalFest';
+import RoyalCourt from './RoyalCourt';
 import TheGoldenRoute from './TheGoldenRoute';
 import DressLikeRoyalty from './DressLikeRoyalty';
 import SecureYourSpot from './SecureYourSpot'
+import TheMusaProject from './TheMusaProject';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,8 +18,9 @@ function App() {
       <Routes>
         <Route path="/" element={<MaliEmpMain />} />
         <Route path="/FestivalDrumbeat" element={<FestivalDrumbeat />} />
-        <Route path="/RoyalFest" element={<RoyalFest />} />
+        <Route path="/RoyalCourt" element={<RoyalCourt />} />
         <Route path="/TheGoldenRoute" element={<TheGoldenRoute />} />
+        <Route path="/TheMusaProject" element={<TheMusaProject />} />
 
         <Route path="/DressLikeRoyalty" element={<DressLikeRoyalty />} />
 

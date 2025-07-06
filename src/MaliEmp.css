@@ -7,12 +7,12 @@
 }
 
 .themchiefeofthenbud{
-    background: url(../public//images/thmerrrr.jpg);
-    opacity: 0.9;
+    background: url(../public/images/Manonred.jpg);
+    /* opacity: 0.9; */
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:top center;
     
 }
 nav{
@@ -102,7 +102,7 @@ footer{
 }
 .FirstMaliSSsub3-Sub2 p{
       transition: .4s linear;
-        color: rgba(147, 86, 15, 0.923);
+        color: rgba(147, 85, 15, 0.429);
 }
 .FirstMaliSSsub3-Sub3 h3{
     transition: .4s linear;
@@ -248,6 +248,7 @@ font-family: "Crimson Text", serif;
 }
 .FirstMaliSSsub3-Sub2-Content1{
     background: linear-gradient(rgb(133, 47, 7), #d99861);
+    padding: 50px 40px;
 }
 .FirstMaliSSsub3-Sub2-Content1 h3{
     color:rgb(249, 198, 126);

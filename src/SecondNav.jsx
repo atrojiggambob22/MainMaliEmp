@@ -54,12 +54,12 @@ const SecondNav = () => {
         </div>
 
         <ul className="nav-links">
-          <li onClick={goHome}>Home</li>
-          <li onClick={gotoFestivalDrumbeatPage}>Festival Drumbeat</li>
-          <li onClick={gotoRoyalFest}>Royal Fest</li>
-          <li onClick={gotoTheGoldenRoute}>The Golden Route</li>
-          <li onClick={gotoDressLikeRoyalty}>Dress Like Royalty</li>
-          <li onClick={gotoSecureYourSpot}>Secure Your Spot</li>
+          <li onClick={goHome}> 🏡 Home</li>
+          <li onClick={gotoFestivalDrumbeatPage}> 🥁 Festival Drumbeat</li>
+          <li onClick={gotoRoyalFest}> 📜 Royal Court</li>
+          <li onClick={gotoTheGoldenRoute}> 🏛️ The Golden Route</li>
+          <li onClick={gotoDressLikeRoyalty}> 👑Dress Like Royalty</li>
+          <li onClick={gotoSecureYourSpot}> 🎫 Secure Your Spot</li>
         </ul>
 
         <div className="owners-hub">

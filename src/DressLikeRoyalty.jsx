@@ -22,7 +22,7 @@ const goHome = () => {
 } 
 
 const gotoRoyalFest = () => {
-    navigate('/RoyalFest');
+    navigate('/RoyalCourt');
 } 
 
 
@@ -36,7 +36,7 @@ const gotoSecureYourSpot = () => {
           <SecondNav />
            
           <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
-                <h1 className='text-yellow-300 text-[20px] font-bold relative left-8'>Dress Like Royalty
+                <h1 className='text-yellow-300 text-[20px] font-bold relative left-8'>The Musa Project
                 </h1>
                   <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
                     <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
@@ -210,11 +210,11 @@ const gotoSecureYourSpot = () => {
 
 
 
-          <footer className='relative left-[-18px] w-[110%] '>
+         <footer className='relative left-[-18px] w-[110%] '>
                           <div className='FirstMaliSSsub3-Sub1 grid grid-cols-3 my-[60px] mx-[20px]'>
                               <div className='FirstMaliSSsub3-Sub2'>
                                   <div>
-                                  <h3 className='my-[20px] font-bold text-[20px]'>MALI EMPIRE FESTIVAL</h3>
+                                  <h3 className='my-[20px] font-bold text-[20px] text-[#D4A437]'>MALI EMPIRE FESTIVAL</h3>
                                   <p className='w-[70%]'>Join us for an authentic celenration of our West African heritage, culture, traditions. Experience the golden age of the mali empire through music, food, and community</p>
       
                                   </div>
@@ -238,7 +238,7 @@ const gotoSecureYourSpot = () => {
       
                               <div className='FirstMaliSSsub3-Sub3'>
                               <div>
-                                 <h2 className='my-[20px] text-[20px] font-bold'>Festival Element</h2>
+                                 <h3 className='my-[20px] text-[20px] font-bold  firstsegofheadd'>Festival Element</h3>
                               </div>
                               <div className='mb-[15px] flex gap-5'>
                                   <div>
@@ -285,7 +285,7 @@ const gotoSecureYourSpot = () => {
       
                               <div className='Secontolastfott'>
                                   <div>
-                                      <h2 className='my-[20px] text-[20px] font-bold'>Join The Caravan</h2>
+                                      <h3 className='my-[20px] text-[20px] font-bold firstsegofheadd'>Join The Caravan</h3>
                                   </div>
                                   <div>
                                       <div className='mb-[15px] flex gap-5'>
