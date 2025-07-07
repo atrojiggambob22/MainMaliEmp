@@ -337,17 +337,17 @@ export default function RoyalFest(){
                         </div>
                         <div className='flex gap-10 my-[20px]'>
                             <div>
-                                {/* <FontAwesomeIcon icon={faMailBulk}/> */}
+                               
                                 📧
                             </div>
                             <div>
                             📱
-                                {/* <FontAwesomeIcon icon={faMobile}/> */}
+                                
 
                             </div>
                             <div>
                             🌐
-                                {/* <FontAwesomeIcon icon={faGlobe}/> */}
+                               
 
                             </div>
                         </div>
@@ -360,7 +360,7 @@ export default function RoyalFest(){
                     <div className='mb-[15px] flex gap-5'>
                         <div>
                         🥁
-                            {/* <FontAwesomeIcon icon={faDrum}/> */}
+                           
                         </div>
                         <div>
                             <h3>Tradition Music and Dance</h3>
@@ -369,7 +369,7 @@ export default function RoyalFest(){
 
                     <div className='mb-[15px] flex gap-5'>
                     🍯
-                        {/* <FontAwesomeIcon icon={faPanorama}/> */}
+                     
                         <div>
                             <h3>Authentic West African Cuisine</h3>
                         </div>
@@ -377,7 +377,7 @@ export default function RoyalFest(){
 
                     <div className='mb-[15px] flex gap-5'>
                     🏛️
-                        {/* <FontAwesomeIcon icon={faBuilding}/> */}
+                       
                         <div>
                             <h3>Historical Exibitions</h3>
                         </div>
@@ -385,7 +385,7 @@ export default function RoyalFest(){
 
                     <div className='mb-[15px] flex gap-5'>
                     👑
-                        {/* <FontAwesomeIcon icon={faCrown}/> */}
+                       
                         <div>
                             <h3>Traditional Fasion & Craft</h3>
                         </div>
@@ -393,7 +393,7 @@ export default function RoyalFest(){
 
                     <div className='mb-[15px] flex  gap-5'>
                     📚
-                        {/* <FontAwesomeIcon icon={faBook}/> */}
+                        
                         <div>
                             <h3>Culture Education</h3>
                         </div>
