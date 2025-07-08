@@ -38,32 +38,32 @@ const gotoSecureYourSpot = () => {
           <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
                 <h1 className='text-yellow-300 text-[20px] font-bold relative left-8'>The Musa Project
                 </h1>
-                  <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
-                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
+                  <div  className='grid grid-cols-7  gap-4 text-nowrap relative top-[10px] left-[20px] '>
+                    <div className='flex relative' onClick={goHome}>
                         🏡
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li> Home</li>
                     </div>
-                    <div className='flex gap-2 relative left-[-2px] w-[59%]' onClick={gotoFestivalDrumbeatPage}>
+                    <div className='flex relative' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoRoyalFest}>
+                    <div className='flex relative' onClick={gotoRoyalFest}>
                         🍯
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Fest</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-4px] w-[60%]' onClick={gotoTheGoldenRoute}>
+                    <div className='flex relative' onClick={gotoTheGoldenRoute}>
                         🏛️
                         {/* <FontAwesomeIcon icon={faBuilding}/> */}
                         <li>The Golden Route</li>
                     </div>
 
                    
-                    <div className='flex gap-4 relative left-[-3px] w-[60%]' onClick={gotoSecureYourSpot}>
+                    <div className='flex relative' onClick={gotoSecureYourSpot}>
                         {/* <FontAwesomeIcon icon={faTicket}/> */}
                         🎫
                         <li>Secure Your Spot</li>

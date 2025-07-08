@@ -63,7 +63,7 @@ const SecondNav = () => {
         </ul>
 
         <div className="owners-hub">
-          <span>Owners Hub</span>
+          <span>Musa Project</span>
         </div>
       </div>
     </>

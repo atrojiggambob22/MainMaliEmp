@@ -61,16 +61,16 @@ const gotoRoyalFest = () => {
                 <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8'>
                     The MNUsa Project
                 </h1>
-                <div className='flex gap-2 text-nowrap relative top-[10px] left-[10%] '>
+                <div className='grid grid-cols-7  gap-4 text-nowrap relative top-[10px] left-[20px] '>
 
-                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoTheMusaProject}>
+                    <div className='flex relative' onClick={gotoTheMusaProject}>
                         🌟
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>The Musa Project</li>
                     </div>
 
 
-                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={gotoRoyalFest}>
+                    <div className='flex relative' onClick={gotoRoyalFest}>
                         🍯
                         
                         <li> Royal fest</li>
@@ -80,7 +80,7 @@ const gotoRoyalFest = () => {
                         
                         <li> Home</li>
                     </div> */}
-                    <div className='flex gap-2 relative left-[-2px] w-[59%]' onClick={gotoFestivalDrumbeatPage}>
+                    <div className='flex relative' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
@@ -88,24 +88,24 @@ const gotoRoyalFest = () => {
                     
                      
 
-                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoRoyalCourt}>
+                    <div className='flex relative' onClick={gotoRoyalCourt}>
                         📜
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Coutr</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-4px] w-[60%]' onClick={gotoTheGoldenRoute}>
+                    <div className='flex relative'onClick={gotoTheGoldenRoute}>
                         🏛️
                         {/* <FontAwesomeIcon icon={faBuilding}/> */}
                         <li>The Golden Route</li>
                     </div>
 
-                    <div className='flex gap-2 relative left-[-3px] w-[60%]' onClick={gotoDressLikeRoyalty}>
+                    <div className='flex relative' onClick={gotoDressLikeRoyalty}>
                         {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
                         👑
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div className='flex gap-4 relative left-[-3px] w-[60%]' onClick={gotoSecureYourSpot}>
+                    <div className='flex relative' onClick={gotoSecureYourSpot}>
                         {/* <FontAwesomeIcon icon={faTicket}/> */}
                         🎫
                         <li>Secure Your Spot</li>
