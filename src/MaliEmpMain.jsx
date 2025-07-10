@@ -65,7 +65,7 @@ const gotoRoyalFest = () => {
 
                     <div className='flex relative' onClick={gotoTheMusaProject}>
                         🌟
-                        {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
+                       
                         <li>The Musa Project</li>
                     </div>
 
@@ -82,7 +82,7 @@ const gotoRoyalFest = () => {
                     </div> */}
                     <div className='flex relative' onClick={gotoFestivalDrumbeatPage}>
                         🥁
-                        {/* <FontAwesomeIcon icon={faDrum}/> */}
+                       
                         <li>Festival Drumbeat</li>
                     </div>
                     
@@ -90,23 +90,23 @@ const gotoRoyalFest = () => {
 
                     <div className='flex relative' onClick={gotoRoyalCourt}>
                         📜
-                        {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
+                       
                         <li>Royal Coutr</li>
                     </div>
 
                     <div className='flex relative'onClick={gotoTheGoldenRoute}>
                         🏛️
-                        {/* <FontAwesomeIcon icon={faBuilding}/> */}
+                       
                         <li>The Golden Route</li>
                     </div>
 
                     <div className='flex relative' onClick={gotoDressLikeRoyalty}>
-                        {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
+                       
                         👑
                         <li>Dress Like Royalty</li>
                     </div>
                     <div className='flex relative' onClick={gotoSecureYourSpot}>
-                        {/* <FontAwesomeIcon icon={faTicket}/> */}
+                      
                         🎫
                         <li>Secure Your Spot</li>
                     </div>
