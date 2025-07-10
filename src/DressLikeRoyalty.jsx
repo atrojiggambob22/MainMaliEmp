@@ -41,30 +41,30 @@ const gotoSecureYourSpot = () => {
                   <div  className='grid grid-cols-7  gap-4 text-nowrap relative top-[10px] left-[20px] '>
                     <div className='flex relative' onClick={goHome}>
                         🏡
-                        {/* <FontAwesomeIcon icon={faDrum}/> */}
-                        <li> Home</li>
+                      
+                        <li>Home</li>
                     </div>
                     <div className='flex relative' onClick={gotoFestivalDrumbeatPage}>
                         🥁
-                        {/* <FontAwesomeIcon icon={faDrum}/> */}
+                       
                         <li>Festival Drumbeat</li>
                     </div>
 
                     <div className='flex relative' onClick={gotoRoyalFest}>
                         🍯
-                        {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
+                      
                         <li>Royal Fest</li>
                     </div>
 
                     <div className='flex relative' onClick={gotoTheGoldenRoute}>
                         🏛️
-                        {/* <FontAwesomeIcon icon={faBuilding}/> */}
+                       
                         <li>The Golden Route</li>
                     </div>
 
                    
                     <div className='flex relative' onClick={gotoSecureYourSpot}>
-                        {/* <FontAwesomeIcon icon={faTicket}/> */}
+                      
                         🎫
                         <li>Secure Your Spot</li>
                     </div>

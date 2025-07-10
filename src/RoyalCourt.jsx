@@ -41,12 +41,12 @@ export default function RoyalCourt() {
                  <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
                     <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
                         🏡
-                        {/* <FontAwesomeIcon icon={faDrum}/> */}
+                      
                         <li> Home</li>
                     </div>
                     <div className='flex gap-2 relative left-[-2px] w-[59%]' onClick={gotoFestivalDrumbeatPage}>
                         🥁
-                        {/* <FontAwesomeIcon icon={faDrum}/> */}
+                      
                         <li>Festival Drumbeat</li>
                     </div>
 
@@ -54,17 +54,17 @@ export default function RoyalCourt() {
 
                     <div className='flex gap-4 relative left-[-4px] w-[60%]' onClick={gotoTheGoldenRoute}>
                         🏛️
-                        {/* <FontAwesomeIcon icon={faBuilding}/> */}
+                      
                         <li>The Golden Route</li>
                     </div>
 
                     <div className='flex gap-2 relative left-[-3px] w-[60%]' onClick={gotoDressLikeRoyalty}>
-                        {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
+                       
                         👑
                         <li>Dress Like Royalty</li>
                     </div>
                     <div className='flex gap-4 relative left-[-3px] w-[60%]' onClick={gotoSecureYourSpot}>
-                        {/* <FontAwesomeIcon icon={faTicket}/> */}
+                      
                         🎫
                         <li>Secure Your Spot</li>
                     </div>

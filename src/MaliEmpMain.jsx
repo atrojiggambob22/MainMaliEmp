@@ -73,7 +73,7 @@ const gotoRoyalFest = () => {
                     <div className='flex relative' onClick={gotoRoyalFest}>
                         🍯
                         
-                        <li> Royal fest</li>
+                        <li>Royal Fest</li>
                     </div>
                     {/* <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
                         🏡
