@@ -4,3 +4,50 @@
 .icon~p{
     font-weight: 200;
 }
+@media (min-width:200px) and (max-width:800px) {
+
+
+
+    .thefisrtsideofmusa{
+        left: 15px;
+    }
+    .thefisrtsideofmusa p{
+        width: 90%;
+        position: relative;
+        /* left:-40px; */
+        text-align: left;
+    }
+    .thefisrtsideofmusa .firstofthemh3333{
+        width:90%;
+        position: relative;
+        left:-120px;
+        margin: 90px ;
+        /* font-size:0px; */
+    }
+    .firstofthemh3333causi{
+        flex-direction: column;
+        gap:10;
+        left:1px;
+        margin:10px;
+        /* margin-left:130px ; */
+        /* width: 100%; */
+    }
+    .firstofthemh3333causi-sub1{
+        width: 90%;
+        
+        position: relative;
+        left:10px;
+        /* margin-left: 190px; */
+    }
+
+
+
+    .firstsegofheaddh33head{
+        position: relative;
+        left: 15px !important;
+    }
+    .thefisrtsideofmusa-minicos{
+        grid-template-columns: repeat(1, 1fr);
+        gap:60px;
+    }
+}

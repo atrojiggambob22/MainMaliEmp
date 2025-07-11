@@ -86,27 +86,31 @@ const gotoTheMusaProject = () => {
                 </div>
             </nav>
 
-                 <div className='FirstMaliSSsub3-Sub2-Content1 FDrum1'>
+            <div className='FirstMaliSSsub3-Sub2-Content1 FDrum1'>
             <h3 className='text-[#E6C157] text-[50px] font-bold text-center'>The Musa Project</h3>
-            <p className='Firtsparolunderthecontent1 firstsegofheadd'>
+            <p className='Firtsparolunderthecontent1 firstppogthhmusa firstsegofheadd'>
             "Celebration is a stratejy. Joy is Political"
             </p>
            
         </div>
 
-        <div className="text-center bg-[#facd659c] ">
-            <div className="flex flex-col justify-center align-middle text-center relative left-[25%] mt-[50px]">
+        <div className="text-center bg-[#facd659c] w-full ">
 
-            <div className="firstofthemh3333 my-[70px] inline-block w-[40%] relative left-[50px]"><h3 className="inline-block text-[30px] font-bold  relative left-[20px]">Rooted in Our Rythyms</h3></div>
-            <p className="inline-block w-[50%]">The Musa Project is rooted in a longing to reconnect African cities- especially in West Africa-to their ancestral rhythms and cultural integrity. In a world where globalization often dilutes local traditions, we believe that celebrating our heritage is not just an act of remembrance, but a powerful strategy for cultural resilience and community building.</p>
+            <div className="flex flex-col relative left-[25%] mt-[50px] thefisrtsideofmusa">
+
+            <div className="firstofthemh3333 my-[70px] inline-block w-[40%] relative left-[50px]">
+                <h3 className="inline-block text-[30px] font-bold  relative left-[20px]">Rooted in Our Rythyms</h3></div>
+            <p className="w-[50%] ">The Musa Project is rooted in a longing to reconnect African cities- especially in West Africa-to their ancestral rhythms and cultural integrity. In a world where globalization often dilutes local traditions, we believe that celebrating our heritage is not just an act of remembrance, but a powerful strategy for cultural resilience and community building.</p>
+
             </div>
-            <div className="flex text-left gap-[60px] relative left-[20%] my-[10px] mb-[10%]  py-[90px]">
-                <div className="bg-[#facd659c] inline-block p-[30px]  w-[30%] rounded-[20px]" >
+            
+            <div className="flex text-left gap-[60px] relative left-[20%] my-[10px] mb-[10%]  py-[90px] firstofthemh3333causi">
+                <div className="bg-[#facd659c] inline-block p-[30px]  w-[30%] rounded-[20px] firstofthemh3333causi-sub1" >
                     <h3 className="my-[10px] text-red-900 font-bold text-[20px] ">CULTURAL RESILIENCE</h3>
                     <p className="w-[90%]" >Our festivals serve as living libraries,
                         preserving ancient wisdom while creating space for contemporary  expression and innovation </p>
                 </div>
-                <div className="bg-[#facd659c] inline-block p-[30px]  w-[30%] rounded-[20px]">
+                <div className="bg-[#facd659c] inline-block p-[30px]  w-[30%] rounded-[20px] firstofthemh3333causi-sub1">
                     <h3 className="my-[10px]  text-red-900 font-bold text-[20px] ">COMMUNITY BUILDING</h3>
                     <p className="w-[90%]">Through shared celebration, we strengthen the bomd that connect's us accross the generation, creating unity in our diversity</p>
                 </div>
@@ -115,9 +119,9 @@ const gotoTheMusaProject = () => {
 
         </div>
 
-            <div className=" py-[50px]  bg-[#d2960b9c] text-center">
-                <div className="firstsegofheadd"><h3 className="text-[40px] font-bold">Our Vision</h3></div>
-                <div className="grid grid-cols-3 my-[90px]">
+            <div className=" py-[50px]  bg-[#d2960b9c] text-center ">
+                <div className="firstsegofheadd firstsegofheaddh33head"><h3 className="text-[40px] font-bold">Our Vision</h3></div>
+                <div className="grid grid-cols-3 my-[90px] thefisrtsideofmusa-minicos ">
                     <div>
                         <div className="icon rounded-[50%] bg-yellow-600 inline-block p-[20px] px-[25px]"  >🏛️</div>
                         <h3 className="font-bold text-[20px]">PRESERVE HERITAGE</h3>
