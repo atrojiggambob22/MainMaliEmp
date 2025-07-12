@@ -73,8 +73,9 @@ export default function RoyalCourt() {
             
             <div className='FirstMaliSSsub3-Sub2-Content1 topofRoyalF'>
             <h3  className=' text-[70px] font-bold text-center' >Let's Connect</h3>
-               <div className="my-[10px]">
-                 <p className=" w-[38%] text-center relative left-[30%] topofRoyal" style={{fontFamily:"Crimson Text"}} >We'd love to hear from you. Whether you're planning your visit to the heart of Musa, have a story or song to share, or simply want to say hello - our doors and drums are open</p>
+
+               <div className="my-[10px] topofRoyalF-sub1 ">
+                 <p className=" w-[58%] text-center relative left-[20%] topofRoyal" style={{fontFamily:"Crimson Text"}} >We'd love to hear from you. Whether you're planning your visit to the heart of Musa, have a story or song to share, or simply want to say hello - our doors and drums are open</p>
             </div>
             <div className="relative left-[40px] ">
             
@@ -88,7 +89,8 @@ export default function RoyalCourt() {
         <div className="text-center bg-[#fce09dae] p-30 FirstofTheRoyal">
 
         <div className='my-[90px]'>
-            <div className='inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px]'>
+            <div className='inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px] mx-[30px] firstsegofheadd-hes'>
+                
             <h3 className='text-[30px] font-bold firstsegofheadd FirstofTheRoyal-subSS'>SUMMON THE ROYAL SCRIBES</h3>
             </div>
 

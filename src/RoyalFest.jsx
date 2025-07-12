@@ -100,21 +100,21 @@ export default function RoyalFest(){
         <div className="text-center ">
             <div className=" py-[90px]">
             <div className="firstsegofheadd mb-[40px] rounded-[10px]"><h3 className="font-bold  text-[40px] ">A living city</h3></div>
-            <div className="flex gap-[30px] relative left-[20%]">
+            <div className="flex gap-[30px] relative left-[20%] THefirstoftjefesrtivaldjfjf">
             <p className="w-[30%] text-left text-[20px]" style={{fontFamily:"Crimson Text"}}>
                 At the heart of our festival lies a grand central plaza, inspired by the great gathering spaces of acient Mali. Here, visitors from all works of life coverage, just as merchants, schorlas and pilgrims once did in golden cities of West Africa.
                 <br />
                 <br />
                 Streets radiats outwards,lined with magnificent mudbrick achetecture that echo's the granduer of Timbuktu. Our main amphitheather, remnincent if the legendary Djinguereber Mosque, Serves as the beating heart where the most spectacular perfomrances unfold
             </p>
-            <div className=" bg-amber-700 px-[80px] py-[20px] rounded-[20px] h-[10%] relative top-[60px]">
-                <div className="text-[50px] ">
+            <div className=" bg-amber-700 px-[80px] py-[20px] rounded-[20px] h-[10%] relative top-[60px] granddcentral">
+                <div className="text-[50px] granddcentral1 ">
                 🏛️
 
                 </div>
                 <div className="p-[20px]">
                     <h3 className="text-[30px] font-[500]">Grand Central PLaza</h3>
-                    <div className="flex gap-[80px]">
+                    <div className="flex gap-[80px] granddcentral2">
                     <div className="text-[30px]">🕌</div>
                     <div className="text-[30px]">🏪</div>
                     <div className="text-[30px]">🎭</div>
@@ -127,7 +127,7 @@ export default function RoyalFest(){
             </div>
 
             <div className="py-[50px]">
-                <div className="firstsegofheadd my-[40px]"><h3 className="text-[50px]">Walk through history</h3></div>
+                <div className="firstsegofheadd my-[40px] firstsegofheaddwalk"><h3 className="text-[50px]">Walk through history</h3></div>
                 <div className="grid grid-cols-4 firstsetofthefeatsfest">
                     <div className="firstsetofthefeatsfestsub1">
                         <div className="icon">⚔️</div>
@@ -222,7 +222,7 @@ export default function RoyalFest(){
                     <div className="firstsetofthefeatsfestSub33-Sub1">
                         <p>General admission grants you a <span className="text-yellow-400">yellow band </span> and access to the wonders of Mali. But seek out our actors throughout the festival -- they hold special key's that unluck depper, more intimate experiences</p>
                     </div>
-                    <div className="text-left grid grid-cols-3 gap-[30px]">
+                    <div className="text-left grid grid-cols-3 gap-[30px] firstsegofheaddGEneral">
                          <div className="firstsetofthefeatsfestSub33-Sub2">
                         <div className="icon">🔨</div>
                         <div>
@@ -267,7 +267,7 @@ export default function RoyalFest(){
 
                 <div className="firstsetofthefeatsfestSub44">
                     <div><h3>Expect the extra odinary</h3></div>
-                    <div className="grid grid-cols-3">
+                    <div className="grid grid-cols-3 thridphaseofthemsections">
                         <div className="firstsetofthefeatsfestSub44-Sub1">
                             <div>🎵</div>
                             <h3>Groit Storytellers</h3>
@@ -458,7 +458,7 @@ export default function RoyalFest(){
                                   <li>Contact</li>
                               </div>
                           </div>
-                </footer>
+            </footer>
 
             
 

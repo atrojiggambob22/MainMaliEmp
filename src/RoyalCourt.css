@@ -1,3 +1,4 @@
+
 .topofRoyal{
     background: none !important;
 
@@ -6,9 +7,19 @@
 
     .topofRoyalF h3{
         font-size: 60px !important;
-        width: 50% !important;
+        width: 100% !important;
         position: relative;
-        left: 80px;
+        left:-10px;
+    }
+    .topofRoyalF-sub1{
+        position: relative;
+        left:-30px;
+        /* margin-right: 50p; */
+        /* width: 100% !important; */
+    }
+    .topofRoyalF-sub1 p{
+        width: 80% !important;
+
     }
     .FirstofTheRoyal{
         padding: 0 !important;
@@ -17,13 +28,20 @@
         flex-direction: column;
     }
     .FirstofTheRoyal-subSS{
-        font-size: 20px !important;
+        font-size:15px !important;
         text-wrap: nowrap;
         position: relative;
-        left: -80px !important;
+        left:-70px !important;
     }
+    .Firtsparolunderthecontent1{
+        position: relative;
+        left:-10px !important;
+        font-size: 15px !important;
+    }
+   
     .FirstofTheRoyal-sub1-2{
         margin: 20px 40px;
+        width: 80%;
     }
     .FirstofTheRoyal-sub1-2 p{
         left: 10px !important;

@@ -58,7 +58,7 @@
     border-radius: 20px;
 }
 .firstsetofthefeatsfestSub33-Sub1{
-    width: 70%;
+    width: 80%;
     position: relative;
     left: 10%;
     top:-40px;
@@ -94,4 +94,57 @@
 .firstsetofthefeatsfestSub44-Sub1 h3{
     font-weight: 500 !important;
     font-size: 20px;
+}
+@media (min-width:200px) and (max-width:700px){
+    .THefirstoftjefesrtivaldjfjf{
+        flex-direction: column;
+        left:10px;
+         overflow: hidden !important;
+       
+    }
+    .THefirstoftjefesrtivaldjfjf p{
+        width: 80%;
+    }
+    .granddcentral{
+        padding: 10px;
+        top: 40px;
+        margin-bottom: 90px;
+        width: 90%;
+    }
+    .granddcentral h3{
+        font-size: 20px;
+    }
+    .granddcentral1{
+        font-size: 30px;
+    }
+    .granddcentral2{
+        position: relative;
+        
+        left: 20px;
+    }
+    .firstsegofheaddwalk{
+        position: relative;
+        left:5px !important;
+    }
+    .firstsetofthefeatsfest{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .firstsetofthefeatsfestsub2cheife{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .firstsegofheaddGEneral{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .firstsetofthefeatsfestSub33{
+        width:90% ;
+        left:-45px;
+        position: relative;
+        
+    }
+    .firstsetofthefeatsfestSub33-Sub1{
+        /* width: 100% !important; */
+    }
+    .thridphaseofthemsections{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
