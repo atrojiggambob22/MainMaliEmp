@@ -46,7 +46,8 @@ nav h1{
 .FirstMaliSub1{
      background: linear-gradient(3deg, #f2dc96, #d99861, #c48d62);
   padding: 20px;
-  transform: rotate(1deg);
+  border-radius: 15px;
+  /* transform: rotate(1deg); */
 }
 .FirstMaliSub1 h3{
     text-wrap: nowrap;
@@ -70,7 +71,8 @@ nav h1{
 .firstofthemh3333{
     background: linear-gradient(3deg, #f2dc96, #d99861, #c48d62);
    padding:10px 40px;
-  transform: rotate(-2deg);
+   border-radius: 15px !important;
+  /* transform: rotate(-2deg); */
   display: inline-block;
 }
 .firstofthemh3333,h3{
@@ -90,7 +92,8 @@ nav h1{
 .firstsegofheadd{
   background: linear-gradient(3deg, #f2dc96, #d99861, #c48d62);
   padding:10px 40px;
-  transform: rotate(2deg);
+  border-radius: 15px !important;
+  /* transform: rotate(2deg); */
   display: inline-block;
 }
 

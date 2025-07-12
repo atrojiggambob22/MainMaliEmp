@@ -6,7 +6,13 @@ import { useNavigate } from 'react-router-dom';
 import ManonRed from "../public/images/ManonRed.jpg";
 import SecondNav from "./SecondNav"
 import Anthelope from "../public/images/anthelope.jpg";
-import Camel from "../public/images/Camel.jpg";
+// import Camel from "../public/images/Camel.jpg";
+import Fight from "../public/images/fight.JPG";
+import Family from "../public/images/family.JPG";
+import Dress from "../public/images/dressroyal.JPG";
+import onefamily from "../public/images/onefamily.JPG";
+
+
 import Mountains from "../public/images/mountains.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faBars, faXmark, faDrum, faBuilding, faCrown, faTicket, faPanorama, faBookAtlas, faBook, faLocation, faLocationArrow, faCalendar, faMobile, faMailBulk, faWebAwesome, faGlobe} from '@fortawesome/free-solid-svg-icons';
@@ -125,7 +131,7 @@ const gotoRoyalFest = () => {
                 </div>
 
                 <div className='FirstMaliSub2'>
-                    <p className='w-[40%] relative left-[30%] my-[30px] text-[#ff9b3e] font-bold'>Journey through the golden age of the Mali Empire.Experience authentic West African Culture, music, cusine and tradition in an immersive festival celebrating our rich heritage</p>
+                    <p className='w-[40%] relative left-[30%] my-[30px] text-[#ffffff] text-[30px] font-bold'>Journey through the golden age of the Mali Empire.Experience authentic West African Culture, music, cusine and tradition in an immersive festival celebrating our rich heritage</p>
 
                     <div className='FirstMaliSub3 bg-[#D4A437] w-[20%] relative left-[40%] my-[30px] p-[10px]'>
                         <h3>JOIN THE CARAVAN</h3>
@@ -146,7 +152,7 @@ const gotoRoyalFest = () => {
                     </div>
                     <div className='FirstMaliSSsub1-Sub1 relative left-[90px]'>
                         <div className='FirstMaliSSsub1-Sub1-min1 flex justify-center'>
-                            <div><img src={Anthelope} alt=""  className='rounded-[20px] w-[90%]'/></div>
+                            <div><img src={Family} alt=""  className='rounded-[20px] w-[90%]'/></div>
                             <div>
                                 <div className='mb-[20px] firstsegofheadd'>
                                     <h3 className='text-[30px] font-bold'>Festival Drumbeat</h3>
@@ -185,11 +191,11 @@ const gotoRoyalFest = () => {
                                     <h3  className='relative left-[13px]'>Learn More</h3>
                                 </div>
                             </div>
-                             <div><img src={Camel} alt="" className='rounded-[20px] w-[90%]' /></div>
+                             <div><img src={Fight} alt="" className='rounded-[20px] w-[70%]' /></div>
                         </div>
 
                         <div className='FirstMaliSSsub1-Sub1-min1  flex justify-center'>
-                            <div><img src={Mountains} alt=""  className='rounded-[20px] w-[90%]'/></div>
+                            <div><img src={onefamily} alt=""  className='rounded-[20px] w-[90%]'/></div>
                             <div>
                                 <div  className='mb-[20px] firstsegofheadd'>
                                     <h3 className='text-[30px] font-bold'>The Golden Route</h3>
@@ -227,7 +233,7 @@ const gotoRoyalFest = () => {
                                     <h3  className='relative left-[15px]'>Learn More</h3>
                                 </div>
                             </div>
-                            <div><img src={Anthelope} alt="" className='rounded-[20px] w-[90%]' /></div>
+                            <div><img src={Dress} alt="" className='rounded-[20px] w-[70%]' /></div>
                         </div>
 
                     </div>
