@@ -445,6 +445,7 @@ export default function RoyalFest(){
                     </div>
                 </div>
                           <hr className='h-[2px] bg-amber-800 w-[80%] relative left-[80px] ' />
+                          
                           <br />
                           <br />
                           <br />

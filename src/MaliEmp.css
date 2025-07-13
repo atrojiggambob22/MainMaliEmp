@@ -103,6 +103,10 @@ footer{
     border:18px solid rgb(255, 166, 0) ;
     background-color:#6a2f05;
 }
+footer hr{
+    position: relative;
+    left:30px;
+}
 .FirstMaliSSsub3-Sub2 p{
       transition: .4s linear;
         color: rgba(147, 85, 15, 0.429);
