@@ -28,6 +28,12 @@ const SecondNav = () => {
         const gotoSecureYourSpot = () => {
             navigate('/SecureYourSpot');
         }
+        const gotoMusa = () => {
+            navigate('/TheMusaProject');
+        }
+        const gotoRoyalCourt = () => {
+            navigate('/RoyalCourt');
+        }
   return (
     <>
       
@@ -56,10 +62,12 @@ const SecondNav = () => {
         <ul className="nav-links">
           <li onClick={goHome}> 🏡 Home</li>
           <li onClick={gotoFestivalDrumbeatPage}> 🥁 Festival Drumbeat</li>
-          <li onClick={gotoRoyalFest}> 📜 Royal Court</li>
+          <li onClick={gotoRoyalCourt}> 📜 Royal Court</li>
           <li onClick={gotoTheGoldenRoute}> 🏛️ The Golden Route</li>
           <li onClick={gotoDressLikeRoyalty}> 👑Dress Like Royalty</li>
           <li onClick={gotoSecureYourSpot}> 🎫 Secure Your Spot</li>
+          <li onClick={gotoMusa}> 🌟 Musa Project</li>
+          <li onClick={gotoRoyalFest}> 🍯 Royal Festt</li>
         </ul>
 
         <div className="owners-hub">

@@ -28,6 +28,7 @@ function App() {
         <Route path="/DressLikeRoyalty" element={<DressLikeRoyalty />} />
 
         <Route path="/SecureYourSpot" element={<SecureYourSpot />} />
+        
       </Routes>
     </Router>
   )

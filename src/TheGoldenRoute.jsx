@@ -51,9 +51,9 @@ const gotoSecureYourSpot = () => {
                     </div>
 
                     <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoRoyalFest}>
-                        🍯
+                        📜
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
-                        <li>Royal Fest</li>
+                        <li>Royal Court</li>
                     </div>
 
                    

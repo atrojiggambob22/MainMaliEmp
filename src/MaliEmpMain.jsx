@@ -97,7 +97,7 @@ const gotoRoyalFest = () => {
                     <div className='flex relative' onClick={gotoRoyalCourt}>
                         📜
                        
-                        <li>Royal Coutr</li>
+                        <li>Royal Court</li>
                     </div>
 
                     <div className='flex relative'onClick={gotoTheGoldenRoute}>
