@@ -3,9 +3,9 @@ import "./MaliEmp.css";
 import { useNavigate } from 'react-router-dom';
 
 // import { Link } from 'react-router-dom';
-import ManonRed from "../public/images/ManonRed.jpg";
+// import ManonRed from "../public/images/ManonRed.jpg";
 import SecondNav from "./SecondNav"
-import Anthelope from "../public/images/anthelope.jpg";
+// import Anthelope from "../public/images/anthelope.jpg";
 // import Camel from "../public/images/Camel.jpg";
 import Fight from "../public/images/fight.JPG";
 import Family from "../public/images/family.JPG";
