@@ -5,14 +5,16 @@
     overflow-x:hidden;
    
 }
-
+h3{
+    font-family: "Cinzel", serif !important;
+}
 .themchiefeofthenbud{
-    background: url(../public/images/Manonred.jpg);
+    background: url(../public/images/house6.jpeg);
     /* opacity: 0.9; */
-    object-fit: cover;
+    object-fit:contain;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position:top center;
+    background-size:cover;
+    background-position:center;
     
 }
 nav{
@@ -54,14 +56,20 @@ nav h1{
     font-family: "Cinzel", serif;
 }
 .FirstMali h1{
-     font-family: "Cinzel", serif;
+    font-family: "Crimson Text", serif;
+     /* font-family: "Cinzel", serif; */
     line-height:100px;
+    text-shadow:4px 4px 8px black;
 }
 .FirstMali h1 span{
     font-family: "Cinzel", serif;
 }
 .FirstMaliSub2 p,button{
     font-family: "Cinzel", serif;
+}
+
+.FirstMaliSub2 p{
+    text-shadow:4px 4px 8px black;
 }
 .FirstMaliSSsub1{
     background-color:#fce09dae;
@@ -76,7 +84,7 @@ nav h1{
   display: inline-block;
 }
 .firstofthemh3333,h3{
-    font-family: "Cinzel", serif;
+    font-family: "Crimson Text", serif;
 }
 .FirstMaliSSsub1-Sub1{
     margin: 60px;

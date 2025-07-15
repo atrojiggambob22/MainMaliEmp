@@ -1,3 +1,4 @@
+
 .firstsetofthefeatsfest{
      margin: 40px;
 }
@@ -5,8 +6,8 @@
     width: 80%;
     position: relative;
     left:15%;
-      font-family: "Crimson Text", serif;
-      font-size: 20px;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
      
 }
 .firstsetofthefeatsfest h3{
@@ -52,7 +53,7 @@
 
 /* This is another section */
 .firstsetofthefeatsfestSub33{
-    background-color: red;
+    background-color: #ffa601;
     margin: 10px 60px;
     padding: 50px;
     border-radius: 20px;
@@ -67,7 +68,7 @@
 .firstsetofthefeatsfestSub33-Sub2{
     display: flex;
     gap: 20px;
-    background-color: antiquewhite;
+    background-color: rgb(245, 216, 178);
     padding: 10px ;
     border-radius: 10px;
 }
@@ -94,6 +95,14 @@
 .firstsetofthefeatsfestSub44-Sub1 h3{
     font-weight: 500 !important;
     font-size: 20px;
+}
+
+.subsecunderthesub44{
+    border: 4px solid;
+    border-left-color: rgb(178, 10, 10);
+    border-right-color:transparent;
+     border-top-color:transparent;
+      border-bottom-color:transparent;
 }
 @media (min-width:200px) and (max-width:700px){
     .THefirstoftjefesrtivaldjfjf{
@@ -146,5 +155,19 @@
     }
     .thridphaseofthemsections{
         grid-template-columns: repeat(1,1fr);
+    }
+    .subsecunderthesub44{
+        left: 50px;
+        top:-20px;
+    }
+    .tgecourtroyalcc58577sub4444pp6677{
+        width: 80% !important;
+        /* left:40% !important; */
+    }
+    .tgecourtroyalcc58577sub4444pp667{
+        left:10%;
+    }
+    .tgecourtroyalcc58577sub4444pp66776{
+        width: 80% !important;
     }
 }

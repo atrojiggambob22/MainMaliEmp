@@ -131,7 +131,7 @@ const gotoRoyalFest = () => {
                 </div>
 
                 <div className='FirstMaliSub2'>
-                    <p className='w-[40%] relative left-[30%] my-[30px] text-[#ffffff] text-[30px] font-bold'>Journey through the golden age of the Mali Empire.Experience authentic West African Culture, music, cusine and tradition in an immersive festival celebrating our rich heritage</p>
+                    <p className='w-[40%] relative left-[30%] my-[30px] text-[#ffa601] text-[30px] font-bold'>Journey through the golden age of the Mali Empire.Experience authentic West African Culture, music, cusine and tradition in an immersive festival celebrating our rich heritage</p>
 
                     <div className='FirstMaliSub3 bg-[#D4A437] w-[20%] relative left-[40%] my-[30px] p-[10px]'>
                         <h3>JOIN THE CARAVAN</h3>
@@ -155,7 +155,7 @@ const gotoRoyalFest = () => {
                             <div><img src={Family} alt=""  className='rounded-[20px] w-[90%]'/></div>
                             <div>
                                 <div className='mb-[20px] firstsegofheadd'>
-                                    <h3 className='text-[30px] font-bold'>Festival Drumbeat</h3>
+                                    <h3 className='text-[30px] font-bold '>Festival Drumbeat</h3>
                                     <p className='font-light text-amber-900'>Music & Perfomance</p>
                                 </div>
                                 <p className='w-[60%]'>
@@ -309,11 +309,12 @@ const gotoRoyalFest = () => {
                                       <h3>Culture Education</h3>
                                   </div>
                               </div>
+
                               </div>
       
                               <div className='Secontolastfott'>
                                   <div>
-                                      <h3 className='my-[20px] text-[20px] font-bold firstsegofheadd rounded-[10px]  '>Join The Caravan</h3>
+                                      <h3 className='my-[20px] text-[20px] font-bold firstsegofheadd rounded-[10px]'>Join The Caravan</h3>
                                   </div>
                                   <div>
                                       <div className='mb-[15px] flex gap-5'>

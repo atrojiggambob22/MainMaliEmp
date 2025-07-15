@@ -107,7 +107,7 @@ export default function RoyalFest(){
                 <br />
                 Streets radiats outwards,lined with magnificent mudbrick achetecture that echo's the granduer of Timbuktu. Our main amphitheather, remnincent if the legendary Djinguereber Mosque, Serves as the beating heart where the most spectacular perfomrances unfold
             </p>
-            <div className=" bg-amber-700 px-[80px] py-[20px] rounded-[20px] h-[10%] relative top-[60px] granddcentral">
+            <div className=" bg-amber-600 px-[80px] py-[20px] rounded-[20px] h-[10%] relative top-[60px] granddcentral">
                 <div className="text-[50px] granddcentral1 ">
                 🏛️
 
@@ -215,8 +215,8 @@ export default function RoyalFest(){
                     </div>
                 </div>
 
-                <div className="py-[14%] bg-amber-200 ">
-                    <div><h3>Unluck Hidden Worlds</h3></div>
+                <div className="py-[14%] bg-amber-100 ">
+                    <div className="firstofthemh3333"><h3 className="font-bold text-[30px]">Unluck Hidden Worlds</h3></div>
                     <div className="firstsetofthefeatsfestSub33">
 
                     <div className="firstsetofthefeatsfestSub33-Sub1">
@@ -266,7 +266,7 @@ export default function RoyalFest(){
                 </div>
 
                 <div className="firstsetofthefeatsfestSub44">
-                    <div><h3>Expect the extra odinary</h3></div>
+                    <div className="firstofthemh3333"><h3 className="text-[30px] font-bold">Expect the Extraodinary</h3></div>
                     <div className="grid grid-cols-3 thridphaseofthemsections">
                         <div className="firstsetofthefeatsfestSub44-Sub1">
                             <div>🎵</div>
@@ -307,26 +307,45 @@ export default function RoyalFest(){
                     </div>
                 </div>
 
-                <div className="text-left">
-                    <div>
-                        <h3>Watch out for S.I.A.M</h3>
+                <div className="text-left p-[20px] bg-amber-100 w-[70%] rounded-[15px] relative top-[-130px] left-[220px] subsecunderthesub44">
+                    <div className="m-[10px]">
+                        <h3 className="text-red-600 font-bold text-[22px]">Watch out for S.I.A.M</h3>
 
                     </div>
-                    <p className="w-[70%]"><strong>Suprising Interactive Audience Moments</strong> that pull you into the story. You might find yourself chosen to join a royal procession witness a sacred ritual, or become part of an acient tale</p>
+                    <p className="w-[90%] "><strong>Suprising Interactive Audience Moments</strong> that pull you into the story. You might find yourself chosen to join a royal procession witness a sacred ritual, or become part of an acient tale</p>
                 </div>
 
-                  <div className=" bg-[#6a2f05] p-[40px] py-[60px] text-center">
-                        <h3 className="text-[30px] font-bold text-amber-500 ">Follow Our Journey</h3>
-                        <p className="w-[50%] relative left-[24%] my-[10px] mb-[40px] tgecourtroyalcc58577sub4444pp" style={{color:"#fdd579ae",fontFamily:"Crimson Text", fontSize:'25px'}} >Or follow along as we preapare the magic</p>
-                    <div className="bg-amber-500 inline-block border-2 border-amber-800">
-                        <h3 className="text-[20px] p-[10px] px-[30px]">"N ka kent — may joy guide your steps."</h3>
+                <div className="text-center align-middle p-[50px] bg-amber-950">
+                    <div className="my-[10px]">
+                        <h3 className="text-[30px] firstsegofheadd font-bold">Spirit In All Things</h3>
                     </div>
+                    <div className="my-[10px] text-amber-200  relative left-[28%] tgecourtroyalcc58577sub4444pp667 ">
+                        <p className="w-[600px] tgecourtroyalcc58577sub4444pp6677">"In Musa, life pulses through every drum, mask, every street Magic is a given not a question"</p>
+                    </div>
+                    <div className="flex justify-center gap-[20px] my-[30px]">
+                        <p className="text-[30px]">⭐️</p>
+                        <p className="text-[30px]">🌟</p>
+                        <p className="text-[30px]">✨</p>
+                        <p className="text-[30px]">⭐️</p>
+                        <p className="text-[30px]">🌟</p>
+                    </div>
+                </div>
+                  <div className=" bg-[#6a2f05] p-[40px] py-[60px] text-center">
+                        <h3 className="text-[30px] font-bold text-amber-500 ">Join The Caravan</h3>
+                        <p className="w-[50%] relative left-[24%] my-[10px] mb-[40px] tgecourtroyalcc58577sub4444pp tgecourtroyalcc58577sub4444pp66776" style={{color:"#fdd579ae",fontFamily:"Crimson Text", fontSize:'25px'}} >Sign Up to receive festival updates and begin your journey into the golden age of West Africa</p>
+                    <div className="bg-amber-500 inline-block border-2 border-amber-800">
+                        <h3 className="text-[20px] p-[10px] px-[30px] font-bold">Join The Caravan</h3>
+                    </div>
+                    <p className="my-[20px] text-amber-200">Begin your Journey into the wonders of the mali empire</p>
                  </div>
 
                
 
                 
         </div>
+
+
+
            <footer className='relative left-[-18px] w-[110%] '>
                 <div className='FirstMaliSSsub3-Sub1 grid grid-cols-3 my-[60px] mx-[20px]'>
                     <div className='FirstMaliSSsub3-Sub2'>
