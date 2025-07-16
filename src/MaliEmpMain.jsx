@@ -124,7 +124,7 @@ const gotoRoyalFest = () => {
             </div>
             
             <div className='FirstMali text-center my-[100px] '>
-                <h1 className='text-center text-[90px] font-bold text-[#E6C157]'>MALI EMPIRE <br /> <span className='text-[#f1ab06]'>FESTIVAL</span></h1>
+                <h1 className='text-center text-[90px] font-bold text-[#E6C157] overflow-y-hidden'>THE MUSA <br /> <span className='text-[#f1ab06]'>PROJECT</span></h1>
 
                 <div className='FirstMaliSub1 my-5 bg-amber-600 w-[30%] relative left-[35%] p-5'>
                     <h3 className='text-[20px]'>A Celebration of West African Heritage</h3>
