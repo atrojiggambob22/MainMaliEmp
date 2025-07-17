@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import "./MaliEmp.css";
 import { useNavigate } from 'react-router-dom';
 
@@ -20,7 +20,11 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faOptinMonster } from '@fortawesome/free-brands-svg-icons/faOptinMonster';
 
 export default function MaliEmpMain() {
+
+    
+
     const navigate = useNavigate();
+
     const goHome = () => {
     navigate('/');
 }
@@ -64,7 +68,7 @@ const gotoRoyalFest = () => {
              <div className='themchiefeofthenbud'>
             <div>
             <nav className='flex gap-10  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
-                <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8'>
+                <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8' onClick={goHome}>
                     The Musa Project
                 </h1>
                 <div className='grid grid-cols-7  gap-4 text-nowrap relative top-[10px] left-[20px] '>
