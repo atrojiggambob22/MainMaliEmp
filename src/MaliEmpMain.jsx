@@ -11,7 +11,7 @@ import Fight from "../public/images/fight.JPG";
 import Family from "../public/images/family.JPG";
 import Dress from "../public/images/dressroyal.JPG";
 import onefamily from "../public/images/onefamily.JPG";
-
+import CountdownTimer from './CountdownTimer';
 
 import Mountains from "../public/images/mountains.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -133,25 +133,29 @@ const gotoRoyalFest = () => {
                 <div className='FirstMaliSub1 my-5 bg-amber-600 w-[30%] relative left-[35%] p-5'>
                     <h3 className='text-[20px]'>A Celebration of West African Heritage</h3>
                 </div>
-
+                <div>
+                    <CountdownTimer />
+                </div>
                 <div className='FirstMaliSub2'>
-                    <p className='w-[40%] relative left-[30%] my-[30px] text-[#ffa601] text-[30px] font-bold'>Journey through the golden age of the Mali Empire.Experience authentic West African Culture, music, cusine and tradition in an immersive festival celebrating our rich heritage</p>
+                   
 
                     <div className='FirstMaliSub3 bg-[#D4A437] w-[20%] relative left-[40%] my-[30px] p-[10px]'>
                         <h3>JOIN THE CARAVAN</h3>
                     </div>
                 </div>
                 <div>
+
                     {/* animation */}
                 </div>
 
             </div>
                 </div>
 
-                <div className='FirstMaliSSsub1 py-[50px]  '>
+                <div className='FirstMaliSSsub1 py-[50px]'>
+                     <p className='w-[80%] relative left-[11%] my-[30px] text-[#ffa601] text-[30px] font-bold text-center'>Journey through the golden age of the Mali Empire.Experience authentic West African Culture, music, cusine and tradition in an immersive festival celebrating our rich heritage</p>
                     <div className='text-center mainsubfofSSubdu '>
                     <h3 className='text-[40px] font-bold my-[15px] firstofthemh3333'>FESTIVAL HIGHLIGHTS</h3>
-                    <p className='w-[40%] relative left-[30%]'>Immerse yourself in the rich tapestry of West African culture through our carefully curated experiences</p>
+                    {/* <p className='w-[40%] relative left-[30%]'>Immerse yourself in the rich tapestry of West African culture through our carefully curated experiences</p> */}
 
                     </div>
                     <div className='FirstMaliSSsub1-Sub1 relative left-[90px]'>
