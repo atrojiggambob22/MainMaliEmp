@@ -13,6 +13,7 @@ import DressLikeRoyalty from './DressLikeRoyalty';
 import SecureYourSpot from './SecureYourSpot'
 import TheMusaProject from './TheMusaProject';
 import RoyalFest from './RoyalFest';
+import ScrollIndicator from './ScrollIndicator';
 // import Loader from './Loader';
 
 function AppRoutes() {
@@ -32,6 +33,7 @@ function AppRoutes() {
 
   return (
     <>
+<ScrollIndicator/>
     {loading && <Loader />}
    
       <Routes>

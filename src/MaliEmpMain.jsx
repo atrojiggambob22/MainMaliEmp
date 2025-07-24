@@ -17,6 +17,8 @@ import FadeIn from './FadeIn';
 import BounceIn from './BounceIn';
 import SlideIn from './SlideIn';
 import FadeInSection from "./FadeInSection";
+
+import ScrollIndicator from './ScrollIndicator';
 export default function MaliEmpMain() {
 
     
@@ -53,7 +55,7 @@ const gotoRoyalFest = () => {
 }
     return (
         <>
-        
+            <ScrollIndicator/>
             <body>
 
             <div className='seconnav'>
