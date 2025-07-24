@@ -30,14 +30,14 @@ const CountdownTimer = () => {
   if (!timeLeft) {
     return (
       <div className="countdown">
-        <h1>It's April 27, 2026!</h1>
+        {/* <h1>It's April 27, 2026!</h1> */}
       </div>
     );
   }
 
   return (
     <div className="countdown">
-      <h1>Countdown to April 27, 2026</h1>
+      {/* <h1>Countdown to April 27, 2026</h1> */}
       <div className="timer">
         <div className="time-box">
           <span>{timeLeft.days}</span>

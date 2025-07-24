@@ -32,18 +32,18 @@ export default function RoyalCourt() {
         navigate('/SecureYourSpot');
     }
     return (
-        <div className="FirstMaliSSsub3-Sub2">
+        <body className="FirstMaliSSsub3-Sub2">
              <SecondNav />
 
-              <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
-                <h1 className='text-[#ffc43c7d] text-[25px] font-bold relative left-8'>The Musa Project
+              <nav className='flex gap-[80px]  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
+                <h1 className='text-[#ffc43c7d] text-[25px] font-bold relative left-8' onClick={goHome} >The Musa Project
                 </h1>
-                 <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
-                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
+                 <div className='flex gap-5 text-nowrap relative top-[10px] left-[28%] '>
+                    {/* <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
                         🏡
                       
                         <li> Home</li>
-                    </div>
+                    </div> */}
                     <div className='flex gap-2 relative left-[-2px] w-[59%]' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                       
@@ -52,7 +52,7 @@ export default function RoyalCourt() {
 
                     
 
-                    <div className='flex gap-4 relative left-[-4px] w-[60%]' onClick={gotoTheGoldenRoute}>
+                    <div className='flex gap-4 relative left-[-4px] w-[63%]' onClick={gotoTheGoldenRoute}>
                         🏛️
                       
                         <li>The Golden Route</li>
@@ -267,6 +267,6 @@ export default function RoyalCourt() {
                 </footer>
 
 
-        </div>
+        </body>
     );
 }

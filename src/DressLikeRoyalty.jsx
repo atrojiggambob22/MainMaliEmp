@@ -35,35 +35,31 @@ const gotoSecureYourSpot = () => {
          <div className="FirstMaliSSsub3-Sub2">
           <SecondNav />
            
-          <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
-                <h1 className='text-yellow-300 text-[20px] font-bold relative left-8'>The Musa Project
+          <nav className='flex gap-[80px]  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
+                <h1 className='text-yellow-300 text-[20px] font-bold relative left-8' onClick={goHome}>The Musa Project
                 </h1>
-                  <div  className='grid grid-cols-7  gap-4 text-nowrap relative top-[10px] left-[20px] '>
-                    <div className='flex relative' onClick={goHome}>
-                        🏡
-                      
-                        <li>Home</li>
-                    </div>
+                  <div  className='grid grid-cols-7  gap-4 text-nowrap relative top-[10px] left-[30%] '>
+                   
                     <div className='flex relative' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                        
                         <li>Festival Drumbeat</li>
                     </div>
 
-                    <div className='flex relative' onClick={gotoRoyalFest}>
+                    <div className='flex relative left-[20px]' onClick={gotoRoyalFest}>
                         🍯
                       
                         <li>Royal Fest</li>
                     </div>
 
-                    <div className='flex relative' onClick={gotoTheGoldenRoute}>
+                    <div className='flex relative ' onClick={gotoTheGoldenRoute}>
                         🏛️
                        
                         <li>The Golden Route</li>
                     </div>
 
                    
-                    <div className='flex relative' onClick={gotoSecureYourSpot}>
+                    <div className='flex relative left-[50px]' onClick={gotoSecureYourSpot}>
                       
                         🎫
                         <li>Secure Your Spot</li>

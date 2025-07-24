@@ -32,25 +32,21 @@ const gotoSecureYourSpot = () => {
     navigate('/SecureYourSpot');
 }
     return (
-        <div className="FirstMaliSSsub3-Sub2">
+        <body className="FirstMaliSSsub3-Sub2">
               <SecondNav />
 
-                <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
-                <h1 className='text-yellow-300 text-[20px] font-bold relative left-8'>The Musa Project
+                <nav className='flex gap-[80px]  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
+                <h1 className='text-yellow-300 text-[20px] font-bold relative left-8' onClick={goHome}>The Musa Project
                 </h1>
-                 <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
-                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
-                        🏡
-                        {/* <FontAwesomeIcon icon={faDrum}/> */}
-                        <li> Home</li>
-                    </div>
-                    <div className='flex gap-2 relative left-[-2px] w-[59%]' onClick={gotoFestivalDrumbeatPage}>
+                 <div className='flex gap-5 text-nowrap relative top-[10px] left-[35%] '>
+                   
+                    <div className='flex gap-2 relative left-[-2px] w-[62%]' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
                         <li>Festival Drumbeat</li>
                     </div>
 
-                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoRoyalFest}>
+                    <div className='flex gap-4 relative left-[-3px] w-[50%]' onClick={gotoRoyalFest}>
                         📜
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Court</li>
@@ -58,12 +54,12 @@ const gotoSecureYourSpot = () => {
 
                    
 
-                    <div className='flex gap-2 relative left-[-3px] w-[60%]' onClick={gotoDressLikeRoyalty}>
+                    <div className='flex gap-2 relative left-[-3px] w-[63%]' onClick={gotoDressLikeRoyalty}>
                         {/* <FontAwesomeIcon icon={faCrown} style={{color:'gold'}}/> */}
                         👑
                         <li>Dress Like Royalty</li>
                     </div>
-                    <div className='flex gap-4 relative left-[-3px] w-[60%]' onClick={gotoSecureYourSpot}>
+                    <div className='flex gap-4 relative left-[-3px] w-[63%]' onClick={gotoSecureYourSpot}>
                         {/* <FontAwesomeIcon icon={faTicket}/> */}
                         🎫
                         <li>Secure Your Spot</li>
@@ -303,6 +299,6 @@ const gotoSecureYourSpot = () => {
                               </div>
                           </div>
           </footer>
-        </div>
+        </body>
     );
 }

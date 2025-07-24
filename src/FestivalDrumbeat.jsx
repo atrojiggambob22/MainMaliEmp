@@ -33,23 +33,19 @@ const gotoSecureYourSpot = () => {
     navigate('/SecureYourSpot');
 }
     return (
-        <div className='FirstMaliSSsub3-Sub2'>
+        <body className='FirstMaliSSsub3-Sub2'>
         <SecondNav />
 
 
-         <nav className='flex gap-100  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
-                <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8'>
+         <nav className='flex gap-[80px]  text-nowrap w-full py-[10px] px-[14px] cursor-pointer  '>
+                <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8' onClick={goHome}>
                    The Musa Project
                 </h1>
-                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
-                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
-                        🏡
-                        {/* <FontAwesomeIcon icon={faDrum}/> */}
-                        <li> Home</li>
-                    </div>
+                <div className='flex gap-5 text-nowrap relative top-[10px] left-[30%] '>
+                   
                     
 
-                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoRoyalFest}>
+                    <div className='flex gap-4 relative left-[-3px] w-[50%]' onClick={gotoRoyalFest}>
                         📜
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>Royal Court</li>
@@ -324,6 +320,6 @@ experience</p>
                               </div>
                           </div>
           </footer>
-        </div>
+        </body>
     );
 }

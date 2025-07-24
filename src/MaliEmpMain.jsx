@@ -1,24 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import "./MaliEmp.css";
 import { useNavigate } from 'react-router-dom';
-
-// import { Link } from 'react-router-dom';
-// import ManonRed from "../public/images/ManonRed.jpg";
+import { motion } from 'framer-motion';
 import SecondNav from "./SecondNav"
-// import Anthelope from "../public/images/anthelope.jpg";
-// import Camel from "../public/images/Camel.jpg";
 import Fight from "../public/images/fight.JPG";
 import Family from "../public/images/family.JPG";
 import Dress from "../public/images/dressroyal.JPG";
 import onefamily from "../public/images/onefamily.JPG";
 import CountdownTimer from './CountdownTimer';
-
 import Mountains from "../public/images/mountains.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faBars, faXmark, faDrum, faBuilding, faCrown, faTicket, faPanorama, faBookAtlas, faBook, faLocation, faLocationArrow, faCalendar, faMobile, faMailBulk, faWebAwesome, faGlobe} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faOptinMonster } from '@fortawesome/free-brands-svg-icons/faOptinMonster';
-
+import FadeIn from './FadeIn';
+import BounceIn from './BounceIn';
+import SlideIn from './SlideIn';
+import FadeInSection from "./FadeInSection";
 export default function MaliEmpMain() {
 
     
@@ -128,14 +126,24 @@ const gotoRoyalFest = () => {
             </div>
             
             <div className='FirstMali text-center my-[100px] '>
+                <FadeInSection delay={0.4}>
+
                 <h1 className='text-center text-[90px] font-bold text-[#E6C157] overflow-y-hidden'>THE MUSA <br /> <span className='text-[#f1ab06]'>PROJECT</span></h1>
+                </FadeInSection>
+                
+                <FadeInSection direction="top" delay={0.5}>
+
 
                 <div className='FirstMaliSub1 my-5 bg-amber-600 w-[30%] relative left-[35%] p-5'>
                     <h3 className='text-[20px]'>A Celebration of West African Heritage</h3>
                 </div>
+                </FadeInSection>
+                <FadeInSection direction="bottom" delay={0.6}>
+
                 <div>
                     <CountdownTimer />
                 </div>
+                </FadeInSection>
                 <div className='FirstMaliSub2'>
                    
 
@@ -160,12 +168,25 @@ const gotoRoyalFest = () => {
                     </div>
                     <div className='FirstMaliSSsub1-Sub1 relative left-[90px]'>
                         <div className='FirstMaliSSsub1-Sub1-min1 flex justify-center'>
-                            <div><img src={Family} alt=""  className='rounded-[20px] w-[90%]'/></div>
+                            <FadeInSection direction="right" delay={0.2}>
+
+                                <div>
+                                <img src={Family} alt=""  className='rounded-[20px] w-[90%]'/>
+                                
+                                </div>
+                            </FadeInSection>
+
                             <div>
+                                <FadeInSection direction="left" delay={0.3}>
+
                                 <div className='mb-[20px] firstsegofheadd'>
                                     <h3 className='text-[30px] font-bold '>Festival Drumbeat</h3>
                                     <p className='font-light text-amber-900'>Music & Perfomance</p>
                                 </div>
+                                </FadeInSection>
+                                <FadeInSection direction="right" delay={0.4}>
+
+                                
                                 <p className='w-[60%]'>
                                    Experience the heartbeat of West Africa through traditional djembe circles, kora melodies, and griot storytelling. Dance to the rhythms that have echoed through centuries.
                                 </p>
@@ -175,19 +196,27 @@ const gotoRoyalFest = () => {
                                     <li>Griot Storytelling</li>
                                     <li>Kora Performances</li>
                                 </div>
+
                                 <div className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
                                     <h3  className='relative left-[10px]'>Learn More</h3>
                                 </div>
+
+                    </FadeInSection>
                             </div>
                         </div>
 
                         <div className='FirstMaliSSsub1-Sub1-min1  flex justify-center'>
                            
                             <div>
+                                <FadeInSection direction="right" delay={0.4}>
+
                                 <div className='mb-[20px] firstsegofheadd'>
                                     <h3  className='text-[30px] font-bold'>Royal Feast</h3>
                                     <p className='font-light text-amber-900'>Cuisine & Flavours</p>
                                 </div>
+                                </FadeInSection>
+                                <FadeInSection direction="top" delay={0.7}>
+
                                 <p className='w-[60%]'>Savor the royal flavors of the Mali Empire with authentic West African cuisine. From jollof rice to plantain dishes, taste the heritage of ancient trade routes.</p>
                                 <div  className='grid grid-cols-2 gap-4 my-5 w-[70%] papdivsdddd'>
                                     <li>Traditional Jollof</li>
@@ -198,17 +227,32 @@ const gotoRoyalFest = () => {
                                 <div  className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
                                     <h3  className='relative left-[13px]'>Learn More</h3>
                                 </div>
+                                </FadeInSection>
+
                             </div>
+                            <FadeInSection direction="right" delay={0.6}>
+
                              <div><img src={Fight} alt="" className='rounded-[20px] w-[70%]' /></div>
+                            </FadeInSection>
                         </div>
 
                         <div className='FirstMaliSSsub1-Sub1-min1  flex justify-center'>
+                            <FadeInSection direction="bottom" delay={0.5}>
+
                             <div><img src={onefamily} alt=""  className='rounded-[20px] w-[90%]'/></div>
+                            </FadeInSection>
+
                             <div>
+                                <FadeInSection direction="left" delay={0.6}>
+
                                 <div  className='mb-[20px] firstsegofheadd'>
                                     <h3 className='text-[30px] font-bold'>The Golden Route</h3>
                                     <p className='font-light text-amber-900'>History & Culture</p>
                                 </div>
+                                </FadeInSection>
+
+                                <FadeInSection direction="top" delay={0.8}>
+
                                 <p className='w-[60%]'>Walk the paths of ancient merchants and discover the cultural treasures of the Mali Empire. Explore exhibits showcasing gold trade, Islamic scholarship, and architectural marvels.</p>
                                 <div  className='grid grid-cols-2 gap-4 my-5 w-[70%] papdivsdddd'>
                                     <li>Historical Exhibits</li>
@@ -220,16 +264,24 @@ const gotoRoyalFest = () => {
                                 >
                                     <h3 className='relative left-[15px]'>Learn More</h3>
                                 </div>
+                                </FadeInSection>
+
                             </div>
                         </div>
 
                         <div className='FirstMaliSSsub1-Sub1-min1  flex justify-center'>
                             
                             <div>
+                                <FadeInSection direction="right" delay={0.9}>
+
                                 <div  className='mb-[20px] firstsegofheadd'>
                                     <h3 className='text-[30px] font-bold'>Dress Like Royalty</h3>
                                     <p className='font-light text-amber-900'>Fashion & Style</p>
                                 </div>
+                                </FadeInSection>
+
+                                <FadeInSection direction="bottom" delay={1.0}>
+
                                 <p className='w-[60%]'>Adorn yourself in the magnificent textiles of West Africa. From vibrant ankara prints to elegant boubous, dress in the splendor of Mali Empire nobility.</p>
                                 <div  className='grid grid-cols-2 gap-4 my-5 w-[70%] papdivsdddd'>
                                     <li>Ankara Fashion</li>
@@ -240,8 +292,14 @@ const gotoRoyalFest = () => {
                                 <div  className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
                                     <h3  className='relative left-[15px]'>Learn More</h3>
                                 </div>
+                                </FadeInSection>
+
                             </div>
+                        <FadeInSection direction="left" delay={0.8}>
+
                             <div><img src={Dress} alt="" className='rounded-[20px] w-[70%]' /></div>
+                        </FadeInSection>
+
                         </div>
 
                     </div>

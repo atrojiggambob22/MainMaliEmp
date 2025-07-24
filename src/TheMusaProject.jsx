@@ -39,20 +39,16 @@ const gotoTheMusaProject = () => {
        <div>
          <SecondNav />
            <nav className='flex gap-20  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
-                <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8'>
+                <h1 className='text-[#D4A437] text-[25px] font-bold relative left-8' onClick={goHome}>
                    The Musa Project
                 </h1>
-                <div className='flex gap-5 text-nowrap relative top-[10px] left-[-5px] '>
-                    <div className='flex gap-4 relative left-[-3px] w-[41%]' onClick={gotoTheMusaProject}>
+                <div className='flex gap-[50px] text-nowrap relative top-[10px] left-[-5px] '>
+                    <div className='flex gap-4 relative left-[-3px] w-[50%]' onClick={gotoTheMusaProject}>
                         🌟
                         {/* <FontAwesomeIcon icon={faOptinMonster}/> */}
                         <li>The Musa Project</li>
                     </div>
-                    <div className='flex gap-2 relative left-[-6px] w-[29%]' onClick={goHome}>
-                        🏡
-                        {/* <FontAwesomeIcon icon={faDrum}/> */}
-                        <li> Home</li>
-                    </div>
+                
                     <div className='flex gap-2 relative left-[-2px] w-[59%]' onClick={gotoFestivalDrumbeatPage}>
                         🥁
                         {/* <FontAwesomeIcon icon={faDrum}/> */}
