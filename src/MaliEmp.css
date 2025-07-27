@@ -46,7 +46,7 @@ nav h1{
     display: none;
 }
 .FirstMaliSub1{
-     background: linear-gradient(3deg, #f2dc96, #d99861, #c48d62);
+    background: linear-gradient(3deg, #f2dc96, #d99861, #c48d62);
   padding: 20px;
   border-radius: 15px;
   /* transform: rotate(1deg); */
@@ -59,7 +59,11 @@ nav h1{
     font-family: "Crimson Text", serif;
      /* font-family: "Cinzel", serif; */
     line-height:100px;
+    text-shadow:1px 4px 9px black;
+}
+.SecondgenofFirst{
     text-shadow:4px 4px 8px black;
+
 }
 .FirstMali h1 span{
     font-family: "Cinzel", serif;
@@ -108,12 +112,22 @@ nav h1{
 /* The footer section */
 footer{
     cursor: pointer;
-    border:18px solid rgb(255, 166, 0) ;
-    background-color:#6a2f05;
+    border:18px solid #D4A437;
+    background-color:#6a2f05ea;
+}
+footer h3{
+    color: #f5c15097;
+}
+footer h3:hover{
+    color: #f9de49;
+    transition: linear .2s;
 }
 footer hr{
     position: relative;
     left:30px;
+}
+.TheFirstSonofFooter{
+    border-bottom: 20px solid #D4A437;
 }
 .FirstMaliSSsub3-Sub2 p{
       transition: .4s linear;
@@ -145,6 +159,12 @@ footer hr{
         width: 90% !important;
         position: relative;
         left:15px;
+    }
+    .FirstMaliSSsub1ppd{
+        width: 90%;
+        font-size: 20px;
+        position: relative;
+        left: 15px;
     }
     .FirstMaliSub2 p{
         width: 80% !important;

@@ -53,6 +53,7 @@ const gotoTheMusaProject = () => {
 const gotoRoyalFest = () => {
     navigate ('/RoyalFest')
 }
+
     return (
         <>
             <ScrollIndicator/>
@@ -130,7 +131,9 @@ const gotoRoyalFest = () => {
             <div className='FirstMali text-center my-[100px] '>
                 <FadeInSection delay={0.4}>
 
-                <h1 className='text-center text-[90px] font-bold text-[#E6C157] overflow-y-hidden'>THE MUSA <br /> <span className='text-[#f1ab06]'>PROJECT</span></h1>
+                <h1 className='text-center text-[90px] font-bold text-[#fac941] overflow-y-hidden'>Experience the <span className='text-black'>Golden</span>  Age <br /> 
+               </h1>
+                <p className='text-[40px] my-[20px] font-bold text-[#f1cc65] SecondgenofFirst'>August 25th - Oct 20th | 10am - 2pm</p>
                 </FadeInSection>
                 
                 <FadeInSection direction="top" delay={0.5}>
@@ -162,7 +165,7 @@ const gotoRoyalFest = () => {
                 </div>
 
                 <div className='FirstMaliSSsub1 py-[50px]'>
-                     <p className='w-[80%] relative left-[11%] my-[30px] text-[#ffa601] text-[30px] font-bold text-center'>Journey through the golden age of the Mali Empire.Experience authentic West African Culture, music, cusine and tradition in an immersive festival celebrating our rich heritage</p>
+                     <p className='w-[80%] relative left-[11%] my-[30px] text-black text-[30px] font-light text-center FirstMaliSSsub1ppd'>Journey through the golden age of the Mali Empire.Experience authentic West African Culture, music, cusine and tradition in an immersive festival celebrating our rich heritage</p>
                     <div className='text-center mainsubfofSSubdu '>
                     <h3 className='text-[40px] font-bold my-[15px] firstofthemh3333'>FESTIVAL HIGHLIGHTS</h3>
                     {/* <p className='w-[40%] relative left-[30%]'>Immerse yourself in the rich tapestry of West African culture through our carefully curated experiences</p> */}
@@ -182,7 +185,10 @@ const gotoRoyalFest = () => {
                                 <FadeInSection direction="left" delay={0.3}>
 
                                 <div className='mb-[20px] firstsegofheadd'>
-                                    <h3 className='text-[30px] font-bold '>Festival Drumbeat</h3>
+                                   
+                                    <h3 className='text-[30px] font-bold '>Epic of Sundiata</h3>
+
+                                    
                                     <p className='font-light text-amber-900'>Music & Perfomance</p>
                                 </div>
                                 </FadeInSection>
@@ -200,7 +206,9 @@ const gotoRoyalFest = () => {
                                 </div>
 
                                 <div className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
+                                     <a onClick={gotoTheMusaProject}>
                                     <h3  className='relative left-[10px]'>Learn More</h3>
+                                    </a>
                                 </div>
 
                     </FadeInSection>
@@ -227,7 +235,11 @@ const gotoRoyalFest = () => {
                                     <li>Royal Spice Blends</li>
                                 </div>
                                 <div  className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
+                                    <a onClick={gotoRoyalFest}>
+
                                     <h3  className='relative left-[13px]'>Learn More</h3>
+                                    </a>
+
                                 </div>
                                 </FadeInSection>
 
@@ -264,179 +276,38 @@ const gotoRoyalFest = () => {
                                 </div>
                                 <div className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'
                                 >
+                                    <a onClick={gotoTheGoldenRoute}>
+
                                     <h3 className='relative left-[15px]'>Learn More</h3>
+
+                                    </a>
                                 </div>
                                 </FadeInSection>
 
                             </div>
                         </div>
 
-                        <div className='FirstMaliSSsub1-Sub1-min1  flex justify-center'>
-                            
-                            <div>
-                                <FadeInSection direction="right" delay={0.9}>
-
-                                <div  className='mb-[20px] firstsegofheadd'>
-                                    <h3 className='text-[30px] font-bold'>Dress Like Royalty</h3>
-                                    <p className='font-light text-amber-900'>Fashion & Style</p>
-                                </div>
-                                </FadeInSection>
-
-                                <FadeInSection direction="bottom" delay={1.0}>
-
-                                <p className='w-[60%]'>Adorn yourself in the magnificent textiles of West Africa. From vibrant ankara prints to elegant boubous, dress in the splendor of Mali Empire nobility.</p>
-                                <div  className='grid grid-cols-2 gap-4 my-5 w-[70%] papdivsdddd'>
-                                    <li>Ankara Fashion</li>
-                                    <li>Traditional Jewelry</li>
-                                    <li>Royal Boubous</li>
-                                    <li>Headwrap Styling</li>
-                                </div>
-                                <div  className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
-                                    <h3  className='relative left-[15px]'>Learn More</h3>
-                                </div>
-                                </FadeInSection>
-
-                            </div>
-                        <FadeInSection direction="left" delay={0.8}>
-
-                            <div><img src={Dress} alt="" className='rounded-[20px] w-[70%]' /></div>
-                        </FadeInSection>
-
-                        </div>
+                      
 
                     </div>
                 </div>
-             <footer className='relative left-[-18px] w-[110%] '>
-                          <div className='FirstMaliSSsub3-Sub1 grid grid-cols-3 my-[60px] mx-[20px]'>
-                              <div className='FirstMaliSSsub3-Sub2'>
-                                  <div>
-                                  <h3 className='my-[20px] font-bold text-[20px] text-[#D4A437]'>MALI EMPIRE FESTIVAL</h3>
-                                  <p className='w-[70%]'>Join us for an authentic celenration of our West African heritage, culture, traditions. Experience the golden age of the mali empire through music, food, and community</p>
-      
-                                  </div>
-                                  <div className='flex gap-10 my-[20px]'>
-                                      <div>
-                                           {/* <FontAwesomeIcon icon={faMailBulk}/> */}
-                                            📧
-                                      </div>
-                                      <div>
-                                        📱
-                                           {/* <FontAwesomeIcon icon={faMobile}/> */}
-      
-                                      </div>
-                                      <div>
-                                        🌐
-                                           {/* <FontAwesomeIcon icon={faGlobe}/> */}
-      
-                                      </div>
-                                  </div>
-                              </div>
-      
-                              <div className='FirstMaliSSsub3-Sub3'>
-                              <div>
-                                 <h3 className='my-[20px] text-[20px] font-bold  firstsegofheadd   rounded-[10px]'>Festival Element</h3>
-                              </div>
-                              <div className='mb-[15px] flex gap-5'>
-                                  <div>
-                                    🥁
-                                      {/* <FontAwesomeIcon icon={faDrum}/> */}
-                                  </div>
-                                  <div>
-                                      <h3>Tradition Music and Dance</h3>
-                                  </div>
-                              </div>
-      
-                              <div className='mb-[15px] flex gap-5'>
-                                🍯
-                                  {/* <FontAwesomeIcon icon={faPanorama}/> */}
-                                  <div>
-                                      <h3>Authentic West African Cuisine</h3>
-                                  </div>
-                              </div>
-      
-                              <div className='mb-[15px] flex gap-5'>
-                                🏛️
-                                   {/* <FontAwesomeIcon icon={faBuilding}/> */}
-                                  <div>
-                                      <h3>Historical Exibitions</h3>
-                                  </div>
-                              </div>
-      
-                              <div className='mb-[15px] flex gap-5'>
-                                👑
-                                  {/* <FontAwesomeIcon icon={faCrown}/> */}
-                                  <div>
-                                      <h3>Traditional Fasion & Craft</h3>
-                                  </div>
-                              </div>
-      
-                              <div className='mb-[15px] flex  gap-5'>
-                                📚
-                                 {/* <FontAwesomeIcon icon={faBook}/> */}
-                                  <div>
-                                      <h3>Culture Education</h3>
-                                  </div>
-                              </div>
+            <footer className='relative left-[-18px] w-[110%] '>
+                <div className='TheFirstSonofFooter'>
+                    <h3 className='m-[10px] text-[40px] font-bold'>The Musa Project</h3>
+                </div>
+                          <div className='grid grid-cols-2 m-[20px]'>
+                            <div>
+                            <h3 className='text-[40px] font-bold m-[20px]'>Location</h3>
+                            <p></p>
 
-                              </div>
-      
-                              <div className='Secontolastfott'>
-                                  <div>
-                                      <h3 className='my-[20px] text-[20px] font-bold firstsegofheadd rounded-[10px]'>Join The Caravan</h3>
-                                  </div>
-                                  <div>
-                                      <div className='mb-[15px] flex gap-5'>
-                                          <div>
-                                            📍
-                                             {/* <FontAwesomeIcon icon={faLocationArrow}/> */}
-                                          </div>
-                                          <div>
-                                          <h3 className='text-yellow-600'>Festival Grounds</h3>
-                                          <p className='font-light text-[13px] text-amber-300'>Historic Culture Center</p>
-                                          </div>
-                                         
-                                      </div>
-      
-                                      <div className='mb-[15px] flex gap-5'>
-                                          <div>
-                                            📆
-                                             {/* <FontAwesomeIcon icon={faCalendar}/> */}
-                                          </div>
-                                          <div>
-                                              <h3 className='text-yellow-600'>Festiv Dates</h3>
-                                          <p className='text-amber-300'>Summer 2025</p>
-                                          </div>
-                                          
-                                      </div> 
-                                      
-                                      <div className='mb-[15px] flex gap-5'>
-                                          <div>
-                                            🎫
-                                              {/* <FontAwesomeIcon icon={faTicket}/> */}
-                                          </div>
-      
-                                          <div>
-                                                <h3 className='text-yellow-600'>Tickets Avalaible</h3>
-                                          <p className='text-amber-300'>Early Bird Pricing</p>
-                                          </div>
-                                        
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <hr className='h-[2px] bg-amber-800 w-[80%] relative left-[80px] ' />
-                          <br />
-                          <br />
-                          <br />
-                          <div className='flex mx-[80px] gap-[600px] mb-[40px] lastofthemall'>
-                              <div>
-                                  © 2024 Mali Empire Festival. Celebrating West African Heritage.
-                              </div>
-                              <div className='flex gap-[20px]'>
-                                  <li>Privacy</li>
-                                  <li>Terms</li>
-                                  <li>Contact</li>
-                              </div>
+                            </div>
+                            <div>
+                                <h3 className='font-bold text-[40px]'>Let's Connect</h3>
+                                <div className='m-[20px]'>
+                                   <p className='m-[10px] font-bold'> <span className='mx-[10px]'>📞</span>  +234 906 144 6848</p>
+                                   <p className='m-[10px] font-bold'> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
+                                </div>
+                            </div>
                           </div>
           </footer>
             </body>
