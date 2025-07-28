@@ -178,7 +178,7 @@ const gotoSecureYourSpot = () => {
         <div className='p-[40px] bg-[#6a2f05] closetothefootofDruZ '>
         <div>
         <h3 className='text-[30px] font-bold my-[30px]'>Join The Celebration</h3></div>
-        <p  className='text-[#fdd579ae]' >Don't miss the chance to be part of this extraordinary  cultural <br />
+        <p  className='text-[#fdd579ae]'  style={{color:"black"}}>Don't miss the chance to be part of this extraordinary  cultural <br />
 experience</p>
 
                 <div className='my-[40px] bg-yellow-400 inline-block px-[40px] py-[10px]'>
@@ -190,19 +190,25 @@ experience</p>
 
           <footer className='relative left-[-18px] w-[110%] '>
                 <div className='TheFirstSonofFooter'>
-                    <h3 className='m-[10px] text-[40px] font-bold'>The Musa Project</h3>
+                    <h3 className='m-[10px] text-[40px] font-bold'  >The Musa Project</h3>
+                    <div className='w-[80%]'>
+
+                    <p className='m-[10px] ' style={{fontFamily:"Crimson Text", color:'black'}}>The Musa Project is more than a festival  it’s a living tribute to the legacy of the Mali Empire and the golden age of West Africa. Through storytelling, traditional music, fashion, food, and architecture, we bring history to life and reconnect communities with the greatness that once defined an empire. From the epic of Sundiata to the rhythm of the drums and the spices of the royal feast, every detail is crafted to honor our roots and inspire a new generation. Join the journey. Remember the empire. Celebrate the spirit.</p>
+                    </div>
                 </div>
                           <div className='grid grid-cols-2 m-[20px]'>
                             <div>
-                            <h3 className='text-[40px] font-bold m-[20px]'>Location</h3>
-                            <p></p>
+                            <h3 className='text-[40px] font-bold m-[20px]' style={{color:'black'}}>Location</h3>
+                            <p className='w-[50%] m-[20px]' style={{color:'black'}}>Centre Culturel Kôrè de Ségou
+Rue 12, Quartier Sido Sonikoura
+BP 62, Ségou, Mali</p>
 
                             </div>
                             <div>
                                 <h3 className='font-bold text-[40px]'>Let's Connect</h3>
-                                <div className='m-[20px]'>
-                                   <p className='m-[10px] font-bold'> <span className='mx-[10px]'>📞</span>  +234 906 144 6848</p>
-                                   <p className='m-[10px] font-bold'> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
+                                <div className='m-[20px]' >
+                                   <p className='m-[10px] font-bold' style={{color:"black"}}> <span className='mx-[10px]'>📞</span>  +234 906 144 6848</p>
+                                   <p className='m-[10px] font-bold' style={{color:"black"}}> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
                                 </div>
                             </div>
                           </div>

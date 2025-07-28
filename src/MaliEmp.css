@@ -28,9 +28,8 @@ nav li{
 color:#F4E2B2;
  font-family: "Crimson Text", serif;
   font-weight: 400;
-  /* position: relative; */
-  /* left:10px; */
-  /* width: 100%; */
+  list-style: none;
+  margin:0px 5px;
 }
 nav li:hover{
     color:#D4A437;
@@ -114,6 +113,10 @@ footer{
     cursor: pointer;
     border:18px solid #D4A437;
     background-color:#6a2f05ea;
+    
+}
+footer p{
+    color: black !important;
 }
 footer h3{
     color: #f5c15097;
@@ -247,7 +250,7 @@ footer hr{
         margin-bottom: 10px;
     }
     .FirstMaliSSsub3-Sub3 h3:hover{
-        color: yellow;
+        /* color: yellow; */
     }
     .Secontolastfott h3{
         font-size: 25px;

@@ -196,7 +196,7 @@ const gotoRoyalFest = () => {
 
                                 
                                 <p className='w-[60%]'>
-                                   Experience the heartbeat of West Africa through traditional djembe circles, kora melodies, and griot storytelling. Dance to the rhythms that have echoed through centuries.
+                                  A dramatic retelling of the founding story of the Mali Empire  experience live performances that trace the journey of Sundiata Keita from a disabled child to the first great emperor of Mali.
                                 </p>
                                 <div className='grid grid-cols-2 gap-4 my-5 w-[70%] papdivsdddd'>
                                     <li>Live Djembe Circles</li>
@@ -227,7 +227,7 @@ const gotoRoyalFest = () => {
                                 </FadeInSection>
                                 <FadeInSection direction="top" delay={0.7}>
 
-                                <p className='w-[60%]'>Savor the royal flavors of the Mali Empire with authentic West African cuisine. From jollof rice to plantain dishes, taste the heritage of ancient trade routes.</p>
+                                <p className='w-[60%]'>Enjoy a curated spread of traditional Malian cuisine from jollof rice to tô and peanut stew — served with local drinks and prepared using ancient recipes passed down through generations.</p>
                                 <div  className='grid grid-cols-2 gap-4 my-5 w-[70%] papdivsdddd'>
                                     <li>Traditional Jollof</li>
                                     <li>Baobab Refreshments</li>
@@ -293,12 +293,18 @@ const gotoRoyalFest = () => {
                 </div>
             <footer className='relative left-[-18px] w-[110%] '>
                 <div className='TheFirstSonofFooter'>
-                    <h3 className='m-[10px] text-[40px] font-bold'>The Musa Project</h3>
+                    <h3 className='m-[10px] text-[40px] font-bold'  >The Musa Project</h3>
+                    <div className='w-[80%]'>
+
+                    <p className='m-[10px] ' style={{fontFamily:"Crimson Text"}}>The Musa Project is more than a festival  it’s a living tribute to the legacy of the Mali Empire and the golden age of West Africa. Through storytelling, traditional music, fashion, food, and architecture, we bring history to life and reconnect communities with the greatness that once defined an empire. From the epic of Sundiata to the rhythm of the drums and the spices of the royal feast, every detail is crafted to honor our roots and inspire a new generation. Join the journey. Remember the empire. Celebrate the spirit.</p>
+                    </div>
                 </div>
                           <div className='grid grid-cols-2 m-[20px]'>
                             <div>
                             <h3 className='text-[40px] font-bold m-[20px]'>Location</h3>
-                            <p></p>
+                            <p className='w-[50%] m-[20px]'>Centre Culturel Kôrè de Ségou
+Rue 12, Quartier Sido Sonikoura
+BP 62, Ségou, Mali</p>
 
                             </div>
                             <div>
