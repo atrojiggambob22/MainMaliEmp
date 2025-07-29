@@ -130,5 +130,7 @@ ul {
    .ouey-cards p{
       left: 30px !important;
    }
-
+   .mothoti{
+    grid-template-columns: repeat(1,1fr);
+   }
 }

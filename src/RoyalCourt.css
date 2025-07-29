@@ -62,4 +62,13 @@
         position: relative;
         left:-5px;
     }
+    .Voluntp{
+        width: 160%;
+        position: relative;
+        left:-40px;
+    }
+    .TheFirstSonofFooter p{
+        width: 90% !important;
+       
+    }
 }

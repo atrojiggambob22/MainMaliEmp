@@ -136,25 +136,66 @@ export default function RoyalCourt() {
          </FadeInSection>
 
         </div>
+        <div className="text-center p-[50px] bg-[#ba84066b]">
+            <div className="m-[30px] font-bold text-[25px]"><h3>Vendor and Engagement Application</h3></div>
+            <div className="Voluntp">
+                <p style={{fontFamily:"Crimson Text", fontWeight:"900", color:"gray"}} >Become a Vendor
+Bring Your Craft to the Empire
 
-         <div className=" bg-[#6a2f05] p-[40px] py-[60px] text-center">
+Do you sell handcrafted goods, traditional art, fashion, jewelry, or authentic African cuisine? Join the marketplace of the Mali Festival  inspired by the legendary trade city of Timbuktu.
+
+Whether you're a skilled artisan, chef, or trader, this is your chance to share your craft with festival-goers from across the region. From woven baskets and bronze work to spices and sweet drinks we’re looking for vendors who celebrate heritage through their hands.
+
+Vendor slots are limited. Apply now to reserve your space in the Royal Market.
+
+[Apply as a Vendor] - (When they click this they'll donwload a form)
+
+Join the Festival Team
+Help Us Bring the Empire to Life
+
+From costume designers to tour guides, food staff to stage crew — it takes a village to run a kingdom. If you're passionate about African history, performance, hospitality, or culture, we’d love to have you as part of our festival team.
+
+No prior festival experience? No problem. Training and roles are available in:
+
+Guest services
+
+Stage & tech crew
+
+Cultural performance assistants
+
+Costume & dressing teams
+
+Food & drink staff
+
+Security & logistics
+
+Applications open now. Be part of something epic.
+
+[Apply for a Role] - (when the click this they'll download a form)</p>
+            </div>
+            <div className="inline-block m-[20px] relative top-[30px]">
+                <button>CLick Here to Download the application form</button>
+            </div>
+        </div>
+
+         {/* <div className=" bg-[#6a2f05] p-[40px] py-[60px] text-center">
         <h3 className="text-[30px] font-bold text-amber-500 ">Follow Our Journey</h3>
         <p className="w-[50%] relative left-[24%] my-[10px] mb-[40px] tgecourtroyalcc58577sub4444pp" style={{color:"#fdd579ae",fontFamily:"Crimson Text", fontSize:'25px'}} >Or follow along as we preapare the magic</p>
     <div className="bg-amber-500 inline-block border-2 border-amber-800">
         <h3 className="text-[20px] p-[10px] px-[30px]">"N ka kent — may joy guide your steps."</h3>
     </div>
-    </div>
+    </div> */}
 
-               <footer className='relative left-[-18px] w-[110%] '>
+            <footer className='relative left-[-18px] w-[110%] '>
                 <div className='TheFirstSonofFooter'>
                     <h3 className='m-[10px] text-[40px] font-bold'  >The Musa Project</h3>
                     <div className='w-[80%]'>
 
-                    <p className='m-[10px] ' style={{fontFamily:"Crimson Text"}}>The Musa Project is more than a festival  it’s a living tribute to the legacy of the Mali Empire and the golden age of West Africa. Through storytelling, traditional music, fashion, food, and architecture, we bring history to life and reconnect communities with the greatness that once defined an empire. From the epic of Sundiata to the rhythm of the drums and the spices of the royal feast, every detail is crafted to honor our roots and inspire a new generation. Join the journey. Remember the empire. Celebrate the spirit.</p>
+                    <p className='m-[10px]  text-[30px]' style={{fontFamily:"Crimson Text"}}>The Musa Project is more than a festival  it’s a living tribute to the legacy of the Mali Empire and the golden age of West Africa. Through storytelling, traditional music, fashion, food, and architecture, we bring history to life and reconnect communities with the greatness that once defined an empire. From the epic of Sundiata to the rhythm of the drums and the spices of the royal feast, every detail is crafted to honor our roots and inspire a new generation. Join the journey. Remember the empire. Celebrate the spirit.</p>
                     </div>
                 </div>
-                           <div className='grid grid-cols-2 m-[15px] seondphase0ffoot'>
-                            <div>
+                          <div className='grid grid-cols-2 m-[15px] seondphase0ffoot'>
+                            <div className='footerMiddlesec'>
                             <h3 className='text-[40px] font-bold m-[20px]'>Location</h3>
                             <p className='w-[50%] m-[20px]  text-[20px]'>Centre Culturel Kôrè de Ségou
 Rue 12, Quartier Sido Sonikoura
@@ -165,7 +206,7 @@ BP 62, Ségou, Mali</p>
                                 <h3 className='font-bold text-[40px]'>Let's Connect</h3>
                                 <div className='m-[15px]'>
                                    <p className='m-[10px] font-bold  text-[20px]'> <span className='mx-[10px]'>📞</span>  +234 906 144 6848</p>
-                                   <p className='m-[10px] font-bold text-nowrap ' style={{fontSize:"15px"}}> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
+                                   <p className='m-[10px] font-bold text-nowrap text-[13px]' style={{fontSize:"13px"}}> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
                                 </div>
                             </div>
                           </div>

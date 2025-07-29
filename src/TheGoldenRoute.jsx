@@ -3,6 +3,7 @@ import SecondNav from './SecondNav';
 import { useNavigate } from 'react-router-dom';
 import './TheGoldenRoute.css';
 import './MaliEmp.css';
+import Motel from "../public/images/hotel22.JPG"
 import GRoute from "../public/images/GRoute.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faBars, faXmark, faDrum, faBuilding, faCrown, faTicket, faPanorama, faBookAtlas, faBook, faLocation, faLocationArrow, faCalendar, faMobile, faMailBulk, faWebAwesome, faGlobe} from '@fortawesome/free-solid-svg-icons';
@@ -98,8 +99,8 @@ const gotoSecureYourSpot = () => {
             <div className="p-[20px]">
               <div >
 
-              <li className="m-[10px]">10am to 2pm </li>
-              <div className="flex gap-2 m-[10px]">
+              <li className="m-[10px]" style={{fontFamily:"Crimson Text"}}>10am to 2pm </li>
+              <div className="flex gap-2 m-[10px]" style={{fontFamily:"Crimson Text"}}>
                 <div>📅</div>
                 <p>August 29 - October 21</p>
               </div>
@@ -116,8 +117,8 @@ const gotoSecureYourSpot = () => {
      <div className="text-center p-[20px] bg-[#d4a53753] py-[80px]">
       <div>
         <h3 className="text-[40px] font-bold">Guided Tour</h3>
-        <div className="m-[20px] max-w-[60%] relative left-[18%]  routeinfopaa" style={{lineHeight:'40px'}} >
-          <p>Our guided tours are curated by local historians, performers, and griots — storytellers of West African oral tradition. Each tour lasts 30–45 minutes and moves through key exhibition areas:
+        <div className="m-[20px] w-[60%] relative left-[18%]  routeinfopaa" style={{lineHeight:'40px'}} >
+          <p style={{fontFamily:"Crimson Text", color:"gray"}}>Our guided tours are curated by local historians, performers, and griots — storytellers of West African oral tradition. Each tour lasts 30–45 minutes and moves through key exhibition areas:
 
 The Rise of Sundiata
 
@@ -153,33 +154,41 @@ Tours are in English and French; local dialect sessions may be announced</p>
       </div>
      </div>
       <div className="p-10"> 
-        <div className="text-center">
-          <h3>Local Accomodation</h3>
+        <div className="text-center m-[20px]">
+          <h3 className="font-bold text-[20px]">Local Accomodation</h3>
         </div>
-        <div>
-          {/* <div><img src="" alt="" /></div> */}
-          <div>
-            <div>
-              <div></div>
-              <div>
-                <p></p>
-              </div>
+        <div className="grid grid-cols-3 gap-[20px] mothoti">
+            <div className="rounded-[20px]">
+              <img src={Motel} alt="" />
             </div>
-            <div></div>
-          </div>
+            <div className="rounded-[20px]">
+              <img src={Motel} alt="" />
+            </div>
+            <div className="rounded-[20px]">
+              <img src={Motel} alt="" />
+            </div>
+            <div className="rounded-[20px]">
+              <img src={Motel} alt="" />
+            </div>
+            <div className="rounded-[20px]">
+              <img src={Motel} alt="" />
+            </div>
+            <div className="rounded-[20px]">
+              <img src={Motel} alt="" />
+            </div>
         </div>
       </div>
      
-             <footer className='relative left-[-18px] w-[110%] '>
+           <footer className='relative left-[-18px] w-[110%] '>
                 <div className='TheFirstSonofFooter'>
                     <h3 className='m-[10px] text-[40px] font-bold'  >The Musa Project</h3>
                     <div className='w-[80%]'>
 
-                    <p className='m-[10px] ' style={{fontFamily:"Crimson Text"}}>The Musa Project is more than a festival  it’s a living tribute to the legacy of the Mali Empire and the golden age of West Africa. Through storytelling, traditional music, fashion, food, and architecture, we bring history to life and reconnect communities with the greatness that once defined an empire. From the epic of Sundiata to the rhythm of the drums and the spices of the royal feast, every detail is crafted to honor our roots and inspire a new generation. Join the journey. Remember the empire. Celebrate the spirit.</p>
+                    <p className='m-[10px]  text-[30px]' style={{fontFamily:"Crimson Text"}}>The Musa Project is more than a festival  it’s a living tribute to the legacy of the Mali Empire and the golden age of West Africa. Through storytelling, traditional music, fashion, food, and architecture, we bring history to life and reconnect communities with the greatness that once defined an empire. From the epic of Sundiata to the rhythm of the drums and the spices of the royal feast, every detail is crafted to honor our roots and inspire a new generation. Join the journey. Remember the empire. Celebrate the spirit.</p>
                     </div>
                 </div>
-                           <div className='grid grid-cols-2 m-[15px] seondphase0ffoot'>
-                            <div>
+                          <div className='grid grid-cols-2 m-[15px] seondphase0ffoot'>
+                            <div className='footerMiddlesec'>
                             <h3 className='text-[40px] font-bold m-[20px]'>Location</h3>
                             <p className='w-[50%] m-[20px]  text-[20px]'>Centre Culturel Kôrè de Ségou
 Rue 12, Quartier Sido Sonikoura
@@ -190,7 +199,7 @@ BP 62, Ségou, Mali</p>
                                 <h3 className='font-bold text-[40px]'>Let's Connect</h3>
                                 <div className='m-[15px]'>
                                    <p className='m-[10px] font-bold  text-[20px]'> <span className='mx-[10px]'>📞</span>  +234 906 144 6848</p>
-                                   <p className='m-[10px] font-bold text-nowrap ' style={{fontSize:'13px'}}> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
+                                   <p className='m-[10px] font-bold text-nowrap text-[13px]' style={{fontSize:"13px"}}> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
                                 </div>
                             </div>
                           </div>
