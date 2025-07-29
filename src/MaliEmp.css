@@ -104,9 +104,8 @@ nav h1{
 }
 .firstsegofheadd{
   background: linear-gradient(3deg, #f2dc96, #d99861, #c48d62);
-  padding:10px 40px;
+  padding:10px 20px;
   border-radius: 15px !important;
-  /* transform: rotate(2deg); */
   display: inline-block;
 }
 
@@ -143,9 +142,7 @@ footer hr{
     transition: .4s linear;
     /* color: rgba(147, 86, 15, 0.923); */
 }
-  .FirstMaliSSsub3-Sub2 p:hover{
-        /* color: yellow; */
-     }
+  
  .FirstMaliSSsub3-Sub3 h3:hover{
         color: #c48d62;
     }
@@ -191,14 +188,14 @@ footer hr{
     }
     .firstsegofheadd{
         position: relative;
-        left:-20px !important;
+        /* left:-20px !important; */
     }
     .firstsegofheadd h3{
         position: relative;
         /* left: 20px; */
-        font-size: 25px !important;
+        font-size:15px !important;
         text-wrap: nowrap;
-       padding: auto 50px !important;
+       /* padding: auto 50px !important; */
     }
     .mainsubfofSSubdu p{
         width: 80%;
@@ -247,16 +244,14 @@ footer hr{
         /* color: yellow; */
     }
      .FirstMaliSSsub3-Sub2 p:hover{
-        color: yellow;
+        /* color: yellow; */
      }
     .FirstMaliSSsub3-Sub3 h3{
         transition: .2s linear ;
         font-size: 20px !important;
         margin-bottom: 10px;
     }
-    .FirstMaliSSsub3-Sub3 h3:hover{
-        /* color: yellow; */
-    }
+   
     .Secontolastfott h3{
         font-size: 25px;
     }
@@ -274,7 +269,7 @@ footer hr{
         grid-template-columns: repeat(1,1fr);
         gap: 10px;
     }
-   
+    
 }
 
 
@@ -310,11 +305,11 @@ font-family: "Crimson Text", serif;
 .Firtsparolunderthecontent1{
     text-align: center;
     font-family: "Crimson Text", serif;
-    padding:10px 40px;
+    padding:10px 20px;
     background-color: #c48d62;
     display: inline-block;
     position: relative;
-    left:35%;
+    left:38%;
     margin: 10px;
     /* align-items: center; */
 }

@@ -94,7 +94,7 @@ const gotoSecureYourSpot = () => {
             <div className=' p-[10px] px-[80px]  my-[10px] relative top-[-30px] Perfomanceoftheroayalmin'>
                  <FadeInSection duration={0.8} direction='top'>
 
-            <h3 className='text-[20px] font-bold firstsegofheadd'>ROYAL PERFOMANCES</h3>
+            <h3 className='text-[20px] font-bold '>ROYAL PERFOMANCES</h3>
                  </FadeInSection>
 
             </div>
@@ -155,7 +155,7 @@ const gotoSecureYourSpot = () => {
 
                 <FadeInSection duration={0.4} direction='left'>
 
-                <div className='babafirstsegofheadd'>
+                <div className='babafirstsegofheadd chillperrom' >
                 <h3 className='text-[20px] font-bold firstsegofheadd'>PERFORMANCE SCHEDULE</h3></div>
                 </FadeInSection>
             
@@ -220,7 +220,7 @@ const gotoSecureYourSpot = () => {
         <div className='p-[40px] bg-[#6a2f05] closetothefootofDruZ '>
         <div>
         <h3 className='text-[30px] font-bold my-[30px]'>Join The Celebration</h3></div>
-        <p  className='text-[#fdd579ae]'  style={{color:"black"}}>Don't miss the chance to be part of this extraordinary  cultural <br />
+        <p  className='text-[#fdd579ae] text-center'  style={{color:"black"}}>Don't miss the chance to be part of this extraordinary  cultural <br />
 experience</p>
 
                 <div className='my-[40px] bg-yellow-400 inline-block px-[40px] py-[10px]'>
@@ -251,7 +251,7 @@ BP 62, Ségou, Mali</p>
                                 
                                 <div className='m-[15px] relative left-[-10px]'>
                                    <p className='m-[10px] font-bold  text-[20px]'> <span className='mx-[10px]'>📞</span>  +234 906 144 6848</p>
-                                   <p className='m-[10px] font-bold text-nowrap ' style={{fontSize:"15px"}}> <span className='mx-[10px]'>✉️</span> mathiasonyebuchi13@gmail.com</p>
+                                   <p className='m-[10px] font-bold text-nowrap ' style={{fontSize:"13px"}}> <span className='mx-[10px]'>✉️</span> mathiasonyebuchi13@gmail.com</p>
                                 </div>
                             </div>
                           </div>

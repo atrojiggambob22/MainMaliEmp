@@ -88,14 +88,21 @@ const gotoTheMusaProject = () => {
 
             <FadeInSection direction="top" delay={0.4}>
 
-            <h3 className='text-[#E6C157] text-[50px] font-bold text-center'>The Musa Project</h3>
-            </FadeInSection>
-            <FadeInSection direction="bottom" delay={0.4}>
+            <h3 className='text-[#E6C157] text-[50px] font-bold text-center'>The Musa Project
 
-            <p className='Firtsparolunderthecontent1 firstppogthhmusa firstsegofheadd'>
-            "Celebration is a stratejy. Joy is Political"
-            </p>
+            </h3>
             </FadeInSection>
+
+            {/* <FadeInSection direction="right" delay={0.4}> */}
+
+            <div className="text-center overflow-hidden text-nowrap relative left-[-30px]"  >
+
+            <p className='  firstsegofheadd' style={{fontSize:"15px"}}>
+            "Celebration is a stratejy. <br /> Joy is Political"
+            </p>
+            </div>
+
+            {/* </FadeInSection> */}
            
         </div>
 
