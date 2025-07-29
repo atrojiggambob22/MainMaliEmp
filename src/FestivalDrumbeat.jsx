@@ -1,6 +1,8 @@
 import React from 'react';
 import SecondNav from './SecondNav';
 import './MaliEmp.css';
+import FadeInSection from "./FadeInSection";
+import BounceIn from './BounceIn';
 import { useNavigate } from 'react-router-dom';
 import "./FestivalDrum.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -72,10 +74,17 @@ const gotoSecureYourSpot = () => {
 
 
         <div className='FirstMaliSSsub3-Sub2-Content1 FDrum1'>
+            <FadeInSection duration={0.8} direction='top'>
+
             <h3 className='text-[#E6C157] text-[50px] font-bold text-center'>Festival Drumbeat</h3>
+            </FadeInSection>
+             <FadeInSection duration={0.8} direction='bottom'>
+
             <p className='Firtsparolunderthecontent1 firstsegofheadd'>
             "The heartbeat of West Africa echoes through time"
             </p>
+             </FadeInSection>
+
            
         </div>
 
@@ -83,20 +92,35 @@ const gotoSecureYourSpot = () => {
 
         <div className='bg-[#fce09dae] p-30  Perfomanceoftheroayal'>
             <div className=' inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px] Perfomanceoftheroayalmin'>
+                 <FadeInSection duration={0.8} direction='top'>
+
             <h3 className='text-[30px] font-bold firstsegofheadd'>ROYAL PERFOMANCES</h3>
+                 </FadeInSection>
+
             </div>
 
-            <div className='grid grid-cols-3 FDrum1-subseb1'>
+            <div className='grid grid-cols-3 FDrum1-subseb1 overflow-hidden'>
+             <FadeInSection duration={0.4} direction='left'>
 
             <div className='bg-[#ffe3a3fb] hover:bg-[#f8d37cfb] p-[20px] py-[80px] rounded-[10px] mx-[10px] FDrum1-subseb1-2'>
                 <div className='p-[20px] rounded-[50%] bg-yellow-800 inline-block '>
                 🥁
 
                 </div>
+                 <FadeInSection duration={0.6} direction='bottom'>
             <h3 className='mb-[10px] font-bold text-[20px]'>TRADITIONAL DRUMMING</h3>
+
+                 </FadeInSection>
+             <FadeInSection duration={0.8} direction='left'>
+
             <p className='w-[70%] relative left-[50px]'>Experience the powerful rhythms of djembe, dundun, and talking drums that once guided caravans across the sahara</p>
             
+             </FadeInSection>
+
             </div>
+             </FadeInSection>
+
+            <FadeInSection duration={0.6} direction='top'>
 
             <div  className='bg-[#ffe3a3fb] hover:bg-[#f8d37cfb] p-[20px]  py-[80px] rounded-[10px] mx-[10px] transition duration-600 ease-in-out FDrum1-subseb1-2'>
                 <div className='p-[20px] rounded-[50%] bg-red-800 inline-block '>
@@ -109,7 +133,10 @@ const gotoSecureYourSpot = () => {
             <p className='w-[70%] relative left-[50px]'>Witness the elegant movements that once graced the place  of Mansa Musa, perfomed by master dancers</p>
             
             </div>
+            </FadeInSection>
 
+            <FadeInSection duration={0.8} direction='bottom'>
+                
             <div  className='bg-[#ffe3a3fb]  hover:bg-[#f8d37cfb] p-[20px] py-[80px] rounded-[10px] mx-[10px] FDrum1-subseb1-2'>
                 <div className='p-[20px] rounded-[50%] bg-gray-800 inline-block '>
             🎵
@@ -119,14 +146,22 @@ const gotoSecureYourSpot = () => {
             <p className='w-[70%] relative left-[50px]'>Listen to ancient tales and geneologies passed down through generations by West Africa's master storytellers.</p>
             
             </div>
+            </FadeInSection>
             
             </div>
         </div>
 
         <div className='bg-[#fdd579ae] py-[80px] secondphaseofthedrum'>
-            <div><h3 className='text-[25px] font-bold firstsegofheadd'>PERFORMANCE SCHEDULE</h3></div>
+
+                <FadeInSection duration={0.4} direction='left'>
+
+                <div>
+                <h3 className='text-[25px] font-bold firstsegofheadd'>PERFORMANCE SCHEDULE</h3></div>
+                </FadeInSection>
             
             <div className='relative left-[30%] FDrum1-subseb1-3-cheife'>
+
+            <FadeInSection duration={0.4} direction='top'>
 
             <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px] FDrum1-subseb1-3'>
 
@@ -141,6 +176,9 @@ const gotoSecureYourSpot = () => {
             </p>
 
             </div>
+            </FadeInSection>
+
+            <FadeInSection duration={0.4} direction='right'>
 
             <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px] FDrum1-subseb1-3'>
 
@@ -155,6 +193,9 @@ const gotoSecureYourSpot = () => {
             </p>
 
             </div>
+            </FadeInSection>
+
+            <FadeInSection duration={0.4} direction='bottom'>
 
             <div className='flex justify-between my-[30px]  bg-amber-50 w-[40%] px-[10px] py-[20px] rounded-[10px] FDrum1-subseb1-3'>
 
@@ -169,8 +210,9 @@ const gotoSecureYourSpot = () => {
             </p>
 
             </div>
+            </FadeInSection>
             
-            </div>
+             </div>
 
         </div>
 

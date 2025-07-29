@@ -34,7 +34,7 @@ export default function RoyalFest() {
          <SecondNav />
 
              <nav className='flex gap-[80px]  text-nowrap w-full py-[10px] px-[14px] cursor-pointer '>
-                <h1 className='text-yellow-300 text-[20px] font-bold relative left-8' onClick={goHome}>The Musa Project
+                <h1 className='text-[#ffc43c7d] text-[20px] font-bold relative left-8' onClick={goHome}>The Musa Project
                 </h1>
                  <div className='flex gap-5 text-nowrap relative top-[10px] left-[35%] '>
                    

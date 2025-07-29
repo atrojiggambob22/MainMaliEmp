@@ -3,7 +3,7 @@ import SecondNav from './SecondNav';
 import './MaliEmp.css';
 import "./RoyalCourt.css"
 import { useNavigate } from 'react-router-dom';
-
+import FadeInSection from "./FadeInSection";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faBars, faXmark, faDrum, faBuilding, faCrown, faTicket, faPanorama, faBookAtlas, faBook, faLocation, faLocationArrow, faCalendar, faMobile, faMailBulk, faWebAwesome, faGlobe, faClock, faPhone} from '@fortawesome/free-solid-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
@@ -72,12 +72,15 @@ export default function RoyalCourt() {
                 </nav>
             
             <div className='FirstMaliSSsub3-Sub2-Content1 topofRoyalF'>
+                <FadeInSection delay={0.8} direction="right">
+
             <h3  className=' text-[70px] font-bold text-center' >Let's Connect</h3>
+                </FadeInSection>
 
                <div className="my-[10px] topofRoyalF-sub1 ">
-                 <p className=" w-[58%] text-center relative left-[20%] topofRoyal" style={{fontFamily:"Crimson Text"}} >We'd love to hear from you. Whether you're planning your visit to the heart of Musa, have a story or song to share, or simply want to say hello - our doors and drums are open</p>
+                 <p className=" w-[50%] text-center relative left-[25%] topofRoyal" style={{fontFamily:"Crimson Text"}} >We'd love to hear from you. Whether you're planning your visit to the heart of Musa, have a story or song to share, or simply want to say hello - our doors and drums are open</p>
             </div>
-            <div className="relative left-[40px] ">
+            <div className="relative left-[-20px] ">
             
             <p className='Firtsparolunderthecontent1 relative firstsegofheadd border-2 border-amber-800 inline-block rounded-[10px]' >
             "N ka kEns — we're well, and hope you are too."
@@ -88,14 +91,20 @@ export default function RoyalCourt() {
 
         <div className="text-center bg-[#fce09dae] p-30 FirstofTheRoyal">
 
-        <div className='my-[90px]'>
+        <div className='my-[120px] overflow-hidden'>
+
+            <FadeInSection delay={0.5} direction="bottom">
+
             <div className='inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px] mx-[30px] firstsegofheadd-hes'>
                 
             <h3 className='text-[30px] font-bold firstsegofheadd FirstofTheRoyal-subSS'>SUMMON THE ROYAL SCRIBES</h3>
             </div>
-
-            <div className='flex FirstofTheRoyal-sub1 align-middle text-center justify-center'>
-
+            </FadeInSection>
+                     <FadeInSection delay={0.5} direction="bottom">
+                        
+            <div className='flex FirstofTheRoyal-sub1 align-middle text-center justify-center overflow-hidden'>
+                
+                
             <div className='bg-white p-[20px] py-[30px] rounded-[10px] m-[10px] w-[30%] FirstofTheRoyal-sub1-2'>
             <FontAwesomeIcon icon={faMailBulk} className="rounded-[50%] p-[20px] bg-amber-400"/>
             <h3 className='mb-[10px] font-bold text-[20px] text-red-900'>Royal Messemger</h3>
@@ -117,11 +126,14 @@ export default function RoyalCourt() {
 
 
             </div>
+                        </FadeInSection>    
         </div>
-        
+         <FadeInSection delay={0.5} direction="top">
+
         <div className="Royalformfo">
             <RoyalDecreeForm/>
         </div>
+         </FadeInSection>
 
         </div>
 

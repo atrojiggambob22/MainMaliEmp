@@ -4,6 +4,9 @@ import './MaliEmp.css';
 import { useNavigate } from 'react-router-dom';
 import SecondNav from "./SecondNav"
 import "./RoyalFest.css"
+import BounceIn from './BounceIn';
+import FadeInSection from "./FadeInSection";
+import SlideIn from './SlideIn';
 export default function RoyalFest(){
    const navigate = useNavigate();
        const goHome = () => {
@@ -85,24 +88,34 @@ export default function RoyalFest(){
                     </div>
                 </div>
              </nav>
-            
+
+               
+
              <div className='FirstMaliSSsub3-Sub2-Content1 FDrum1'>
+                 <FadeInSection direction="top">
             <h3 className='text-[#E6C157] text-[60px] font-bold text-center'>Explore the festival</h3>
             <p className='Firtsparolunderthecontent1 firstsegofheadd'>
             "Where the past and future of Africa meet"
             </p>
-           
-        </div>
-        <div className="text-center ">
-            <div className=" py-[90px]">
+             </FadeInSection>
+            </div>
+              
+         <div className="text-center ">
+            <div className=" py-[90px] bg-[#b5760069]">
+                <BounceIn delay={0.8}>
+
             <div className="firstsegofheadd mb-[40px] rounded-[10px]"><h3 className="font-bold  text-[40px] ">A living city</h3></div>
+                </BounceIn>
+
             <div className="flex gap-[30px] relative left-[20%] THefirstoftjefesrtivaldjfjf">
+               
             <p className="w-[30%] text-left text-[20px]" style={{fontFamily:"Crimson Text"}}>
                 At the heart of our festival lies a grand central plaza, inspired by the great gathering spaces of acient Mali. Here, visitors from all works of life coverage, just as merchants, schorlas and pilgrims once did in golden cities of West Africa.
                 <br />
                 <br />
                 Streets radiats outwards,lined with magnificent mudbrick achetecture that echo's the granduer of Timbuktu. Our main amphitheather, remnincent if the legendary Djinguereber Mosque, Serves as the beating heart where the most spectacular perfomrances unfold
             </p>
+            
             <div className=" bg-amber-600 px-[80px] py-[20px] rounded-[20px] h-[10%] relative top-[60px] granddcentral">
                 <div className="text-[50px] granddcentral1 ">
                 🏛️
@@ -121,10 +134,13 @@ export default function RoyalFest(){
 
             </div>
             </div>
+        <div className="bg-[#b07c1ab3]">
 
             <div className="py-[50px]">
                 <div className="firstsegofheadd my-[40px] firstsegofheaddwalk"><h3 className="text-[50px]">Walk through history</h3></div>
                 <div className="grid grid-cols-4 firstsetofthefeatsfest">
+                    <FadeInSection direction="right" duration={0.2} >
+
                     <div className="firstsetofthefeatsfestsub1">
                         <div className="icon">⚔️</div>
                         <div>
@@ -132,6 +148,9 @@ export default function RoyalFest(){
                             <p>Warriors quaters with training grounds and armor displays</p>
                         </div>
                     </div>
+                    </FadeInSection>
+
+                 <FadeInSection direction="left" duration={0.4} >
 
                     <div className="firstsetofthefeatsfestsub1">
                         <div className="icon">📚</div>
@@ -140,6 +159,9 @@ export default function RoyalFest(){
                             <p>Hall of echoing acient Timbuktu's scholarship</p>
                         </div>
                     </div>
+                 </FadeInSection>
+
+                 <FadeInSection direction="top" duration={0.6} >
 
                     <div className="firstsetofthefeatsfestsub1">
                         <div className="icon">🏪</div>
@@ -148,6 +170,9 @@ export default function RoyalFest(){
                             <p>Bursting Marketplaces for salt and gold marchants</p>
                         </div>
                     </div>
+                 </FadeInSection>
+                     <FadeInSection direction="bottom" duration={0.8} >
+
                     <div className="firstsetofthefeatsfestsub1">
                         <div className="icon">🕌</div>
                         <div>
@@ -155,6 +180,7 @@ export default function RoyalFest(){
                             <p>Sacred Spaces where ancestors speak through mask</p>
                         </div>
                     </div>
+                     </FadeInSection>
                 </div>
             </div>
                 <div className="flex gap-5 justify-center py-[40px]">
@@ -167,6 +193,8 @@ export default function RoyalFest(){
 
 
                 <div className="grid grid-cols-3 gap-[30px] firstsetofthefeatsfestsub2cheife">
+                     <FadeInSection direction="bottom" duration={0.4} >
+
                     <div className="firstsetofthefeatsfestsub2">
                         <div>🔨</div>
                         <div>
@@ -174,6 +202,10 @@ export default function RoyalFest(){
                             <p>Black/Gold Armband</p>
                         </div>
                     </div>
+                     </FadeInSection>
+
+                     <FadeInSection direction="right" duration={0.6} >
+
                     <div className="firstsetofthefeatsfestsub2">
                         <div className="icon">👑</div>
                         <div>
@@ -181,6 +213,9 @@ export default function RoyalFest(){
                             <p>Purple Sash</p>
                         </div>
                     </div>
+                     </FadeInSection>
+                     <FadeInSection duration={0.5} direction="left">
+
                     <div className="firstsetofthefeatsfestsub2">
                         <div className="icon">🎭</div>
                         <div>
@@ -188,6 +223,9 @@ export default function RoyalFest(){
                             <p>Sacred Tattoo</p>
                         </div>
                     </div>
+                     </FadeInSection>
+                      <FadeInSection direction="top" duration={0.2} >
+
                     <div className="firstsetofthefeatsfestsub2">
                         <div className="icon">📜</div>
                         <div>
@@ -195,6 +233,9 @@ export default function RoyalFest(){
                             <p>Wisdom Token</p>
                         </div>
                     </div>
+                      </FadeInSection>
+                       <FadeInSection direction="right" duration={0.2} >
+
                     <div className="firstsetofthefeatsfestsub2">
                         <div className="icon">🐪</div>
                         <div>
@@ -202,6 +243,9 @@ export default function RoyalFest(){
                             <p>Gold Chain</p>
                         </div>
                     </div>
+                       </FadeInSection>
+                        <FadeInSection direction="left" duration={0.2} >
+
                     <div className="firstsetofthefeatsfestsub2">
                         <div className="icon">🌾</div>
                         <div>
@@ -209,16 +253,23 @@ export default function RoyalFest(){
                             <p>Yellow Band</p>
                         </div>
                     </div>
+                        </FadeInSection>
                 </div>
+        </div>
 
                 <div className="py-[14%] bg-amber-100 ">
+                    <SlideIn duration={0.5} direction="bottom">
+
                     <div className="firstofthemh3333"><h3 className="font-bold text-[30px]">Unluck Hidden Worlds</h3></div>
+                    </SlideIn>
                     <div className="firstsetofthefeatsfestSub33">
 
                     <div className="firstsetofthefeatsfestSub33-Sub1">
                         <p>General admission grants you a <span className="text-yellow-400">yellow band </span> and access to the wonders of Mali. But seek out our actors throughout the festival -- they hold special key's that unluck depper, more intimate experiences</p>
                     </div>
                     <div className="text-left grid grid-cols-3 gap-[30px] firstsegofheaddGEneral">
+                        <FadeInSection duration={0.7} direction="right">
+
                          <div className="firstsetofthefeatsfestSub33-Sub2">
                         <div className="icon">🔨</div>
                         <div>
@@ -226,6 +277,9 @@ export default function RoyalFest(){
                             <p>Black/Gold Armband</p>
                         </div>
                     </div>
+                        </FadeInSection>
+
+                    <FadeInSection duration={0.8} direction="bottom">
 
                     <div  className="firstsetofthefeatsfestSub33-Sub2">
                         <div className="icon">👑</div>
@@ -235,6 +289,10 @@ export default function RoyalFest(){
                         </div>
                     </div>
 
+                    </FadeInSection>
+
+                    <FadeInSection duration={0.5} direction="left">
+
                     <div  className="firstsetofthefeatsfestSub33-Sub2">
                         <div className="icon">🎭</div>
                         <div>
@@ -242,6 +300,9 @@ export default function RoyalFest(){
                             <p>Sacred Tattoo</p>
                         </div>
                     </div>
+                    </FadeInSection>
+                    <FadeInSection duration={0.5} direction="top">
+
                     <div  className="firstsetofthefeatsfestSub33-Sub2">
                         <div className="icon">📜</div>
                         <div>
@@ -249,6 +310,10 @@ export default function RoyalFest(){
                             <p>Wisdom Token</p>
                         </div>
                     </div>
+                    </FadeInSection>
+
+                     <FadeInSection duration={0.5} direction="right">
+
                     <div  className="firstsetofthefeatsfestSub33-Sub2">
                         <div className="icon">🐪</div>
                         <div>
@@ -256,59 +321,113 @@ export default function RoyalFest(){
                             <p>Gold Chain</p>
                         </div>
                     </div>
+                     </FadeInSection>
                     </div>
 
                     </div>
                 </div>
 
+                <div className="bg-[#facf7edc]">
+
                 <div className="firstsetofthefeatsfestSub44">
+                     <FadeInSection duration={0.5} direction="top">
+
                     <div className="firstofthemh3333"><h3 className="text-[30px] font-bold">Expect the Extraodinary</h3></div>
+                     </FadeInSection>
+
                     <div className="grid grid-cols-3 thridphaseofthemsections">
+                         <FadeInSection duration={0.5} direction="left">
+
                         <div className="firstsetofthefeatsfestSub44-Sub1">
                             <div>🎵</div>
                             <h3>Groit Storytellers</h3>
                         </div>
+                         </FadeInSection>
+                          <FadeInSection duration={0.5} direction="right">
+
                         <div className="firstsetofthefeatsfestSub44-Sub1">
                             <div>🎭</div>
                             <h3>Masquerades</h3>
                         </div>
+
+                          </FadeInSection>
+
+                           <FadeInSection duration={0.5} direction="bottom">
+
                         <div className="firstsetofthefeatsfestSub44-Sub1">
                             <div>👑</div>
                             <h3>Musa's Royal Return</h3>
                         </div>
+                           </FadeInSection>
+
+                            <FadeInSection duration={0.5} direction="top">
+
+
                         <div className="firstsetofthefeatsfestSub44-Sub1">
                             <div>🏪</div>
                             <h3>Market Stalls</h3>
                         </div>
+                            </FadeInSection>
+
+                             <FadeInSection duration={0.5} direction="left">
+
+
                         <div className="firstsetofthefeatsfestSub44-Sub1">
                             <div>🍽️</div>
                             <h3>Culinary Tastings</h3>
                         </div>
+                             </FadeInSection>
+
+
+                              <FadeInSection duration={0.5} direction="right">
+
                         <div className="firstsetofthefeatsfestSub44-Sub1">
                             <div>🎲</div>
                             <h3>Game and Division</h3>
                         </div>
+                              </FadeInSection>
+
+                               <FadeInSection duration={0.5} direction="bottom">
+
+
                         <div className="firstsetofthefeatsfestSub44-Sub1">
                             <div>🌿</div>
                             <h3>Herbalist</h3>
                         </div>
+                               </FadeInSection>
+
+                              <FadeInSection duration={0.5} direction="left">
+                                
                         <div className="firstsetofthefeatsfestSub44-Sub1">
                             <div>🥁</div>
                             <h3>Music & Dance</h3>
                         </div>
+                                </FadeInSection>  
+
+                                 <FadeInSection duration={0.5} direction="top">
+
+
                         <div className="firstsetofthefeatsfestSub44-Sub1">
                             <div>🎨</div>
                             <h3>Face Painting</h3>
                         </div>
+                                 </FadeInSection>
                     </div>
                 </div>
 
                 <div className="text-left p-[20px] bg-amber-100 w-[70%] rounded-[15px] relative top-[-130px] left-[220px] subsecunderthesub44">
                     <div className="m-[10px]">
-                        <h3 className="text-red-600 font-bold text-[22px]">Watch out for S.I.A.M</h3>
+                         <FadeInSection duration={0.5} direction="left">
+                             <h3 className="text-red-600 font-bold text-[22px]">Watch out for S.I.A.M</h3>
+                         </FadeInSection>
+                       
 
                     </div>
+                     <FadeInSection duration={0.5} direction="right">
+
                     <p className="w-[90%] "><strong>Suprising Interactive Audience Moments</strong> that pull you into the story. You might find yourself chosen to join a royal procession witness a sacred ritual, or become part of an acient tale</p>
+                     </FadeInSection>
+                </div>
                 </div>
 
                 <div className="text-center align-middle p-[50px] bg-amber-950">
