@@ -19,6 +19,8 @@
     }
     .topofRoyalF-sub1 p{
         width: 80% !important;
+        position: relative;
+        left:60px;
 
     }
     .FirstofTheRoyal{
@@ -26,12 +28,20 @@
     }
     .FirstofTheRoyal-sub1{
         flex-direction: column;
+
     }
     .FirstofTheRoyal-subSS{
         font-size:15px !important;
         text-wrap: nowrap;
         position: relative;
         left:-70px !important;
+    }
+    .babaNene{
+        left: 40px;
+    }
+    .firstsegofheadd-hes{
+        position: relative;
+        left:40px;
     }
     .Firtsparolunderthecontent1{
         position: relative;

@@ -116,7 +116,7 @@ const gotoSecureYourSpot = () => {
      <div className="text-center p-[20px] bg-[#d4a53753] py-[80px]">
       <div>
         <h3 className="text-[40px] font-bold">Guided Tour</h3>
-        <div className="m-[20px] max-w-[60%] relative left-[18%]" style={{lineHeight:'40px'}}>
+        <div className="m-[20px] max-w-[60%] relative left-[18%]  routeinfopaa" style={{lineHeight:'40px'}} >
           <p>Our guided tours are curated by local historians, performers, and griots — storytellers of West African oral tradition. Each tour lasts 30–45 minutes and moves through key exhibition areas:
 
 The Rise of Sundiata
@@ -169,16 +169,7 @@ Tours are in English and French; local dialect sessions may be announced</p>
           </div>
         </div>
       </div>
-      {/* <div className="text-center bg-[#6a2f05] p-[20px] py-[50px]">
-        <h3 className="font-bold text-[30px] text-[#E6C157] my-[30px]">Chart your course</h3>
-        <p  style={{fontFamily:"Crimson Text", color:"yellow", fontSize:"20px" }} className="mb-[20px]">Embark on your own golden route through the wonders of Mali Empire</p>
-        <div className="bg-amber-400 p-[20px] inline-block">
-          <h3 className="font-bold text-[20px]">Plan Your Journey</h3>
-        </div>
-      </div> */}
-
-
-
+     
              <footer className='relative left-[-18px] w-[110%] '>
                 <div className='TheFirstSonofFooter'>
                     <h3 className='m-[10px] text-[40px] font-bold'  >The Musa Project</h3>
@@ -187,19 +178,19 @@ Tours are in English and French; local dialect sessions may be announced</p>
                     <p className='m-[10px] ' style={{fontFamily:"Crimson Text"}}>The Musa Project is more than a festival  it’s a living tribute to the legacy of the Mali Empire and the golden age of West Africa. Through storytelling, traditional music, fashion, food, and architecture, we bring history to life and reconnect communities with the greatness that once defined an empire. From the epic of Sundiata to the rhythm of the drums and the spices of the royal feast, every detail is crafted to honor our roots and inspire a new generation. Join the journey. Remember the empire. Celebrate the spirit.</p>
                     </div>
                 </div>
-                          <div className='grid grid-cols-2 m-[20px]'>
+                           <div className='grid grid-cols-2 m-[15px] seondphase0ffoot'>
                             <div>
                             <h3 className='text-[40px] font-bold m-[20px]'>Location</h3>
-                            <p className='w-[50%] m-[20px]'>Centre Culturel Kôrè de Ségou
+                            <p className='w-[50%] m-[20px]  text-[20px]'>Centre Culturel Kôrè de Ségou
 Rue 12, Quartier Sido Sonikoura
 BP 62, Ségou, Mali</p>
 
                             </div>
                             <div>
                                 <h3 className='font-bold text-[40px]'>Let's Connect</h3>
-                                <div className='m-[20px]'>
-                                   <p className='m-[10px] font-bold'> <span className='mx-[10px]'>📞</span>  +234 906 144 6848</p>
-                                   <p className='m-[10px] font-bold'> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
+                                <div className='m-[15px]'>
+                                   <p className='m-[10px] font-bold  text-[20px]'> <span className='mx-[10px]'>📞</span>  +234 906 144 6848</p>
+                                   <p className='m-[10px] font-bold text-nowrap ' style={{fontSize:'13px'}}> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
                                 </div>
                             </div>
                           </div>

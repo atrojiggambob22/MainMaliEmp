@@ -56,7 +56,7 @@ const SecondNav = () => {
         <div className="navbar-header">
           <div className="logo">Mali Empire Festival</div>
           {/* × Close button (only shows inside nav) */}
-          <button className="close-btn" onClick={() => setIsOpen(false)}>×</button>
+          {/* <button className="close-btn" onClick={() => setIsOpen(false)}>×</button> */}
         </div>
 
         <ul className="nav-links">

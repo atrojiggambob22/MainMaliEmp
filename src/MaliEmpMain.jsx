@@ -140,7 +140,7 @@ const gotoRoyalFest = () => {
 
 
                 <div className='FirstMaliSub1 my-5 bg-amber-600 w-[30%] relative left-[35%] p-5'>
-                    <h3 className='text-[20px]'>A Celebration of West African Heritage</h3>
+                    <h3 className='text-[20px] heris'>A Celebration of West African Heritage</h3>
                 </div>
                 </FadeInSection>
                 <FadeInSection direction="bottom" delay={0.6}>
@@ -167,7 +167,7 @@ const gotoRoyalFest = () => {
                 <div className='FirstMaliSSsub1 py-[50px]'>
                      <p className='w-[80%] relative left-[11%] my-[30px] text-black text-[30px] font-light text-center FirstMaliSSsub1ppd'>Journey through the golden age of the Mali Empire.Experience authentic West African Culture, music, cusine and tradition in an immersive festival celebrating our rich heritage</p>
                     <div className='text-center mainsubfofSSubdu '>
-                    <h3 className='text-[40px] font-bold my-[15px] firstofthemh3333'>FESTIVAL HIGHLIGHTS</h3>
+                    <h3 className='text-[30px] font-bold my-[15px] firstofthemh3333'>FESTIVAL HIGHLIGHTS</h3>
                     {/* <p className='w-[40%] relative left-[30%]'>Immerse yourself in the rich tapestry of West African culture through our carefully curated experiences</p> */}
 
                     </div>
@@ -186,7 +186,7 @@ const gotoRoyalFest = () => {
 
                                 <div className='mb-[20px] firstsegofheadd'>
                                    
-                                    <h3 className='text-[30px] font-bold '>Epic of Sundiata</h3>
+                                    <h3 className='text-[30px] font-bold '>Epic of <br />Sundiata</h3>
 
                                     
                                     <p className='font-light text-amber-900'>Music & Perfomance</p>
@@ -260,7 +260,7 @@ const gotoRoyalFest = () => {
                                 <FadeInSection direction="left" delay={0.6}>
 
                                 <div  className='mb-[20px] firstsegofheadd'>
-                                    <h3 className='text-[30px] font-bold'>The Golden Route</h3>
+                                    <h3 className='text-[30px] font-bold'>The Golden <br />Route</h3>
                                     <p className='font-light text-amber-900'>History & Culture</p>
                                 </div>
                                 </FadeInSection>
@@ -296,22 +296,22 @@ const gotoRoyalFest = () => {
                     <h3 className='m-[10px] text-[40px] font-bold'  >The Musa Project</h3>
                     <div className='w-[80%]'>
 
-                    <p className='m-[10px] ' style={{fontFamily:"Crimson Text"}}>The Musa Project is more than a festival  it’s a living tribute to the legacy of the Mali Empire and the golden age of West Africa. Through storytelling, traditional music, fashion, food, and architecture, we bring history to life and reconnect communities with the greatness that once defined an empire. From the epic of Sundiata to the rhythm of the drums and the spices of the royal feast, every detail is crafted to honor our roots and inspire a new generation. Join the journey. Remember the empire. Celebrate the spirit.</p>
+                    <p className='m-[10px]  text-[20px]' style={{fontFamily:"Crimson Text"}}>The Musa Project is more than a festival  it’s a living tribute to the legacy of the Mali Empire and the golden age of West Africa. Through storytelling, traditional music, fashion, food, and architecture, we bring history to life and reconnect communities with the greatness that once defined an empire. From the epic of Sundiata to the rhythm of the drums and the spices of the royal feast, every detail is crafted to honor our roots and inspire a new generation. Join the journey. Remember the empire. Celebrate the spirit.</p>
                     </div>
                 </div>
-                          <div className='grid grid-cols-2 m-[20px]'>
+                          <div className='grid grid-cols-2 m-[15px] seondphase0ffoot'>
                             <div>
                             <h3 className='text-[40px] font-bold m-[20px]'>Location</h3>
-                            <p className='w-[50%] m-[20px]'>Centre Culturel Kôrè de Ségou
+                            <p className='w-[50%] m-[20px]  text-[20px]'>Centre Culturel Kôrè de Ségou
 Rue 12, Quartier Sido Sonikoura
 BP 62, Ségou, Mali</p>
 
                             </div>
                             <div>
                                 <h3 className='font-bold text-[40px]'>Let's Connect</h3>
-                                <div className='m-[20px]'>
-                                   <p className='m-[10px] font-bold'> <span className='mx-[10px]'>📞</span>  +234 906 144 6848</p>
-                                   <p className='m-[10px] font-bold'> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
+                                <div className='m-[15px]'>
+                                   <p className='m-[10px] font-bold  text-[20px]'> <span className='mx-[10px]'>📞</span>  +234 906 144 6848</p>
+                                   <p className='m-[10px] font-bold text-nowrap text-[20px]'> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
                                 </div>
                             </div>
                           </div>

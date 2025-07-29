@@ -1,33 +1,49 @@
-.countdown {
-  background-color: #784400fc; /* brown */
-  color: white;
-  padding:20px 10px;
-  border-radius: 12px;
+.countdown-container {
+  font-family: 'Cinzel', serif;
+  background-color: #B44A33;
+  display: inline-block;
+  /* background: url('/african-pattern.svg') no-repeat center; */
+  background-size: cover;
+  padding: 2rem;
+  color: #D4A437;
   text-align: center;
-  max-width: 500px;
-  margin: 50px auto;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-  font-family: Arial, sans-serif;
 }
-
-.countdown h1 {
-  margin-bottom: 25px;
-}
-
-.timer {
+.countdown {
   display: flex;
-  justify-content: space-around;
-  font-size: 2rem;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 2.5rem;
 }
-
-.time-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.unit span {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: bold;
 }
-
-.label {
-  font-size: 0.8rem;
-  margin-top: 6px;
-  color: #fdd9a0;
+.unit p {
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  text-transform: uppercase;
+  /* letter-spacing: 1px; */
+}
+.separator {
+  font-size: 2.5rem;
+  color: #B44A33;
+}
+@media (min-width:200px) and (max-width:700px) {
+  .separator{
+    display: none;
+  }
+  .countdown-container {
+    padding: 1rem;
+  }
+  .countdown {
+    /* flex-direction: column; */
+    font-size: 1.5rem;
+  }
+  .unit span {
+    font-size:2rem;
+  }
+  .unit p {
+    font-size: 0.8rem;
+  }
 }

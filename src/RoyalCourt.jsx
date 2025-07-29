@@ -80,7 +80,7 @@ export default function RoyalCourt() {
                <div className="my-[10px] topofRoyalF-sub1 ">
                  <p className=" w-[50%] text-center relative left-[25%] topofRoyal" style={{fontFamily:"Crimson Text"}} >We'd love to hear from you. Whether you're planning your visit to the heart of Musa, have a story or song to share, or simply want to say hello - our doors and drums are open</p>
             </div>
-            <div className="relative left-[-20px] ">
+            <div className="relative left-[-20px] babaNene ">
             
             <p className='Firtsparolunderthecontent1 relative firstsegofheadd border-2 border-amber-800 inline-block rounded-[10px]' >
             "N ka kEns — we're well, and hope you are too."
@@ -97,7 +97,7 @@ export default function RoyalCourt() {
 
             <div className='inline-block p-[10px] px-[80px]  my-[50px] relative top-[-30px] mx-[30px] firstsegofheadd-hes'>
                 
-            <h3 className='text-[30px] font-bold firstsegofheadd FirstofTheRoyal-subSS'>SUMMON THE ROYAL SCRIBES</h3>
+            <h3 className='text-[30px] font-bold firstsegofheadd FirstofTheRoyal-subSS '>SUMMON THE ROYAL SCRIBES</h3>
             </div>
             </FadeInSection>
                      <FadeInSection delay={0.5} direction="bottom">
@@ -153,19 +153,19 @@ export default function RoyalCourt() {
                     <p className='m-[10px] ' style={{fontFamily:"Crimson Text"}}>The Musa Project is more than a festival  it’s a living tribute to the legacy of the Mali Empire and the golden age of West Africa. Through storytelling, traditional music, fashion, food, and architecture, we bring history to life and reconnect communities with the greatness that once defined an empire. From the epic of Sundiata to the rhythm of the drums and the spices of the royal feast, every detail is crafted to honor our roots and inspire a new generation. Join the journey. Remember the empire. Celebrate the spirit.</p>
                     </div>
                 </div>
-                          <div className='grid grid-cols-2 m-[20px]'>
+                           <div className='grid grid-cols-2 m-[15px] seondphase0ffoot'>
                             <div>
                             <h3 className='text-[40px] font-bold m-[20px]'>Location</h3>
-                            <p className='w-[50%] m-[20px]'>Centre Culturel Kôrè de Ségou
+                            <p className='w-[50%] m-[20px]  text-[20px]'>Centre Culturel Kôrè de Ségou
 Rue 12, Quartier Sido Sonikoura
 BP 62, Ségou, Mali</p>
 
                             </div>
                             <div>
                                 <h3 className='font-bold text-[40px]'>Let's Connect</h3>
-                                <div className='m-[20px]'>
-                                   <p className='m-[10px] font-bold'> <span className='mx-[10px]'>📞</span>  +234 906 144 6848</p>
-                                   <p className='m-[10px] font-bold'> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
+                                <div className='m-[15px]'>
+                                   <p className='m-[10px] font-bold  text-[20px]'> <span className='mx-[10px]'>📞</span>  +234 906 144 6848</p>
+                                   <p className='m-[10px] font-bold text-nowrap ' style={{fontSize:"15px"}}> <span className='mx-[10px]'>✉️ </span> mathiasonyebuchi13@gmail.com</p>
                                 </div>
                             </div>
                           </div>

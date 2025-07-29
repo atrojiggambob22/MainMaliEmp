@@ -1,4 +1,8 @@
 @media (min-width:200px) and (max-width:800px){
+    /* .babafirstsegofheadd{
+        position: relative !important;
+        left:-20px !important;
+    } */
     .FDrum1 p{
         position: relative;
         left: 30px !important;
@@ -23,9 +27,14 @@
         padding:10px 30px !important;
     }
     .Perfomanceoftheroayalmin {
-        left:-50px !important;
+        left:20px !important;
         margin: 40px 0 !important;
+        
 
+    }
+    .babafirstsegofheadd{
+        position: relative;
+        left: 20px;
     }
 
     .FDrum1-subseb1-3-cheife{

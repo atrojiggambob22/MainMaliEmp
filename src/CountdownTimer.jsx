@@ -1,59 +1,60 @@
-import React, { useEffect, useState } from 'react';
-import './CountdownTimer.css';
+// CountdownTimer.jsx
+import React, { useState, useEffect } from 'react';
+import './CountdownTimer.css'; // Optional, if you separate styles
 
 const CountdownTimer = () => {
-  const calculateTimeLeft = () => {
-    const targetDate = new Date('April 27, 2026 00:00:00').getTime();
-    const now = new Date().getTime();
-    const difference = targetDate - now;
-
-    if (difference <= 0) return null;
-
-    return {
-      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-      minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
-      seconds: Math.floor((difference % (1000 * 60)) / 1000),
-    };
-  };
-
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const targetDate = new Date("2025-08-24T10:00:00").getTime();
+  const [timeLeft, setTimeLeft] = useState({
+    days: "00",
+    hours: "00",
+    minutes: "00",
+    seconds: "00",
+  });
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000);
+    const countdown = () => {
+      const now = new Date().getTime();
+      const gap = targetDate - now;
 
-    return () => clearInterval(timer);
-  }, []);
+      const d = Math.floor(gap / (1000 * 60 * 60 * 24));
+      const h = Math.floor((gap / (1000 * 60 * 60)) % 24);
+      const m = Math.floor((gap / (1000 * 60)) % 60);
+      const s = Math.floor((gap / 1000) % 60);
 
-  if (!timeLeft) {
-    return (
-      <div className="countdown">
-        {/* <h1>It's April 27, 2026!</h1> */}
-      </div>
-    );
-  }
+      setTimeLeft({
+        days: d.toString().padStart(2, "0"),
+        hours: h.toString().padStart(2, "0"),
+        minutes: m.toString().padStart(2, "0"),
+        seconds: s.toString().padStart(2, "0"),
+      });
+    };
+
+    const interval = setInterval(countdown, 1000);
+    return () => clearInterval(interval);
+  }, [targetDate]);
 
   return (
-    <div className="countdown">
-      {/* <h1>Countdown to April 27, 2026</h1> */}
-      <div className="timer">
-        <div className="time-box">
+    <div className="countdown-container">
+      <h2 className="heading">Festival Begins In</h2>
+      <div className="countdown">
+        <div className="unit">
           <span>{timeLeft.days}</span>
-          <span className="label">Days</span>
+          <p>Moons</p>
         </div>
-        <div className="time-box">
+        <div className="separator">☉</div>
+        <div className="unit">
           <span>{timeLeft.hours}</span>
-          <span className="label">Hours</span>
+          <p>Sands</p>
         </div>
-        <div className="time-box">
+        <div className="separator">☉</div>
+        <div className="unit">
           <span>{timeLeft.minutes}</span>
-          <span className="label">Minutes</span>
+          <p>Moments</p>
         </div>
-        <div className="time-box">
+        <div className="separator">☉</div>
+        <div className="unit">
           <span>{timeLeft.seconds}</span>
-          <span className="label">Seconds</span>
+          <p>Drumbeats</p>
         </div>
       </div>
     </div>
