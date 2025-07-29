@@ -152,7 +152,7 @@ const gotoRoyalFest = () => {
                 <div className='FirstMaliSub2'>
                    
 
-                    <div className='FirstMaliSub3 bg-[#D4A437] w-[20%] relative left-[40%] my-[30px] p-[10px]'>
+                    <div className='FirstMaliSub3 bg-[#D4A437] w-[20%] relative left-[-1%] my-[30px] p-[10px] text-center inline-block'>
                         <h3>JOIN THE CARAVAN</h3>
                     </div>
                 </div>
