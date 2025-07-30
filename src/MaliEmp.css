@@ -7,7 +7,7 @@
    
 }
 h3{
-    font-family: "Cinzel", serif !important;
+    /* font-family: "Cinzel", serif !important; */
 }
 .themchiefeofthenbud{
    position: relative;
@@ -65,11 +65,15 @@ nav h1{
     text-wrap: nowrap;
     font-family: "Cinzel", serif;
 }
+.FirstMali{
+    margin-top:150px;
+}
 .FirstMali h1{
     font-family: "Crimson Text", serif;
      /* font-family: "Cinzel", serif; */
     line-height:100px;
     text-shadow:1px 4px 9px black;
+    /* text-align: left; */
 }
 
 .SecondgenofFirst{
@@ -166,8 +170,13 @@ footer hr{
         /* position: relative;
         left:-60%; */
     }
+    .FirstMali p{
+    text-align: left;
+}
     .FirstMali h1{
         font-size: 60px;
+        text-align: left;
+
     }
     .FirstMaliSub1{
         width: 90% !important;
@@ -204,9 +213,13 @@ footer hr{
     .firstsegofheadd h3{
         position: relative;
         /* left: 20px; */
-        font-size:15px !important;
+        font-size:20px !important;
         text-wrap: nowrap;
        /* padding: auto 50px !important; */
+    }
+    .mainsubfofSSubdu{
+        position: relative;
+        top: 70px;
     }
     .mainsubfofSSubdu p{
         width: 80%;
@@ -215,17 +228,25 @@ footer hr{
         left:35px;
     }
     /* this style is for card section info area */
-    .FirstMaliSSsub1-Sub1 {
+    .FirstMaliSSsub1-Sub1{
+        margin: 20px;
         /* text-wrap: nowrap; */
-        left:10px !important;
+        left:5px !important;
+        /* width:80%; */
+        /* margin-right: 90px; */
     }
     .FirstMaliSSsub1-Sub1-min1{
         display: grid;
+        /* position: relative;
+        left: -50px; */
         /* flex-direction: column !important; */
         /* margin: 10px 0; */
     }
     .FirstMaliSSsub1-Sub1-min1 img{
-        margin:50px 10px;
+        margin:50px 1px;
+        min-width:90%;
+        position: relative;
+        /* left: -30px; */
     }
     .papdivsdddd{
         width: 100%  !important;
@@ -235,7 +256,7 @@ footer hr{
         text-wrap:nowrap ;
     }
     .papdivsddddbtn{
-        width:50% !important;
+        width:30% !important;
     }
     .FirstMaliSSsub1-Sub1-min1 p{
         width: 100% !important;
@@ -282,6 +303,12 @@ footer hr{
     }
     .footerMiddlesec{
         width:120%;
+    }
+    .footerMiddlesec p{
+        width: 80%;
+    }
+    .cheifefootp{
+        width: 100%;
     }
     
 }

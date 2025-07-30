@@ -233,7 +233,7 @@ experience</p>
         <footer className='relative left-[-18px] w-[110%] '>
                 <div className='TheFirstSonofFooter'>
                     <h3 className='m-[10px] text-[40px] font-bold'  >The Musa Project</h3>
-                    <div className='w-[80%]'>
+                    <div className='w-[80%] cheifefootp'>
 
                     <p className='m-[10px]  text-[30px]' style={{fontFamily:"Crimson Text"}}>The Musa Project is more than a festival  it’s a living tribute to the legacy of the Mali Empire and the golden age of West Africa. Through storytelling, traditional music, fashion, food, and architecture, we bring history to life and reconnect communities with the greatness that once defined an empire. From the epic of Sundiata to the rhythm of the drums and the spices of the royal feast, every detail is crafted to honor our roots and inspire a new generation. Join the journey. Remember the empire. Celebrate the spirit.</p>
                     </div>

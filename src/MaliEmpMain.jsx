@@ -128,7 +128,7 @@ const gotoRoyalFest = () => {
 
             </div>
             
-            <div className='FirstMali text-center my-[100px] '>
+            <div className='FirstMali text-center my-[60px] '>
                 <FadeInSection delay={0.4}>
 
                 <h1 className='text-center text-[90px] font-bold text-[#fac941] overflow-y-hidden'>Experience the <span className='text-black'>Golden</span>  Age <br /> 
@@ -186,7 +186,7 @@ const gotoRoyalFest = () => {
 
                                 <div className='mb-[20px] firstsegofheadd'>
                                    
-                                    <h3 className='text-[30px] font-bold '>Epic of <br />Sundiata</h3>
+                                    <h3 className='text-[30px] font-bold '>Epic of Sundiata</h3>
 
                                     
                                     <p className='font-light text-amber-900'>Music & Perfomance</p>
@@ -205,8 +205,8 @@ const gotoRoyalFest = () => {
                                     <li>Kora Performances</li>
                                 </div>
 
-                                <div className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn'>
-                                     <a onClick={gotoTheMusaProject}>
+                                <div className='bg-white w-[20%] p-[10px] text-nowrap rounded-[10px] border-2 border-amber-800 hover:bg-amber-700 hover:text-white papdivsddddbtn inline-block' >
+                                     <a onClick={gotoTheMusaProject} className='inlin-block'>
                                     <h3  className='relative left-[10px]'>Learn More</h3>
                                     </a>
                                 </div>
@@ -260,7 +260,7 @@ const gotoRoyalFest = () => {
                                 <FadeInSection direction="left" delay={0.6}>
 
                                 <div  className='mb-[20px] firstsegofheadd'>
-                                    <h3 className='text-[30px] font-bold'>The Golden <br />Route</h3>
+                                    <h3 className='text-[30px] font-bold'>The Golden Route</h3>
                                     <p className='font-light text-amber-900'>History & Culture</p>
                                 </div>
                                 </FadeInSection>
@@ -294,7 +294,7 @@ const gotoRoyalFest = () => {
             <footer className='relative left-[-18px] w-[110%] '>
                 <div className='TheFirstSonofFooter'>
                     <h3 className='m-[10px] text-[40px] font-bold'  >The Musa Project</h3>
-                    <div className='w-[80%]'>
+                    <div className='w-[80%]  cheifefootp'>
 
                     <p className='m-[10px]  text-[30px]' style={{fontFamily:"Crimson Text"}}>The Musa Project is more than a festival  it’s a living tribute to the legacy of the Mali Empire and the golden age of West Africa. Through storytelling, traditional music, fashion, food, and architecture, we bring history to life and reconnect communities with the greatness that once defined an empire. From the epic of Sundiata to the rhythm of the drums and the spices of the royal feast, every detail is crafted to honor our roots and inspire a new generation. Join the journey. Remember the empire. Celebrate the spirit.</p>
                     </div>
